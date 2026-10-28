@@ -1,0 +1,291 @@
+{
+ "kit_meshes": 43,
+ "kit_tris": 15194,
+ "street_trees": 6480,
+ "park_trees": 7708,
+ "shade_trees": 76,
+ "plaza_trees": 6,
+ "shore_trees": 39,
+ "shrub_instances": 53,
+ "benches": 203,
+ "bins": 203,
+ "hedges": 1218,
+ "flowerbeds": 76,
+ "reed_instances": 200,
+ "stones": 12,
+ "fence_segments": 24,
+ "path_segments": 4003,
+ "terrain_faces": 14448,
+ "playground_clusters": 5,
+ "play_objects": 178,
+ "colliders": 14367,
+ "courtyard_instances": 0,
+ "suppressed_buildable": 0,
+ "objects": 27304,
+ "unique_meshes": 103,
+ "tris_unique": 42804,
+ "tris_instanced": 4971676,
+ "budget_6M_ok": true,
+ "materials_used": [
+  "bark",
+  "dirt",
+  "floor_tile",
+  "grass",
+  "grass_dry",
+  "gravel",
+  "leaves_dark",
+  "leaves_green",
+  "metal_painted_dark",
+  "metal_steel",
+  "paving_slab",
+  "sand",
+  "water",
+  "wood_old",
+  "wood_painted"
+ ],
+ "kit_rows": [
+  [
+   "SM_Tree_broadleaf_tall_01",
+   2344
+  ],
+  [
+   "SM_Tree_broadleaf_small_01",
+   1632
+  ],
+  [
+   "SM_Tree_conifer_01",
+   512
+  ],
+  [
+   "SM_Tree_palm_01",
+   314
+  ],
+  [
+   "SM_Tree_street_columnar_01",
+   992
+  ],
+  [
+   "SM_Tree_shade_large_01",
+   2368
+  ],
+  [
+   "SM_Tree_scatter_01",
+   1312
+  ],
+  [
+   "SM_Tree_shrub_01",
+   1280
+  ],
+  [
+   "SM_Tree_reed_01",
+   56
+  ],
+  [
+   "1_SM_Tree_broadleaf_tall_01",
+   372
+  ],
+  [
+   "1_SM_Tree_broadleaf_small_01",
+   260
+  ],
+  [
+   "1_SM_Tree_conifer_01",
+   196
+  ],
+  [
+   "1_SM_Tree_palm_01",
+   156
+  ],
+  [
+   "1_SM_Tree_street_columnar_01",
+   180
+  ],
+  [
+   "1_SM_Tree_shade_large_01",
+   468
+  ],
+  [
+   "1_SM_Tree_scatter_01",
+   260
+  ],
+  [
+   "1_SM_Tree_shrub_01",
+   160
+  ],
+  [
+   "1_SM_Tree_reed_01",
+   30
+  ],
+  [
+   "2_SM_Tree_broadleaf_tall_01",
+   136
+  ],
+  [
+   "2_SM_Tree_broadleaf_small_01",
+   124
+  ],
+  [
+   "2_SM_Tree_conifer_01",
+   124
+  ],
+  [
+   "2_SM_Tree_palm_01",
+   94
+  ],
+  [
+   "2_SM_Tree_street_columnar_01",
+   88
+  ],
+  [
+   "2_SM_Tree_shade_large_01",
+   184
+  ],
+  [
+   "2_SM_Tree_scatter_01",
+   124
+  ],
+  [
+   "2_SM_Tree_shrub_01",
+   72
+  ],
+  [
+   "2_SM_Tree_reed_01",
+   30
+  ],
+  [
+   "SM_Prop_Bench_01",
+   108
+  ],
+  [
+   "SM_Prop_Bin_01",
+   56
+  ],
+  [
+   "SM_Prop_Hedge_01",
+   24
+  ],
+  [
+   "SM_Prop_Planter_01",
+   24
+  ],
+  [
+   "SM_Prop_Stone_01",
+   90
+  ],
+  [
+   "SM_Prop_FenceSeg_01",
+   48
+  ],
+  [
+   "SM_Play_Pad_01",
+   12
+  ],
+  [
+   "SM_Play_Swing_01",
+   156
+  ],
+  [
+   "SM_Play_Slide_01",
+   216
+  ],
+  [
+   "SM_Play_Climb_01",
+   264
+  ],
+  [
+   "SM_Play_Seesaw_01",
+   72
+  ],
+  [
+   "SM_Play_Spring_01",
+   44
+  ],
+  [
+   "SM_Play_Sandbox_01",
+   60
+  ]
+ ],
+ "violations": [],
+ "build_seconds": 404.5,
+ "stage_times": [
+  [
+   "kit",
+   2.3
+  ],
+  [
+   "street",
+   8.1
+  ],
+  [
+   "parks",
+   31.6
+  ],
+  [
+   "lake",
+   37.6
+  ],
+  [
+   "playground",
+   43.3
+  ],
+  [
+   "colliders",
+   218.6
+  ]
+ ],
+ "issues": [
+  "parcels_G.json contains only park/pocket_park parcels \u2014 no courtyard parcels exist, so courtyard_scatter (0.8/100m\u00b2) was skipped (0 instances)."
+ ],
+ "previews": [
+  "/home/abdulhadi/Work/city/out/nature_preview.png",
+  "/home/abdulhadi/Work/city/out/nature_playground_preview.png"
+ ],
+ "collections": [
+  "Nature",
+  "Nature/Meshes",
+  "Nature/StreetTrees",
+  "Nature/Parks",
+  "Nature/Props",
+  "Nature/Playground",
+  "Nature/Lake",
+  "Nature/Colliders",
+  "Nature/Lights"
+ ],
+ "geometry_facts": {
+  "street_tree_offset": "half-width + 1.5 m, spacing 14 m, junction skip 12 m",
+  "park_terrain": "0.02..0.35 m humps, grass, tapered at parcel edge",
+  "path_width_m": 2.0,
+  "lake_water_z": -0.3,
+  "lake_bed_z": -3.0,
+  "shore_gravel_band_m": [
+   13,
+   21
+  ],
+  "shore_path_offset_m": 24,
+  "fence_offset_m": 27
+ },
+ "_module": "nature",
+ "_written": "2026-10-26T14:40:06",
+ "stripped_venue_rects": {
+  "deleted_per_rect": {
+   "STADIUM_CRICKET": 641,
+   "STADIUM_FOOTBALL": 690,
+   "STADIUM_ATHLETICS": 648,
+   "ARENA_INDOOR": 678,
+   "COMPLEX_SWIMMING": 1059
+  },
+  "faces_deleted_per_rect": {
+   "STADIUM_CRICKET": 0,
+   "STADIUM_FOOTBALL": 0,
+   "STADIUM_ATHLETICS": 0,
+   "ARENA_INDOOR": 0,
+   "COMPLEX_SWIMMING": 0
+  },
+  "deleted_total": 3716,
+  "before_objects": 31020,
+  "after_objects": 27304,
+  "before_tris_unique": 53996,
+  "after_tris_unique": 42804,
+  "remaining_inside": 0
+ }
+}

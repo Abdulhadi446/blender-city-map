@@ -1,0 +1,196 @@
+{
+ "parcels": 109,
+ "built": 108,
+ "reserved": [
+  "PZ_4_4_0_0"
+ ],
+ "objects": 5478,
+ "mesh_objects": 5478,
+ "unique_meshes": 597,
+ "tris_unique_meshes": 288414,
+ "tris_expanded": 2198162,
+ "colliders": 108,
+ "lights_objects": 688,
+ "counts_by_type": {
+  "hotel": 17,
+  "apartment_tower": 12,
+  "bank": 11,
+  "office_tower": 55,
+  "civic": 5,
+  "mall": 8
+ },
+ "counts_by_interior_tier": {
+  "2": 91,
+  "3": 6,
+  "1": 11
+ },
+ "counts_by_facade_style": {
+  "glass_curtain": 32,
+  "brutalist_modern": 24,
+  "art_deco": 31,
+  "steel_stone": 21
+ },
+ "materials": [
+  "ceiling_paint",
+  "concrete",
+  "concrete_poured",
+  "curb_concrete",
+  "emissive_cool",
+  "emissive_warm",
+  "fabric_awning_bone",
+  "floor_carpet",
+  "floor_tile",
+  "glass_dark",
+  "glass_office",
+  "glass_shop",
+  "marble_white",
+  "metal_chrome",
+  "metal_painted_dark",
+  "metal_rusty",
+  "metal_steel",
+  "neon_blue",
+  "neon_red",
+  "plaster_cream",
+  "plaster_white",
+  "roof_bitumen",
+  "rust",
+  "sign_metal",
+  "stone_grey",
+  "wall_paint"
+ ],
+ "bbox": [
+  -285.2,
+  -285.2,
+  0.0,
+  585.2,
+  585.2,
+  216.6
+ ],
+ "build_seconds": 558.8,
+ "violations": 0,
+ "violation_list": [],
+ "top_level_collections": [
+  "Downtown"
+ ],
+ "stock_objects": [],
+ "heaviest_building": {
+  "id": "B_4_3_0_1_0_0",
+  "tris": 78624,
+  "objects": 92
+ },
+ "landmark_tower": {
+  "id": "B_4_3_0_1_0_0",
+  "type": "office_tower",
+  "style": "art_deco",
+  "tier": 1,
+  "floors": 60,
+  "height": 193.2,
+  "fh": 3.146,
+  "gh": 6.4,
+  "tiers": 6,
+  "built": true,
+  "objects": 92,
+  "tris": 78624,
+  "rect": [
+   16.0,
+   -140.0,
+   74.0,
+   -82.0
+  ],
+  "claimed": [
+   14.8,
+   -141.2,
+   74.0,
+   -82.0
+  ],
+  "cells": [
+   4,
+   3
+  ]
+ },
+ "assembler_contract": {
+  "road_halfwidth_m": {
+   "highway": 17.0,
+   "arterial": 12.0,
+   "street": 6.0,
+   "alley": 2.5,
+   "interchange_ramp": 9.0
+  },
+  "flyover_keepout": "deck footprint + 2.0 m",
+  "flyover_bands": [
+   [
+    "FLY_DT_EW#0",
+    [
+     -610.0,
+     -10.0,
+     -470.0,
+     10.0
+    ]
+   ],
+   [
+    "FLY_DT_EW#1",
+    [
+     -490.0,
+     -10.0,
+     490.0,
+     10.0
+    ]
+   ],
+   [
+    "FLY_DT_EW#2",
+    [
+     470.0,
+     -10.0,
+     610.0,
+     10.0
+    ]
+   ],
+   [
+    "FLY_DT_NS#0",
+    [
+     -10.0,
+     -610.0,
+     10.0,
+     -335.0
+    ]
+   ],
+   [
+    "FLY_DT_NS#1",
+    [
+     -10.0,
+     -355.0,
+     10.0,
+     355.0
+    ]
+   ],
+   [
+    "FLY_DT_NS#2",
+    [
+     -10.0,
+     335.0,
+     10.0,
+     610.0
+    ]
+   ]
+  ],
+  "plaza_rect": [
+   12.0,
+   12.0,
+   144.0,
+   144.0
+  ],
+  "canopy_projection_m": 1.2,
+  "canopy_soffit_m": 2.75,
+  "door_head_m": 2.4,
+  "floor_height_m": 3.2,
+  "curb_height_m": 0.15,
+  "clear_frontage": "open shopfront bays, no glass doors"
+ },
+ "budgets": {
+  "regular_building_tris_limit": 40000,
+  "hero_tris_limit": 150000,
+  "module_tris_limit": 12000000
+ },
+ "_module": "downtown",
+ "_written": "2026-10-26T14:33:44"
+}

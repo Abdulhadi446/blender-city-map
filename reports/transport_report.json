@@ -1,0 +1,395 @@
+{
+  "module": "transport",
+  "blend": "/home/abdulhadi/Work/city/out/transport.blend",
+  "previews": [
+    "/home/abdulhadi/Work/city/out/transport_preview.png",
+    "/home/abdulhadi/Work/city/out/transport_airport_preview.png"
+  ],
+  "collections": [
+    "Transport",
+    "Transport/Meshes",
+    "Transport/Colliders",
+    "Transport/Lights"
+  ],
+  "objects": 184,
+  "triangles_unique": 20688,
+  "triangles_expanded": 23232,
+  "materials": [
+    "asphalt",
+    "col_placeholder",
+    "concrete",
+    "emissive_warm",
+    "glass_dark",
+    "glass_office",
+    "glass_shop",
+    "gravel",
+    "marking_white",
+    "marking_yellow",
+    "metal_painted_dark",
+    "metal_steel",
+    "roof_bitumen",
+    "roof_metal",
+    "sand",
+    "sign_metal",
+    "wood_old",
+    "wood_painted"
+  ],
+  "facilities": 31,
+  "per_facility": [
+    {
+      "id": "IND_DEPOT",
+      "objects": 1,
+      "triangles": 288,
+      "rect": [
+        378.0,
+        -978.0,
+        444.0,
+        -912.0
+      ]
+    },
+    {
+      "id": "CARPARK_MULTISTOREY",
+      "objects": 1,
+      "triangles": 288,
+      "rect": [
+        456.0,
+        156.0,
+        588.0,
+        288.0
+      ]
+    },
+    {
+      "id": "TRN_BUS_DEPOT",
+      "objects": 1,
+      "triangles": 504,
+      "rect": [
+        -1214,
+        1214,
+        -1046.3,
+        1360
+      ]
+    },
+    {
+      "id": "TRN_MAIL_SORTING",
+      "objects": 1,
+      "triangles": 648,
+      "rect": [
+        -1028.3,
+        1214,
+        -854.6,
+        1360
+      ]
+    },
+    {
+      "id": "TRN_PARK_AND_RIDE",
+      "objects": 1,
+      "triangles": 1644,
+      "rect": [
+        -414.6,
+        1214,
+        -290.4,
+        1360
+      ]
+    },
+    {
+      "id": "TRN_COACH_TERMINAL",
+      "objects": 19,
+      "triangles": 660,
+      "rect": [
+        213.3,
+        1214,
+        381.6,
+        1360
+      ]
+    },
+    {
+      "id": "TRN_PETROL_EV",
+      "objects": 1,
+      "triangles": 384,
+      "rect": [
+        645,
+        -1360,
+        758.8,
+        -1214
+      ]
+    },
+    {
+      "id": "TRN_TRUCK_STOP",
+      "objects": 1,
+      "triangles": 504,
+      "rect": [
+        958.0,
+        -1360,
+        1111.6,
+        -1214
+      ]
+    },
+    {
+      "id": "TRN_RUNWAY",
+      "objects": 1,
+      "triangles": 768,
+      "rect": [
+        -1480.0,
+        -1494.0,
+        -284.0,
+        -1456.0
+      ]
+    },
+    {
+      "id": "TRN_TAXIWAY",
+      "objects": 1,
+      "triangles": 12,
+      "rect": [
+        -284.0,
+        -1494.0,
+        -256.0,
+        -1456.0
+      ]
+    },
+    {
+      "id": "TRN_APRON",
+      "objects": 2,
+      "triangles": 300,
+      "rect": [
+        -256.0,
+        -1494.0,
+        900.0,
+        -1456.0
+      ]
+    },
+    {
+      "id": "TRN_AIR_TERMINAL",
+      "objects": 63,
+      "triangles": 2148,
+      "rect": [
+        -256.0,
+        -1456.0,
+        440.0,
+        -1426.0
+      ]
+    },
+    {
+      "id": "TRN_AIR_TOWER",
+      "objects": 1,
+      "triangles": 60,
+      "rect": [
+        460.0,
+        -1456.0,
+        484.0,
+        -1432.0
+      ]
+    },
+    {
+      "id": "TRN_AIR_HANGARS",
+      "objects": 1,
+      "triangles": 396,
+      "rect": [
+        500.0,
+        -1456.0,
+        860.0,
+        -1426.0
+      ]
+    },
+    {
+      "id": "TRN_AIR_FIRE",
+      "objects": 1,
+      "triangles": 108,
+      "rect": [
+        880.0,
+        -1456.0,
+        1020.0,
+        -1426.0
+      ]
+    },
+    {
+      "id": "TRN_AIR_CARGO",
+      "objects": 1,
+      "triangles": 228,
+      "rect": [
+        1040.0,
+        -1456.0,
+        1300.0,
+        -1426.0
+      ]
+    },
+    {
+      "id": "TRN_AIR_PARKING",
+      "objects": 1,
+      "triangles": 768,
+      "rect": [
+        1424.0,
+        -1400.0,
+        1496.0,
+        -1080.0
+      ]
+    },
+    {
+      "id": "TRN_RAIL_LINE",
+      "objects": 1,
+      "triangles": 7548,
+      "rect": [
+        -1420.0,
+        1440.0,
+        1420.0,
+        1460.0
+      ]
+    },
+    {
+      "id": "TRN_RAIL_PLATFORMS",
+      "objects": 1,
+      "triangles": 1032,
+      "rect": [
+        -420.0,
+        1460.0,
+        280.0,
+        1474.0
+      ]
+    },
+    {
+      "id": "TRN_RAIL_STATION",
+      "objects": 23,
+      "triangles": 1104,
+      "rect": [
+        -420.0,
+        1474.0,
+        280.0,
+        1496.0
+      ]
+    },
+    {
+      "id": "TRK_PARKING_E1",
+      "objects": 1,
+      "triangles": 684,
+      "rect": [
+        1214,
+        305.1,
+        1360,
+        422.4
+      ]
+    },
+    {
+      "id": "TRK_PARKING_E2",
+      "objects": 1,
+      "triangles": 684,
+      "rect": [
+        1214,
+        437.7,
+        1360,
+        504.0
+      ]
+    },
+    {
+      "id": "TRK_GATE_E",
+      "objects": 1,
+      "triangles": 204,
+      "rect": [
+        1214,
+        519.3,
+        1360,
+        555
+      ]
+    },
+    {
+      "id": "TRK_TRANSPORT_HUB",
+      "objects": 1,
+      "triangles": 396,
+      "rect": [
+        1214,
+        1037.6,
+        1360,
+        1134.3
+      ]
+    },
+    {
+      "id": "TRK_PARKING_E3",
+      "objects": 1,
+      "triangles": 684,
+      "rect": [
+        1214,
+        1151.4,
+        1360,
+        1214
+      ]
+    },
+    {
+      "id": "TRN_STREET_DEPOT",
+      "objects": 1,
+      "triangles": 192,
+      "rect": [
+        -1360,
+        1014.9,
+        -1214,
+        1214
+      ]
+    },
+    {
+      "id": "METRO_ENT_1",
+      "objects": 1,
+      "triangles": 96,
+      "rect": [
+        -1078.0,
+        -34.0,
+        -1062.0,
+        -18.0
+      ]
+    },
+    {
+      "id": "METRO_ENT_2",
+      "objects": 1,
+      "triangles": 96,
+      "rect": [
+        -934.0,
+        122.0,
+        -918.0,
+        138.0
+      ]
+    },
+    {
+      "id": "METRO_ENT_3",
+      "objects": 1,
+      "triangles": 96,
+      "rect": [
+        -934.0,
+        1022.0,
+        -918.0,
+        1038.0
+      ]
+    },
+    {
+      "id": "METRO_ENT_4",
+      "objects": 1,
+      "triangles": 96,
+      "rect": [
+        -478.0,
+        -478.0,
+        -462.0,
+        -462.0
+      ]
+    },
+    {
+      "id": "METRO_ENT_5",
+      "objects": 1,
+      "triangles": 96,
+      "rect": [
+        918.0,
+        318.0,
+        934.0,
+        334.0
+      ]
+    }
+  ],
+  "lights": 12,
+  "collider_objects": 31,
+  "build_seconds": 45.5,
+  "issues": [
+    "No road geometry built by this module; entrances kept clear for Roads 8 m spurs.",
+    "TRK_* facilities included per program owning_module=Transport; verify ownership with Track agent."
+  ],
+  "needed_from_others": [
+    "Roads: 8 m access spurs to each facility entrance; many band/outer sites have no adjacent road.",
+    "Assembler: ground plane under outer frame and band lands."
+  ],
+  "_module": "transport",
+  "_written": "2026-10-28T16:57:49",
+  "_verified": "2026-10-28T16:57:49: objects/lights/triangles re-measured on out/transport.blend (triangles_expanded = exact instanced triangles incl. kit sources)"
+}

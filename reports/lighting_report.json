@@ -1,0 +1,56 @@
+{
+ "module": "lighting",
+ "paths": {
+  "script": "/home/abdulhadi/Work/city/modules/lighting.py",
+  "blend": "/home/abdulhadi/Work/city/out/lighting.blend",
+  "preview": "/home/abdulhadi/Work/city/out/lighting_preview.png",
+  "street_preview": "/home/abdulhadi/Work/city/out/lighting_street_preview.png"
+ },
+ "unique_meshes": 16,
+ "kit_tris_total": 944,
+ "kit_tris_per_mesh": {
+  "SM_Lamp_Arterial_01": 136,
+  "SM_Lamp_Street_01": 92,
+  "SM_Lamp_Wall_01": 76,
+  "SM_Lamp_Highway_01": 92,
+  "SM_Signal_01": 152,
+  "SM_BollardLight_01": 84,
+  "SM_Uplight_01": 84,
+  "SM_FloodTower_01": 228,
+  "COL_lighting_lamp_arterial": 28,
+  "COL_lighting_lamp_street": 28,
+  "COL_lighting_lamp_wall": 28,
+  "COL_lighting_lamp_highway": 28,
+  "COL_lighting_signal": 28,
+  "COL_lighting_bollardlight": 28,
+  "COL_lighting_uplight": 28,
+  "COL_lighting_floodtower": 12
+ },
+ "instances_total": 3516,
+ "counts_per_type": {
+  "SM_Lamp_Arterial_01": 1072,
+  "SM_Lamp_Street_01": 592,
+  "SM_Lamp_Wall_01": 288,
+  "SM_Lamp_Highway_01": 230,
+  "SM_Signal_01": 386,
+  "SM_BollardLight_01": 900,
+  "SM_Uplight_01": 38,
+  "SM_FloodTower_01": 10
+ },
+ "real_lights": 102,
+ "emissive_instances": 3516,
+ "tris_unique": 1152,
+ "tris_instanced": 384200,
+ "materials_used": [
+  "col_placeholder",
+  "concrete",
+  "emissive_cool",
+  "emissive_warm",
+  "metal_steel",
+  "neon_green",
+  "neon_red"
+ ],
+ "issues": [],
+ "_module": "lighting",
+ "_written": "2026-10-27T14:28:25"
+}

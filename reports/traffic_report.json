@@ -1,0 +1,169 @@
+{
+ "module": "traffic",
+ "blend": "/home/abdulhadi/Work/city/out/traffic.blend",
+ "previews": [
+  "/home/abdulhadi/Work/city/out/traffic_preview.png",
+  "/home/abdulhadi/Work/city/out/traffic_street_preview.png"
+ ],
+ "collections": [
+  "Traffic",
+  "Traffic/Meshes",
+  "Traffic/Colliders",
+  "Traffic/Lights"
+ ],
+ "objects": 4855,
+ "instances": 4825,
+ "kit_sources": 13,
+ "tris_unique": 1644,
+ "tris_instanced": 560992,
+ "budget_6M_ok": true,
+ "elevated_instances": 24,
+ "elevated_detail": [
+  "SM_Hatchback_01",
+  "SM_Police_01",
+  "SM_SUV_01",
+  "SM_Sedan_01_01",
+  "SM_Sedan_02_01",
+  "SM_Taxi_01"
+ ],
+ "density": {
+  "highway_m_per_dir": 60.0,
+  "arterial_m": 45.0,
+  "arterial_downtown_m": 25.0,
+  "street_m": 55.0,
+  "alley_delivery_m": 60.0,
+  "parked_m": 7.0
+ },
+ "skipped": 490,
+ "skipped_sample": [
+  [
+   "A_H_1_0",
+   -856.4,
+   -1101.9
+  ],
+  [
+   "A_H_1_0",
+   -733.8,
+   -1101.7
+  ],
+  [
+   "A_H_2_0",
+   -526.2,
+   -1122.0
+  ],
+  [
+   "A_H_2_0",
+   -466.5,
+   -1130.8
+  ],
+  [
+   "A_H_0_1",
+   -1127.5,
+   -820.8
+  ],
+  [
+   "A_H_1_1",
+   -856.0,
+   -947.4
+  ],
+  [
+   "A_H_2_1",
+   -675.8,
+   -1077.6
+  ],
+  [
+   "A_H_2_1",
+   -388.4,
+   -1004.4
+  ],
+  [
+   "A_H_4_1",
+   86.4,
+   -963.8
+  ],
+  [
+   "A_H_5_1",
+   279.9,
+   -794.5
+  ],
+  [
+   "A_H_0_2",
+   -1037.7,
+   -704.6
+  ],
+  [
+   "A_H_0_2",
+   -970.0,
+   -547.5
+  ],
+  [
+   "A_H_4_2",
+   24.2,
+   -659.9
+  ],
+  [
+   "A_H_4_2",
+   58.5,
+   -738.5
+  ],
+  [
+   "A_H_0_3",
+   -1157.8,
+   -444.3
+  ],
+  [
+   "A_H_0_3",
+   -1013.9,
+   -351.7
+  ],
+  [
+   "A_H_0_3",
+   -1104.7,
+   -515.8
+  ],
+  [
+   "A_H_4_3",
+   152.9,
+   -457.5
+  ],
+  [
+   "A_H_3_5",
+   -146.9,
+   142.8
+  ],
+  [
+   "A_H_4_8",
+   4.7,
+   1393.1
+  ]
+ ],
+ "counts_by_type": {
+  "Van": 144
+ },
+ "materials_used": [],
+ "kit_tris": {
+  "SM_Ambulance_01": 120,
+  "SM_Bicycle_01": 36,
+  "SM_BoxTruck_01": 72,
+  "SM_Bus_01": 104,
+  "SM_Coach_01": 104,
+  "SM_Hatchback_01": 120,
+  "SM_Motorcycle_01": 60,
+  "SM_Police_01": 132,
+  "SM_SUV_01": 120,
+  "SM_Sedan_01_01": 120,
+  "SM_Sedan_02_01": 120,
+  "SM_Taxi_01": 132,
+  "SM_Van_01": 72
+ },
+ "kit_source_count": 13,
+ "issues": [],
+ "needed_from_others": [
+  "Roads: street/curb geometry (curb height 0.15, sidewalk 2.5) the cars park against.",
+  "Flyover: deck top z=8.0 for elevated traffic on H_07/H_08 (custom prop elevated set).",
+  "Assembler: keep ground traffic clear of flyover service-road bands."
+ ],
+ "build_seconds": 11.5,
+ "_module": "traffic",
+ "_written": "2026-10-27T14:26:35"
+}

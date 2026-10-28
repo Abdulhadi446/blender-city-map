@@ -1,0 +1,162 @@
+{
+ "module": "Sports",
+ "venues": 5,
+ "venue_order": [
+  "cricket",
+  "football",
+  "athletics",
+  "arena",
+  "swimming"
+ ],
+ "per_venue": {
+  "cricket": {
+   "objects": 316,
+   "tris": 29952,
+   "label": "STADIUM_CRICKET",
+   "rect": [
+    -864.0,
+    -1164.0,
+    -636.0,
+    -936.0
+   ],
+   "bbox": [
+    -864.0,
+    -1164.0,
+    -636.0,
+    -936.0,
+    0.0,
+    48.0
+   ]
+  },
+  "football": {
+   "objects": 313,
+   "tris": 27192,
+   "label": "STADIUM_FOOTBALL",
+   "rect": [
+    36.0,
+    -1164.0,
+    264.0,
+    -936.0
+   ],
+   "bbox": [
+    36.0,
+    -1164.0,
+    264.0,
+    -936.0,
+    0.0,
+    12.5
+   ]
+  },
+  "athletics": {
+   "objects": 103,
+   "tris": 6956,
+   "label": "STADIUM_ATHLETICS",
+   "rect": [
+    -1164.0,
+    -864.0,
+    -936.0,
+    -636.0
+   ],
+   "bbox": [
+    -1164.0,
+    -864.0,
+    -936.0,
+    -636.0,
+    0.0,
+    20.0
+   ]
+  },
+  "arena": {
+   "objects": 574,
+   "tris": 34072,
+   "label": "ARENA_INDOOR",
+   "rect": [
+    -1164.0,
+    -564.0,
+    -936.0,
+    -336.0
+   ],
+   "bbox": [
+    -1164.0,
+    -564.0,
+    -936.0,
+    -336.0,
+    0.0,
+    20.0
+   ]
+  },
+  "swimming": {
+   "objects": 57,
+   "tris": 2660,
+   "label": "COMPLEX_SWIMMING",
+   "rect": [
+    12.0,
+    -888.0,
+    288.0,
+    -612.0
+   ],
+   "bbox": [
+    12.0,
+    -888.0,
+    288.0,
+    -612.0,
+    0.0,
+    15.0
+   ]
+  }
+ },
+ "objects": 1373,
+ "collider_objects": 17,
+ "light_objects": 17,
+ "unique_meshes": 50,
+ "unique_meshes_kits": 28,
+ "instanced_tris": 100832,
+ "unique_tris": 3412,
+ "budget_instanced_tris": 1500000,
+ "budget_ok": true,
+ "materials": [
+  "concrete",
+  "dirt",
+  "emissive_warm",
+  "glass_dark",
+  "grass",
+  "grass_dry",
+  "kerb_red",
+  "leaves_dark",
+  "leaves_green",
+  "marking_white",
+  "metal_painted_dark",
+  "metal_steel",
+  "sign_metal",
+  "track_asphalt",
+  "water"
+ ],
+ "materials_count": 15,
+ "pitch_assert_max_z": 4.45,
+ "pitch_assert_vertices_checked": 8528,
+ "pitch_assert_ok": true,
+ "engine": "BLENDER_EEVEE",
+ "collections": [
+  "Sports",
+  "Sports/Meshes",
+  "Sports/Colliders",
+  "Sports/Lights"
+ ],
+ "previews": [
+  "/home/abdulhadi/Work/city/out/sports_preview.png",
+  "/home/abdulhadi/Work/city/out/sports_football_preview.png"
+ ],
+ "assembler": {
+  "instancing": "linked duplicates (shared mesh datablocks) + collection instances",
+  "kits": "~28 unique meshes MAX; seat blocks / panels / pylons / trusses / trees instanced",
+  "transforms": "instanced kits keep placement transforms; unique meshes apply transforms",
+  "origins": "every kit piece origin at bottom-centre"
+ },
+ "issues": [],
+ "build_seconds": 10.1,
+ "venues_inside_rects": true,
+ "no_door_meshes": true,
+ "green_ring_m": 24.0,
+ "_module": "sports",
+ "_written": "2026-10-27T14:20:25"
+}

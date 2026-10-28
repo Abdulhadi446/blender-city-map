@@ -1,0 +1,102 @@
+{
+  "modules": {
+    "roads": {
+      "collections": 5,
+      "loose_objects": 0
+    },
+    "flyover": {
+      "collections": 4,
+      "loose_objects": 0
+    },
+    "market": {
+      "collections": 5,
+      "loose_objects": 0
+    },
+    "downtown": {
+      "collections": 4,
+      "loose_objects": 0
+    },
+    "residential": {
+      "collections": 4,
+      "loose_objects": 866
+    },
+    "entertainment": {
+      "collections": 4,
+      "loose_objects": 0
+    },
+    "nature": {
+      "collections": 9,
+      "loose_objects": 0
+    },
+    "track": {
+      "collections": 4,
+      "loose_objects": 0
+    },
+    "sports": {
+      "collections": 5,
+      "loose_objects": 0
+    },
+    "traffic": {
+      "collections": 4,
+      "loose_objects": 0
+    },
+    "props": {
+      "collections": 5,
+      "loose_objects": 0
+    },
+    "lighting": {
+      "collections": 4,
+      "loose_objects": 0
+    },
+    "interiors": {
+      "collections": 13,
+      "loose_objects": 0
+    }
+  },
+  "missing": [],
+  "linked_collections": 70,
+  "objects": 84279,
+  "excluded_collider_collections": [
+    "Roads/Colliders",
+    "Roads/Colliders",
+    "Flyovers/Colliders",
+    "Flyovers/Colliders",
+    "Colliders",
+    "Colliders",
+    "Downtown/Colliders",
+    "Downtown/Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Track/Colliders",
+    "Track/Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders",
+    "Colliders"
+  ],
+  "hidden_nature_in_parks": 0,
+  "nature_park_rects_verified_empty": true,
+  "city_children": [
+    "Roads",
+    "Flyovers",
+    "Buildings",
+    "Vegetation",
+    "Track",
+    "Traffic",
+    "Props",
+    "Lighting",
+    "Interiors",
+    "Ground"
+  ],
+  "saved": "out/_test_k.blend"
+}

@@ -1,0 +1,926 @@
+{
+ "version": "commercial-program/1",
+ "source": "reports/city_program.md (full inventory)",
+ "facilities": [
+  {
+   "id": "BANQUET_HALL",
+   "label": "Banquet / wedding hall",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     612.0,
+     312.0,
+     744.0,
+     444.0
+    ]
+   },
+   "district": "E",
+   "district_cell": "E [6, 5]",
+   "floors": 2,
+   "height_m": 10.0,
+   "bldg": "2 fl / 10 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "BREWERY",
+   "label": "Brewery + tap hall",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     312.0,
+     -744.0,
+     444.0,
+     -612.0
+    ]
+   },
+   "district": "I",
+   "district_cell": "I [5, 1]",
+   "floors": 4,
+   "height_m": 16.0,
+   "bldg": "4 fl / 16 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "COLD_STORAGE",
+   "label": "Cold storage plant",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     456.0,
+     -1188.0,
+     588.0,
+     -1056.0
+    ]
+   },
+   "district": "I",
+   "district_cell": "I [5, 0]",
+   "floors": 4,
+   "height_m": 12.0,
+   "bldg": "4 fl / 12 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "CONFERENCE_CENTRE",
+   "label": "Conference / exhibition centre",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     312.0,
+     456.0,
+     444.0,
+     588.0
+    ]
+   },
+   "district": "D",
+   "district_cell": "D [5, 5]",
+   "floors": 3,
+   "height_m": 12.0,
+   "bldg": "3 fl / 12 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "DEPARTMENT_STORE",
+   "label": "Department store",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     -144.0,
+     156.0,
+     -12.0,
+     288.0
+    ]
+   },
+   "district": "D",
+   "district_cell": "D [3, 4]",
+   "floors": 5,
+   "height_m": 16.0,
+   "bldg": "5 fl / 16 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "FIN_BANK",
+   "label": "Banks (branches)",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     222.0,
+     -288.0,
+     288.0,
+     -222.0
+    ]
+   },
+   "district": "D",
+   "district_cell": "D [4, 3]",
+   "floors": 8,
+   "height_m": 25.6,
+   "bldg": "8 fl / 25.6 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "HOSTEL",
+   "label": "Hostel / budget lodging",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     -888.0,
+     312.0,
+     -756.0,
+     444.0
+    ]
+   },
+   "district": "R",
+   "district_cell": "R [1, 5]",
+   "floors": 3,
+   "height_m": 10.0,
+   "bldg": "3 fl / 10 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "HOT_AIRPORT_HOTEL",
+   "label": "Airport hotel",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     427.5,
+     -1360.0,
+     555.0,
+     -1214.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [5, -1]",
+   "floors": 1,
+   "height_m": 24.0,
+   "bldg": "1 fl / 24 m / ent T6",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "HOT_HOTEL",
+   "label": "Hotels",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     78.0,
+     -222.0,
+     144.0,
+     -156.0
+    ]
+   },
+   "district": "E",
+   "district_cell": "E [3, 2]",
+   "floors": 25,
+   "height_m": 80.0,
+   "bldg": "25 fl / 80 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "HOT_MOTEL",
+   "label": "Motel (surface parking at door)",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     775.9,
+     -1360.0,
+     940.9,
+     -1214.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [6, -1]",
+   "floors": 2,
+   "height_m": 8.0,
+   "bldg": "2 fl / 8 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "ICON_TOWER",
+   "label": "Icon supertall tower (mixed office + hotel + observatory)",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     45.0,
+     1214.0,
+     198.0,
+     1360.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [4, 8]",
+   "floors": 1,
+   "height_m": 180.0,
+   "bldg": "1 fl / 180 m / ent T45",
+   "interior_tier": 3,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "IND_FACTORY",
+   "label": "Factories",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     312.0,
+     -1122.0,
+     378.0,
+     -1056.0
+    ]
+   },
+   "district": "I",
+   "district_cell": "I [5, 0]",
+   "floors": 3,
+   "height_m": 9.6,
+   "bldg": "3 fl / 9.6 m / sealed T3",
+   "interior_tier": 3,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "IND_WAREHOUSE",
+   "label": "Warehouses",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     312.0,
+     -1188.0,
+     378.0,
+     -1122.0
+    ]
+   },
+   "district": "I",
+   "district_cell": "I [5, 0]",
+   "floors": 2,
+   "height_m": 6.4,
+   "bldg": "2 fl / 6.4 m / sealed T3",
+   "interior_tier": 3,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "MED_BROADCAST",
+   "label": "TV broadcast centre",
+   "category": "media",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     842.0,
+     1214.0,
+     962.5,
+     1360.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [7, 8]",
+   "floors": 3,
+   "height_m": 14.0,
+   "bldg": "3 fl / 14 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "MED_FILM_STUDIO",
+   "label": "Film studio sound stages",
+   "category": "media",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     690.0,
+     1214.0,
+     826.2,
+     1360.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [6, 8]",
+   "floors": 1,
+   "height_m": 14.0,
+   "bldg": "1 fl / 14 m / sealed T3",
+   "interior_tier": 3,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "OFFICE_COWORKING",
+   "label": "Co-working / serviced office",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     156.0,
+     456.0,
+     288.0,
+     588.0
+    ]
+   },
+   "district": "D",
+   "district_cell": "D [4, 5]",
+   "floors": 8,
+   "height_m": 25.6,
+   "bldg": "8 fl / 25.6 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "OFF_MIDRISE",
+   "label": "Mid-rise offices (<=20 fl)",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     12.0,
+     -288.0,
+     78.0,
+     -222.0
+    ]
+   },
+   "district": "D",
+   "district_cell": "D [4, 3]",
+   "floors": 20,
+   "height_m": 64.0,
+   "bldg": "20 fl / 64 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "OFF_TOWER",
+   "label": "Office towers + skyscrapers",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     12.0,
+     -288.0,
+     78.0,
+     -222.0
+    ]
+   },
+   "district": "D",
+   "district_cell": "D [4, 3]",
+   "floors": 60,
+   "height_m": 192.0,
+   "bldg": "60 fl / 192 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "REC_FARMERS_MARKET",
+   "label": "Weekend farmers market yard",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     -1360.0,
+     356.1,
+     -1214.0,
+     555.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [-1, 5]",
+   "floors": 2,
+   "height_m": 7.0,
+   "bldg": "2 fl / 7 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "RES_SHOPHOUSE",
+   "label": "Shop-houses (house_above_shop)",
+   "category": "mixed_use",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     312.0,
+     644.7,
+     328.3,
+     660.9
+    ]
+   },
+   "district": "M",
+   "district_cell": "M [5, 6]",
+   "floors": 4,
+   "height_m": 12.8,
+   "bldg": "4 fl / 12.8 m / sealed T3",
+   "interior_tier": 3,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_BAZAAR",
+   "label": "Covered bazaar hall",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     682.3,
+     682.3,
+     747.5,
+     747.5
+    ]
+   },
+   "district": "M",
+   "district_cell": "M [6, 6]",
+   "floors": 2,
+   "height_m": 12.0,
+   "bldg": "2 fl / 12 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_CAFE",
+   "label": "Cafes",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     -244.0,
+     -588.0,
+     -200.0,
+     -544.0
+    ]
+   },
+   "district": "E",
+   "district_cell": "E [3, 2]",
+   "floors": 2,
+   "height_m": 6.4,
+   "bldg": "2 fl / 6.4 m / sealed T3",
+   "interior_tier": 3,
+   "budget_class": "prop",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_CORNER_SHOP",
+   "label": "Corner shops",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     -945.0,
+     -189.0,
+     -912.0,
+     -156.0
+    ]
+   },
+   "district": "R",
+   "district_cell": "R [0, 3]",
+   "floors": 2,
+   "height_m": 6.4,
+   "bldg": "2 fl / 6.4 m / ent T3",
+   "interior_tier": 3,
+   "budget_class": "prop",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_MALL",
+   "label": "Shopping malls",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     78.0,
+     -288.0,
+     144.0,
+     -222.0
+    ]
+   },
+   "district": "D",
+   "district_cell": "D [4, 3]",
+   "floors": 5,
+   "height_m": 16.0,
+   "bldg": "5 fl / 16 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_MOTOR_TRADE",
+   "label": "Car showroom + service",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     396.9,
+     1214.0,
+     555.0,
+     1360.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [5, 8]",
+   "floors": 2,
+   "height_m": 9.0,
+   "bldg": "2 fl / 9 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_RESTAURANT",
+   "label": "Restaurants",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     -56.0,
+     -544.0,
+     -12.0,
+     -500.0
+    ]
+   },
+   "district": "E",
+   "district_cell": "E [3, 2]",
+   "floors": 2,
+   "height_m": 6.4,
+   "bldg": "2 fl / 6.4 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_SHOPS",
+   "label": "High-street shops",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     -288.0,
+     -500.0,
+     -244.0,
+     -456.0
+    ]
+   },
+   "district": "E",
+   "district_cell": "E [3, 2]",
+   "floors": 3,
+   "height_m": 9.6,
+   "bldg": "3 fl / 9.6 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_SUPERMARKET",
+   "label": "Supermarket / grocery mart",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     56.0,
+     -500.0,
+     100.0,
+     -456.0
+    ]
+   },
+   "district": "E",
+   "district_cell": "E [4, 2]",
+   "floors": 2,
+   "height_m": 6.4,
+   "bldg": "2 fl / 6.4 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_TEAHOUSE",
+   "label": "Teahouses (market)",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     361.0,
+     644.7,
+     377.2,
+     660.9
+    ]
+   },
+   "district": "M",
+   "district_cell": "M [5, 6]",
+   "floors": 3,
+   "height_m": 9.6,
+   "bldg": "3 fl / 9.6 m / sealed T3",
+   "interior_tier": 3,
+   "budget_class": "prop",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_WHOLESALER",
+   "label": "Wholesale cash-and-carry mart",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     233.7,
+     -1360.0,
+     412.2,
+     -1214.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [5, -1]",
+   "floors": 1,
+   "height_m": 12.0,
+   "bldg": "1 fl / 12 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "RET_WORKSHOP_STALL",
+   "label": "Small market workshops",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`existing_parcels`",
+    "rect": [
+     344.7,
+     661.0,
+     360.9,
+     677.2
+    ]
+   },
+   "district": "M",
+   "district_cell": "M [5, 6]",
+   "floors": 2,
+   "height_m": 6.4,
+   "bldg": "2 fl / 6.4 m / ent T3",
+   "interior_tier": 3,
+   "budget_class": "prop",
+   "tris_budget": null
+  },
+  {
+   "id": "TRK_FAN_ZONE",
+   "label": "Fan zone + spectator amenities",
+   "category": "recreation",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     780.0,
+     -846.0,
+     924.0,
+     -718.0
+    ]
+   },
+   "district": "T",
+   "district_cell": "T [6, 1]",
+   "floors": 2,
+   "height_m": 6.0,
+   "bldg": "2 fl / 6 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "TRK_FOOD_COURT",
+   "label": "Track food court + beergarden",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     1214.0,
+     -312.0,
+     1360.0,
+     -166.2
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [8, 3]",
+   "floors": 2,
+   "height_m": 6.0,
+   "bldg": "2 fl / 6 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "TRK_MERCH_HALL",
+   "label": "Merchandise hall + paddock club",
+   "category": "retail",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     1214.0,
+     -150.0,
+     1360.0,
+     -15.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [8, 3]",
+   "floors": 2,
+   "height_m": 7.0,
+   "bldg": "2 fl / 7 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "TRK_SPECTATOR_VILLAGE",
+   "label": "Circuit spectator village",
+   "category": "hospitality",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     1214.0,
+     -896.5,
+     1360.0,
+     -758.8
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [8, 1]",
+   "floors": 2,
+   "height_m": 10.0,
+   "bldg": "2 fl / 10 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "WORKSHOP_FABRICATION",
+   "label": "Metal fabrication works",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`superlot`",
+    "rect": [
+     312.0,
+     -444.0,
+     444.0,
+     -312.0
+    ]
+   },
+   "district": "I",
+   "district_cell": "I [5, 2]",
+   "floors": 4,
+   "height_m": 16.0,
+   "bldg": "4 fl / 16 m / ent T1",
+   "interior_tier": 1,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "WRK_CONSTRUCTION_YARD",
+   "label": "Contractor laydown yard",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     -788.7,
+     -1360.0,
+     -615.0,
+     -1214.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [1, -1]",
+   "floors": null,
+   "height_m": null,
+   "bldg": "-",
+   "interior_tier": 3,
+   "budget_class": "regular",
+   "tris_budget": null
+  },
+  {
+   "id": "WRK_DATA_CENTRE",
+   "label": "Data centre",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     1214.0,
+     -555.0,
+     1360.0,
+     -328.2
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [8, 2]",
+   "floors": 1,
+   "height_m": 10.0,
+   "bldg": "1 fl / 10 m / sealed T3",
+   "interior_tier": 3,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "WRK_LOGISTICS_HUB",
+   "label": "Logistics / fulfilment hub",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     978.2,
+     1214.0,
+     1093.5,
+     1360.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [7, 8]",
+   "floors": 3,
+   "height_m": 14.0,
+   "bldg": "3 fl / 14 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "hero",
+   "tris_budget": null
+  },
+  {
+   "id": "WRK_TECH_PARK",
+   "label": "Tech park / office campus",
+   "category": "work",
+   "owning_module": "Commercial",
+   "placement": {
+    "mode": "`district_cell`",
+    "rect": [
+     -555.0,
+     1214.0,
+     -430.8,
+     1360.0
+    ]
+   },
+   "district": "OUTER",
+   "district_cell": "OUTER [2, 8]",
+   "floors": 4,
+   "height_m": 16.0,
+   "bldg": "4 fl / 16 m / ent T2",
+   "interior_tier": 2,
+   "budget_class": "hero",
+   "tris_budget": null
+  }
+ ]
+}

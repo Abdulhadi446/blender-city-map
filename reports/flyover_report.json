@@ -1,0 +1,342 @@
+{
+ "files": {
+  "blend": "/home/abdulhadi/Work/city/out/flyover.blend",
+  "preview_aerial": "/home/abdulhadi/Work/city/out/flyover_preview.png",
+  "preview_ground": "/home/abdulhadi/Work/city/out/flyover_ground_preview.png",
+  "script": "/home/abdulhadi/Work/city/modules/flyover.py"
+ },
+ "objects": 1243,
+ "objects_by_collection": "Meshes 1191 / Colliders 52 / Lights 0",
+ "triangles_instanced": 44680,
+ "triangles_unique_meshes": 23592,
+ "materials_used": [
+  "asphalt",
+  "asphalt_highway",
+  "asphalt_worn",
+  "concrete",
+  "concrete_poured",
+  "dirt",
+  "gravel",
+  "marking_white",
+  "marking_yellow",
+  "metal_steel"
+ ],
+ "geometry_facts": {
+  "ring_deck_top_z": 8.0,
+  "ring_deck_soffit_z": 6.5,
+  "ring_deck_width_m": 34.0,
+  "ring_path": "H_07 x=1400 y=600->1280, 120 m arc (c=1280,1280), H_08 y=1400 x=1280->600",
+  "ring_path_length_m": 1548.49,
+  "corner_radius_m": 120.0,
+  "min_ground_clearance_m": 6.5,
+  "ramp_start": [
+   600.0,
+   1400.0,
+   7.99
+  ],
+  "ramp_end": [
+   600.0,
+   1200.0,
+   0.0
+  ],
+  "ramp_end_width_m": 24.0,
+  "ramp_plan_length_m": 218.48,
+  "ramp_gradient_pct": 3.9716,
+  "ramp_bulge_m": 40.0,
+  "ramp_barrier_stop_s": 181.3,
+  "global_z_min": -0.05,
+  "global_z_max": 9.08
+ },
+ "checks": {
+  "deck_z_is_8m": true,
+  "deck_soffit_6_5m": true,
+  "clearance_ge_5_5m": true,
+  "ramp_gradient_le_4pct": true,
+  "ramp_lands_at_600_1200_z0": true,
+  "nothing_below_minus_0_05": true
+ },
+ "collections": [
+  "Flyovers",
+  "Flyovers/Meshes",
+  "Flyovers/Colliders",
+  "Flyovers/Lights (empty)"
+ ],
+ "known_issues": [
+  "The ramp start (600,1400) sits inside the ring deck: the ramp slab top is 7.99 m there (1 cm below the 8.00 m deck) so the two surfaces never z-fight; the ramp becomes visible exactly at the deck edge y=1383 with a 1 cm ledge.",
+  "To stay under the 4 % gradient the ramp is swept (raised-cosine bulge 40 m east of x=600); its plan footprint reaches x~640 at y~1300, outside the 18 m straight corridor in layout.json.",
+  "Ramp terminus overlaps the y=1200 arterial junction for its last 12 m (y 1200..1212) with a wedge nose: top 0.48 m at y=1212 falling to 0.00 m at y=1200. No step at the landing line.",
+  "Instance transforms (location/rotation/scale) are intentionally NOT applied \u2014 applying them would bake into the shared mesh and destroy the instancing. All swept/unique meshes are built in world space, so their matrix_basis is already identity."
+ ],
+ "for_assembler": {
+  "deck_surface_z": 8.0,
+  "deck_soffit_z": 6.5,
+  "deck_halfwidth_m": 17.0,
+  "deck_extents": "x 1383..1417 for y 600..1280; y 1383..1417 for x 600..1280; rounded corner radius 120 centred (1280,1280)",
+  "ramp_landing_cross_section": {
+   "line": "y=1200.0, x from 588.0 to 612.0, z=0.000 (flush)",
+   "width_m": 24.0,
+   "heading": "due south (-Y), ramp deck top flush with arterial z=0",
+   "flare": "18.0 m wide above y=1212, linear flare to 24.0 m at y=1200",
+   "matches": "arterial corridor envelope halfwidth 12.0 m; the ramp footprint sits on the junction patch (carriageway 590.5..609.5) and the cut-out sidewalk gap (588..612)",
+   "surfaces": "asphalt, no step (>0.5 m gap/overlap: none)"
+  },
+  "pier_positions_ring": [
+   {
+    "s": 35.0,
+    "x": 1400.0,
+    "y": 635.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 70.0,
+    "x": 1400.0,
+    "y": 670.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 105.0,
+    "x": 1400.0,
+    "y": 705.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 140.0,
+    "x": 1400.0,
+    "y": 740.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 175.0,
+    "x": 1400.0,
+    "y": 775.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 210.0,
+    "x": 1400.0,
+    "y": 810.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 245.0,
+    "x": 1400.0,
+    "y": 845.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 280.0,
+    "x": 1400.0,
+    "y": 880.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 315.0,
+    "x": 1400.0,
+    "y": 915.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 350.0,
+    "x": 1400.0,
+    "y": 950.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 385.0,
+    "x": 1400.0,
+    "y": 985.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 420.0,
+    "x": 1400.0,
+    "y": 1020.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 455.0,
+    "x": 1400.0,
+    "y": 1055.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 490.0,
+    "x": 1400.0,
+    "y": 1090.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 525.0,
+    "x": 1400.0,
+    "y": 1125.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 560.0,
+    "x": 1400.0,
+    "y": 1160.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 595.0,
+    "x": 1400.0,
+    "y": 1195.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 630.0,
+    "x": 1400.0,
+    "y": 1230.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 665.0,
+    "x": 1400.0,
+    "y": 1265.0,
+    "rot_deg": -0.0
+   },
+   {
+    "s": 700.0,
+    "x": 1398.3,
+    "y": 1299.9,
+    "rot_deg": 9.5
+   },
+   {
+    "s": 735.0,
+    "x": 1387.6,
+    "y": 1333.1,
+    "rot_deg": 26.3
+   },
+   {
+    "s": 770.0,
+    "x": 1367.8,
+    "y": 1361.8,
+    "rot_deg": 42.9
+   },
+   {
+    "s": 805.0,
+    "x": 1340.6,
+    "y": 1383.6,
+    "rot_deg": 59.7
+   },
+   {
+    "s": 840.0,
+    "x": 1308.2,
+    "y": 1396.6,
+    "rot_deg": 76.4
+   },
+   {
+    "s": 875.0,
+    "x": 1273.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 910.0,
+    "x": 1238.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 945.0,
+    "x": 1203.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 980.0,
+    "x": 1168.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1015.0,
+    "x": 1133.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1050.0,
+    "x": 1098.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1085.0,
+    "x": 1063.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1120.0,
+    "x": 1028.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1155.0,
+    "x": 993.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1190.0,
+    "x": 958.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1225.0,
+    "x": 923.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1260.0,
+    "x": 888.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1295.0,
+    "x": 853.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1330.0,
+    "x": 818.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1365.0,
+    "x": 783.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1400.0,
+    "x": 748.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1435.0,
+    "x": 713.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   },
+   {
+    "s": 1470.0,
+    "x": 678.5,
+    "y": 1400.0,
+    "rot_deg": 90.0
+   }
+  ],
+  "pier_bays": "columns at u = +/-9.0 (2.4x1.2 tapered, 4.5 m tall), cap 32.0x1.6x1.4 under the deck, footing 4.4x3.4x0.6, spacing 35 m along the centreline",
+  "ground_band": "service road 10 m wide (u +/-5) along the ring centreline, x=1400 strip y 600..1400 and y=1400 strip x 600..1400 (rounded corner), gravel verge u 5..14, dirt verge u 14..20, all tops at z 0.0 / -0.05"
+ },
+ "_module": "flyover",
+ "_written": "2026-10-25T21:01:17"
+}

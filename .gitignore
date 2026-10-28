@@ -1,0 +1,22 @@
+# Large binaries — not tracked in git
+out/
+exports/
+textures/
+*.blend
+*.blend1
+*.blend2
+*.fbx
+*.glb
+*.gltf
+*.zip
+*.exr
+*.hdr
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs / scratch
+*.log
+/tmp/

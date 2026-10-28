@@ -1,0 +1,9546 @@
+{
+ "objects": 534,
+ "per_edge": {
+  "A_H_5_8": [
+   {
+    "name": "SM_RoadSurface_Arterial_01",
+    "mats": [
+     "asphalt",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     300.0,
+     1190.5,
+     590.5,
+     1209.5
+    ],
+    "polys": 10,
+    "users": 1
+   },
+   {
+    "name": "SM_Median_Arterial_01",
+    "mats": [
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     300.0,
+     1198.5,
+     590.5,
+     1201.5
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_01A",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     300.0,
+     1188.0,
+     588.0,
+     1190.5
+    ],
+    "polys": 30,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_01A",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     311.1,
+     1188.0,
+     586.4,
+     1190.5
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_01B",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     300.0,
+     1209.5,
+     600.0,
+     1212.0
+    ],
+    "polys": 15,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_01B",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     311.1,
+     1209.5,
+     586.4,
+     1212.0
+    ],
+    "polys": 2,
+    "users": 1
+   },
+   {
+    "name": "SM_RoadMarking_Arterial_01",
+    "mats": [
+     "marking_white",
+     "marking_yellow"
+    ],
+    "z": [
+     0.005
+    ],
+    "bb": [
+     300.0,
+     1190.925,
+     590.5,
+     1209.075
+    ],
+    "polys": 68,
+    "users": 1
+   },
+   {
+    "name": "COL_road_A_H_5_8",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     300.0,
+     1188.0,
+     600.0,
+     1212.0
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_H_5_8",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     300.0,
+     1188.0,
+     600.0,
+     1190.5
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_H_5_8_R",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     300.0,
+     1209.5,
+     600.0,
+     1212.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "A_H_6_8": [
+   {
+    "name": "SM_RoadSurface_Arterial_02",
+    "mats": [
+     "asphalt",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     609.5,
+     1190.5,
+     900.0,
+     1209.5
+    ],
+    "polys": 10,
+    "users": 1
+   },
+   {
+    "name": "SM_Median_Arterial_02",
+    "mats": [
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     609.5,
+     1198.5,
+     900.0,
+     1201.5
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_02A",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     612.0,
+     1188.0,
+     900.0,
+     1190.5
+    ],
+    "polys": 30,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_02A",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     613.6,
+     1188.0,
+     888.9,
+     1190.5
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_02B",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     600.0,
+     1209.5,
+     900.0,
+     1212.0
+    ],
+    "polys": 15,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_02B",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     613.6,
+     1209.5,
+     888.9,
+     1212.0
+    ],
+    "polys": 2,
+    "users": 1
+   },
+   {
+    "name": "SM_RoadMarking_Arterial_02",
+    "mats": [
+     "marking_white",
+     "marking_yellow"
+    ],
+    "z": [
+     0.005
+    ],
+    "bb": [
+     609.5,
+     1190.925,
+     900.0,
+     1209.075
+    ],
+    "polys": 68,
+    "users": 1
+   },
+   {
+    "name": "COL_road_A_H_6_8",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     600.0,
+     1188.0,
+     900.0,
+     1212.0
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_H_6_8",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     600.0,
+     1188.0,
+     900.0,
+     1190.5
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_H_6_8_R",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     600.0,
+     1209.5,
+     900.0,
+     1212.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "A_H_7_8": [
+   {
+    "name": "SM_RoadSurface_Arterial_03",
+    "mats": [
+     "asphalt",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     900.0,
+     1190.5,
+     1200.0,
+     1209.5
+    ],
+    "polys": 10,
+    "users": 1
+   },
+   {
+    "name": "SM_Median_Arterial_03",
+    "mats": [
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     900.0,
+     1198.5,
+     1200.0,
+     1201.5
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_03A",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     900.0,
+     1188.0,
+     1200.0,
+     1190.5
+    ],
+    "polys": 25,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_03A",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     911.1,
+     1188.0,
+     1123.0,
+     1190.5
+    ],
+    "polys": 4,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_03B",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     900.0,
+     1209.5,
+     1200.0,
+     1212.0
+    ],
+    "polys": 10,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_03B",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     911.1,
+     1209.5,
+     912.9,
+     1212.0
+    ],
+    "polys": 1,
+    "users": 1
+   },
+   {
+    "name": "SM_RoadMarking_Arterial_03",
+    "mats": [
+     "marking_white",
+     "marking_yellow"
+    ],
+    "z": [
+     0.005
+    ],
+    "bb": [
+     900.0,
+     1190.925,
+     1200.0,
+     1209.075
+    ],
+    "polys": 70,
+    "users": 1
+   },
+   {
+    "name": "COL_road_A_H_7_8",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     900.0,
+     1188.0,
+     1200.0,
+     1212.0
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_H_7_8",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     900.0,
+     1188.0,
+     1200.0,
+     1190.5
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_H_7_8_R",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     900.0,
+     1209.5,
+     1200.0,
+     1212.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "A_V_6_6": [
+   {
+    "name": "SM_RoadSurface_Arterial_04",
+    "mats": [
+     "asphalt",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     590.5,
+     600.0,
+     609.5,
+     900.0
+    ],
+    "polys": 10,
+    "users": 1
+   },
+   {
+    "name": "SM_Median_Arterial_04",
+    "mats": [
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     598.5,
+     600.0,
+     601.5,
+     900.0
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_04A",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     588.0,
+     600.0,
+     590.5,
+     900.0
+    ],
+    "polys": 30,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_04A",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     588.0,
+     611.1,
+     590.5,
+     888.9
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_04B",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     609.5,
+     600.0,
+     612.0,
+     900.0
+    ],
+    "polys": 30,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_04B",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     609.5,
+     611.1,
+     612.0,
+     888.9
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_RoadMarking_Arterial_04",
+    "mats": [
+     "marking_white",
+     "marking_yellow"
+    ],
+    "z": [
+     0.005
+    ],
+    "bb": [
+     590.925,
+     600.0,
+     609.075,
+     900.0
+    ],
+    "polys": 70,
+    "users": 1
+   },
+   {
+    "name": "COL_road_A_V_6_6",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     588.0,
+     600.0,
+     612.0,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_V_6_6",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     588.0,
+     600.0,
+     590.5,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_V_6_6_R",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     609.5,
+     600.0,
+     612.0,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "A_V_6_7": [
+   {
+    "name": "SM_RoadSurface_Arterial_05",
+    "mats": [
+     "asphalt",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     590.5,
+     900.0,
+     609.5,
+     1190.5
+    ],
+    "polys": 10,
+    "users": 1
+   },
+   {
+    "name": "SM_Median_Arterial_05",
+    "mats": [
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     598.5,
+     900.0,
+     601.5,
+     1190.5
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_05A",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     588.0,
+     900.0,
+     590.5,
+     1188.0
+    ],
+    "polys": 30,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_05A",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     588.0,
+     911.1,
+     590.5,
+     1186.4
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_Sidewalk_Arterial_05B",
+    "mats": [
+     "sidewalk_concrete",
+     "curb_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     609.5,
+     900.0,
+     612.0,
+     1188.0
+    ],
+    "polys": 30,
+    "users": 1
+   },
+   {
+    "name": "SM_KerbRamp_Arterial_05B",
+    "mats": [
+     "sidewalk_concrete"
+    ],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     609.5,
+     911.1,
+     612.0,
+     1186.4
+    ],
+    "polys": 5,
+    "users": 1
+   },
+   {
+    "name": "SM_RoadMarking_Arterial_05",
+    "mats": [
+     "marking_white",
+     "marking_yellow"
+    ],
+    "z": [
+     0.005
+    ],
+    "bb": [
+     590.925,
+     900.0,
+     609.075,
+     1190.5
+    ],
+    "polys": 68,
+    "users": 1
+   },
+   {
+    "name": "COL_road_A_V_6_7",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     588.0,
+     900.0,
+     612.0,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_V_6_7",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     588.0,
+     900.0,
+     590.5,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   },
+   {
+    "name": "COL_sidewalk_A_V_6_7_R",
+    "mats": [],
+    "z": [
+     0.0,
+     0.15
+    ],
+    "bb": [
+     609.5,
+     900.0,
+     612.0,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_001",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     612.0,
+     382.25,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_001",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     600.0,
+     382.25,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_002",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     682.25,
+     382.25,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_002",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     679.75,
+     382.25,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_003",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     752.5,
+     382.25,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_003",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_003",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_V0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     750.0,
+     382.25,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_004",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     822.75,
+     382.25,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_004",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     820.25,
+     382.25,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_005",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     612.0,
+     452.5,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_005",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     600.0,
+     452.5,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_006",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     682.25,
+     452.5,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_006",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_006",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_V1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     679.75,
+     452.5,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_007",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     752.5,
+     452.5,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_007",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     750.0,
+     452.5,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_008",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     822.75,
+     452.5,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_008",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     820.25,
+     452.5,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_009",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     612.0,
+     522.75,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_009",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_009",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_V2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     600.0,
+     522.75,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_010",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     682.25,
+     522.75,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_010",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     679.75,
+     522.75,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_011",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     752.5,
+     522.75,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_011",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_V2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     750.0,
+     522.75,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_V2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_012",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     822.75,
+     522.75,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_012",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_012",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_V2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     820.25,
+     522.75,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_013",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     312.0,
+     677.25,
+     377.25,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_013",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     300.0,
+     677.25,
+     379.75,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_014",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     382.25,
+     677.25,
+     447.5,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_014",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     379.75,
+     677.25,
+     450.0,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_015",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     452.5,
+     677.25,
+     517.75,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_015",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_015",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_H0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     450.0,
+     677.25,
+     520.25,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_016",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     522.75,
+     677.25,
+     588.0,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_016",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     520.25,
+     677.25,
+     600.0,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_017",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     312.0,
+     747.5,
+     377.25,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_017",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     300.0,
+     747.5,
+     379.75,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_018",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     382.25,
+     747.5,
+     447.5,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_018",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_018",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_H1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     379.75,
+     747.5,
+     450.0,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_019",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     452.5,
+     747.5,
+     517.75,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_019",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     450.0,
+     747.5,
+     520.25,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_020",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     522.75,
+     747.5,
+     588.0,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_020",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     520.25,
+     747.5,
+     600.0,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_021",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     312.0,
+     817.75,
+     377.25,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_021",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_021",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_H2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     300.0,
+     817.75,
+     379.75,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_022",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     382.25,
+     817.75,
+     447.5,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_022",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     379.75,
+     817.75,
+     450.0,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_023",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     452.5,
+     817.75,
+     517.75,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_023",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_6_H2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     450.0,
+     817.75,
+     520.25,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_6_H2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_024",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     522.75,
+     817.75,
+     588.0,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_024",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_024",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_6_H2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     520.25,
+     817.75,
+     600.0,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_025",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     612.0,
+     682.25,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_025",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     600.0,
+     682.25,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_026",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     682.25,
+     682.25,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_026",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     679.75,
+     682.25,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_027",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     752.5,
+     682.25,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_027",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_027",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_V0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     750.0,
+     682.25,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_028",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     822.75,
+     682.25,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_028",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     820.25,
+     682.25,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_029",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     612.0,
+     752.5,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_029",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     600.0,
+     752.5,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_030",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     682.25,
+     752.5,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_030",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_030",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_V1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     679.75,
+     752.5,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_031",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     752.5,
+     752.5,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_031",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     750.0,
+     752.5,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_032",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     822.75,
+     752.5,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_032",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     820.25,
+     752.5,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_033",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     612.0,
+     822.75,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_033",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_033",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_V2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     600.0,
+     822.75,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_034",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     682.25,
+     822.75,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_034",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     679.75,
+     822.75,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_035",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     752.5,
+     822.75,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_035",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_V2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     750.0,
+     822.75,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_V2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_036",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     822.75,
+     822.75,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_036",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_036",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_V2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     820.25,
+     822.75,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_037",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     612.0,
+     677.25,
+     677.25,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_037",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     600.0,
+     677.25,
+     679.75,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_038",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     682.25,
+     677.25,
+     747.5,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_038",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     679.75,
+     677.25,
+     750.0,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_039",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     752.5,
+     677.25,
+     817.75,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_039",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_039",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_H0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     750.0,
+     677.25,
+     820.25,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_040",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     822.75,
+     677.25,
+     888.0,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_040",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     820.25,
+     677.25,
+     900.0,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_041",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     612.0,
+     747.5,
+     677.25,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_041",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     600.0,
+     747.5,
+     679.75,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_042",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     682.25,
+     747.5,
+     747.5,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_042",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_042",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_H1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     679.75,
+     747.5,
+     750.0,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_043",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     752.5,
+     747.5,
+     817.75,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_043",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     750.0,
+     747.5,
+     820.25,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_044",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     822.75,
+     747.5,
+     888.0,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_044",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     820.25,
+     747.5,
+     900.0,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_045",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     612.0,
+     817.75,
+     677.25,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_045",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_045",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_H2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     600.0,
+     817.75,
+     679.75,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_046",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     682.25,
+     817.75,
+     747.5,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_046",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     679.75,
+     817.75,
+     750.0,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_047",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     752.5,
+     817.75,
+     817.75,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_047",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_6_H2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     750.0,
+     817.75,
+     820.25,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_6_H2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_048",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     822.75,
+     817.75,
+     888.0,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_048",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_048",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_6_H2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     820.25,
+     817.75,
+     900.0,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_049",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     612.0,
+     982.25,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_049",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     600.0,
+     982.25,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_050",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     682.25,
+     982.25,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_050",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     679.75,
+     982.25,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_051",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     752.5,
+     982.25,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_051",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_051",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_V0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     750.0,
+     982.25,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_052",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     822.75,
+     982.25,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_052",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     820.25,
+     982.25,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_053",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     612.0,
+     1052.5,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_053",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     600.0,
+     1052.5,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_054",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     682.25,
+     1052.5,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_054",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_054",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_V1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     679.75,
+     1052.5,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_055",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     752.5,
+     1052.5,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_055",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     750.0,
+     1052.5,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_056",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     822.75,
+     1052.5,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_056",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     820.25,
+     1052.5,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_057",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     612.0,
+     1122.75,
+     677.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_057",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_057",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_V2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     600.0,
+     1122.75,
+     679.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_058",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     682.25,
+     1122.75,
+     747.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_058",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     679.75,
+     1122.75,
+     750.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_059",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     752.5,
+     1122.75,
+     817.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_059",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_V2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     750.0,
+     1122.75,
+     820.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_V2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_060",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     822.75,
+     1122.75,
+     888.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_060",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_060",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_V2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     820.25,
+     1122.75,
+     900.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_061",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     912.0,
+     677.25,
+     977.25,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_061",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     900.0,
+     677.25,
+     979.75,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_062",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     982.25,
+     677.25,
+     1047.5,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_062",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     979.75,
+     677.25,
+     1050.0,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_063",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1052.5,
+     677.25,
+     1117.75,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_063",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_063",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_H0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1050.0,
+     677.25,
+     1120.25,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_064",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1122.75,
+     677.25,
+     1188.0,
+     682.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_064",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1120.25,
+     677.25,
+     1200.0,
+     682.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_065",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     912.0,
+     747.5,
+     977.25,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_065",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     900.0,
+     747.5,
+     979.75,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_066",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     982.25,
+     747.5,
+     1047.5,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_066",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_066",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_H1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     979.75,
+     747.5,
+     1050.0,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_067",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1052.5,
+     747.5,
+     1117.75,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_067",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1050.0,
+     747.5,
+     1120.25,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_068",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1122.75,
+     747.5,
+     1188.0,
+     752.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_068",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1120.25,
+     747.5,
+     1200.0,
+     752.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_069",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     912.0,
+     817.75,
+     977.25,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_069",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_069",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_H2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     900.0,
+     817.75,
+     979.75,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_070",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     982.25,
+     817.75,
+     1047.5,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_070",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     979.75,
+     817.75,
+     1050.0,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_071",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1052.5,
+     817.75,
+     1117.75,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_071",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_6_H2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1050.0,
+     817.75,
+     1120.25,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_6_H2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_072",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1122.75,
+     817.75,
+     1188.0,
+     822.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_072",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_072",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_6_H2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1120.25,
+     817.75,
+     1200.0,
+     822.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_073",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     912.0,
+     382.25,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_073",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     900.0,
+     382.25,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_074",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     982.25,
+     382.25,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_074",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     979.75,
+     382.25,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_075",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     1052.5,
+     382.25,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_075",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_075",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_V0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     1050.0,
+     382.25,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_076",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     377.25,
+     1122.75,
+     382.25,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_076",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     377.25,
+     1120.25,
+     382.25,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_077",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     912.0,
+     452.5,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_077",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     900.0,
+     452.5,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_078",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     982.25,
+     452.5,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_078",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_078",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_V1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     979.75,
+     452.5,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_079",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     1052.5,
+     452.5,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_079",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     1050.0,
+     452.5,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_080",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     447.5,
+     1122.75,
+     452.5,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_080",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     447.5,
+     1120.25,
+     452.5,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_081",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     912.0,
+     522.75,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_081",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_081",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_V2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     900.0,
+     522.75,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_082",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     982.25,
+     522.75,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_082",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     979.75,
+     522.75,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_083",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     1052.5,
+     522.75,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_083",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_V2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     1050.0,
+     522.75,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_V2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_084",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     517.75,
+     1122.75,
+     522.75,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_084",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_084",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_V2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     517.75,
+     1120.25,
+     522.75,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_085",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     312.0,
+     977.25,
+     377.25,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_085",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     300.0,
+     977.25,
+     379.75,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_086",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     382.25,
+     977.25,
+     447.5,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_086",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     379.75,
+     977.25,
+     450.0,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_087",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     452.5,
+     977.25,
+     517.75,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_087",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_087",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_H0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     450.0,
+     977.25,
+     520.25,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_088",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     522.75,
+     977.25,
+     588.0,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_088",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     520.25,
+     977.25,
+     600.0,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_089",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     312.0,
+     1047.5,
+     377.25,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_089",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     300.0,
+     1047.5,
+     379.75,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_090",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     382.25,
+     1047.5,
+     447.5,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_090",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_090",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_H1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     379.75,
+     1047.5,
+     450.0,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_091",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     452.5,
+     1047.5,
+     517.75,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_091",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     450.0,
+     1047.5,
+     520.25,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_092",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     522.75,
+     1047.5,
+     588.0,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_092",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     520.25,
+     1047.5,
+     600.0,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_093",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     312.0,
+     1117.75,
+     377.25,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_093",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_093",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_H2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     300.0,
+     1117.75,
+     379.75,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_094",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     382.25,
+     1117.75,
+     447.5,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_094",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     379.75,
+     1117.75,
+     450.0,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_095",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     452.5,
+     1117.75,
+     517.75,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_095",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_5_7_H2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     450.0,
+     1117.75,
+     520.25,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_5_7_H2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_096",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     522.75,
+     1117.75,
+     588.0,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_096",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_096",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_5_7_H2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     520.25,
+     1117.75,
+     600.0,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_097",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     912.0,
+     682.25,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_097",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     900.0,
+     682.25,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_098",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     982.25,
+     682.25,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_098",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     979.75,
+     682.25,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_099",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     1052.5,
+     682.25,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_099",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_099",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_V0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     1050.0,
+     682.25,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_100",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     677.25,
+     1122.75,
+     682.25,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_100",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     677.25,
+     1120.25,
+     682.25,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_101",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     912.0,
+     752.5,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_101",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     900.0,
+     752.5,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_102",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     982.25,
+     752.5,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_102",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_102",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_V1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     979.75,
+     752.5,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_103",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     1052.5,
+     752.5,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_103",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     1050.0,
+     752.5,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_104",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     747.5,
+     1122.75,
+     752.5,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_104",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     747.5,
+     1120.25,
+     752.5,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_105",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     912.0,
+     822.75,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_105",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_105",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_V2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     900.0,
+     822.75,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_106",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     982.25,
+     822.75,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_106",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     979.75,
+     822.75,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_107",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     1052.5,
+     822.75,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_107",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_V2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     1050.0,
+     822.75,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_V2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_108",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     817.75,
+     1122.75,
+     822.75,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_108",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_108",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_V2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     817.75,
+     1120.25,
+     822.75,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_109",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     612.0,
+     977.25,
+     677.25,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_109",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     600.0,
+     977.25,
+     679.75,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_110",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     682.25,
+     977.25,
+     747.5,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_110",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     679.75,
+     977.25,
+     750.0,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_111",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     752.5,
+     977.25,
+     817.75,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_111",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_111",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_H0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     750.0,
+     977.25,
+     820.25,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_112",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     822.75,
+     977.25,
+     888.0,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_112",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     820.25,
+     977.25,
+     900.0,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_113",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     612.0,
+     1047.5,
+     677.25,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_113",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     600.0,
+     1047.5,
+     679.75,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_114",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     682.25,
+     1047.5,
+     747.5,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_114",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_114",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_H1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     679.75,
+     1047.5,
+     750.0,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_115",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     752.5,
+     1047.5,
+     817.75,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_115",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     750.0,
+     1047.5,
+     820.25,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_116",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     822.75,
+     1047.5,
+     888.0,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_116",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     820.25,
+     1047.5,
+     900.0,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_117",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     612.0,
+     1117.75,
+     677.25,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_117",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_117",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_H2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     600.0,
+     1117.75,
+     679.75,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_118",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     682.25,
+     1117.75,
+     747.5,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_118",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     679.75,
+     1117.75,
+     750.0,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_119",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     752.5,
+     1117.75,
+     817.75,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_119",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_6_7_H2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     750.0,
+     1117.75,
+     820.25,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_6_7_H2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_120",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     822.75,
+     1117.75,
+     888.0,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_120",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_120",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_6_7_H2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     820.25,
+     1117.75,
+     900.0,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_121",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     912.0,
+     982.25,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_121",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     900.0,
+     982.25,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_122",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     982.25,
+     982.25,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_122",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     979.75,
+     982.25,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_123",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     1052.5,
+     982.25,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_123",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_123",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_V0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     1050.0,
+     982.25,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_124",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     977.25,
+     1122.75,
+     982.25,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_124",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     977.25,
+     1120.25,
+     982.25,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_125",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     912.0,
+     1052.5,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_125",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     900.0,
+     1052.5,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_126",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     982.25,
+     1052.5,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_126",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_126",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_V1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     979.75,
+     1052.5,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_127",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     1052.5,
+     1052.5,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_127",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     1050.0,
+     1052.5,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_128",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     1122.75,
+     1052.5,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_128",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1047.5,
+     1120.25,
+     1052.5,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_129",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     912.0,
+     1122.75,
+     977.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_129",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_129",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_V2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     900.0,
+     1122.75,
+     979.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_130",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     982.25,
+     1122.75,
+     1047.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_130",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     979.75,
+     1122.75,
+     1050.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_131",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     1052.5,
+     1122.75,
+     1117.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_131",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_V2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     1050.0,
+     1122.75,
+     1120.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_V2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_132",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     1122.75,
+     1122.75,
+     1188.0
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_132",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_132",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_V2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1117.75,
+     1120.25,
+     1122.75,
+     1200.0
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H0_0": [
+   {
+    "name": "SM_RoadSurface_Alley_133",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     912.0,
+     977.25,
+     977.25,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_133",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H0_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     900.0,
+     977.25,
+     979.75,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H0_1": [
+   {
+    "name": "SM_RoadSurface_Alley_134",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     982.25,
+     977.25,
+     1047.5,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_134",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H0_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     979.75,
+     977.25,
+     1050.0,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H0_2": [
+   {
+    "name": "SM_RoadSurface_Alley_135",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1052.5,
+     977.25,
+     1117.75,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_135",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_135",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_H0_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1050.0,
+     977.25,
+     1120.25,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H0_3": [
+   {
+    "name": "SM_RoadSurface_Alley_136",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1122.75,
+     977.25,
+     1188.0,
+     982.25
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_136",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H0_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1120.25,
+     977.25,
+     1200.0,
+     982.25
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H1_0": [
+   {
+    "name": "SM_RoadSurface_Alley_137",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     912.0,
+     1047.5,
+     977.25,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_137",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H1_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     900.0,
+     1047.5,
+     979.75,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H1_1": [
+   {
+    "name": "SM_RoadSurface_Alley_138",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     982.25,
+     1047.5,
+     1047.5,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_138",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_138",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_H1_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     979.75,
+     1047.5,
+     1050.0,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H1_2": [
+   {
+    "name": "SM_RoadSurface_Alley_139",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1052.5,
+     1047.5,
+     1117.75,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_139",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H1_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1050.0,
+     1047.5,
+     1120.25,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H1_3": [
+   {
+    "name": "SM_RoadSurface_Alley_140",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1122.75,
+     1047.5,
+     1188.0,
+     1052.5
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_140",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H1_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1120.25,
+     1047.5,
+     1200.0,
+     1052.5
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H2_0": [
+   {
+    "name": "SM_RoadSurface_Alley_141",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     912.0,
+     1117.75,
+     977.25,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_141",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_141",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_H2_0",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     900.0,
+     1117.75,
+     979.75,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H2_1": [
+   {
+    "name": "SM_RoadSurface_Alley_142",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     982.25,
+     1117.75,
+     1047.5,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_142",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H2_1",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     979.75,
+     1117.75,
+     1050.0,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H2_2": [
+   {
+    "name": "SM_RoadSurface_Alley_143",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1052.5,
+     1117.75,
+     1117.75,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_143",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "COL_road_L_7_7_H2_2",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1050.0,
+     1117.75,
+     1120.25,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ],
+  "L_7_7_H2_3": [
+   {
+    "name": "SM_RoadSurface_Alley_144",
+    "mats": [
+     "cobble_stone",
+     "asphalt_worn"
+    ],
+    "z": [
+     0.0
+    ],
+    "bb": [
+     1122.75,
+     1117.75,
+     1188.0,
+     1122.75
+    ],
+    "polys": 3,
+    "users": 1
+   },
+   {
+    "name": "SM_Manhole_Cast_144",
+    "mats": [
+     "metal_steel"
+    ],
+    "z": [
+     0.004,
+     0.035
+    ],
+    "bb": [
+     -0.34,
+     -0.34,
+     0.34,
+     0.34
+    ],
+    "polys": 32,
+    "users": 144
+   },
+   {
+    "name": "SM_StormDrain_Grate_144",
+    "mats": [
+     "rust"
+    ],
+    "z": [
+     0.0,
+     0.06
+    ],
+    "bb": [
+     -0.425,
+     -0.225,
+     0.425,
+     0.225
+    ],
+    "polys": 6,
+    "users": 48
+   },
+   {
+    "name": "COL_road_L_7_7_H2_3",
+    "mats": [],
+    "z": [
+     -0.05,
+     0.0
+    ],
+    "bb": [
+     1120.25,
+     1117.75,
+     1200.0,
+     1122.75
+    ],
+    "polys": 6,
+    "users": 1
+   }
+  ]
+ },
+ "materials": {
+  "marking_white": 6,
+  "asphalt": 6,
+  "asphalt_worn": 149,
+  "curb_concrete": 15,
+  "sidewalk_concrete": 21,
+  "marking_yellow": 5,
+  "cobble_stone": 145,
+  "metal_steel": 144,
+  "rust": 48
+ }
+}

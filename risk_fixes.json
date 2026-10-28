@@ -1,0 +1,641 @@
+{
+  "risks": {
+    "R1": {
+      "title": "Superlot-Parcel Merge Conflicts",
+      "description": "21 superlots merge contiguous parcels, removing them from the parcel count. Each superlot merger removes 4+ parcels and replaces them with a single building footprint.",
+      "affected_facilities": [
+        "COURTHOUSE",
+        "MUSEUM_CITY",
+        "PLANETARIUM",
+        "DEPARTMENT_STORE",
+        "CARPARK_MULTISTOREY",
+        "CONFERENCE_CENTRE",
+        "OFFICE_COWORKING",
+        "THEATRE",
+        "CONCERT_HALL",
+        "GALLERY_ART",
+        "ARCADE_GAMES",
+        "CASINO",
+        "BANQUET_HALL",
+        "HOSTEL",
+        "EMBASSY",
+        "UNIVERSITY_MAIN",
+        "UNIVERSITY_FACULTY",
+        "DORMITORIES",
+        "BREWERY",
+        "COLD_STORAGE",
+        "WORKSHOP_FABRICATION"
+      ],
+      "overlap_count": 21,
+      "total_parcels_involved": 159,
+      "detail_per_facility": []
+    },
+    "R2": {
+      "title": "Band Facility Connectivity",
+      "description": "Whether emergency vehicles / cars can reach band facilities (TRN_RUNWAY, TRN_AIR_TERMINAL, TRN_RAIL_STATION) from the inner city via roads, spurs, and ramps.",
+      "resolved": true,
+      "resolution": "YES - cars can reach all three band facilities from the inner city via the road network + 12 interchange ramps + access spurs. Verified by verify_access.py passing with 0 problems.",
+      "band_facilities": [
+        "TRN_RUNWAY",
+        "TRN_AIR_TERMINAL",
+        "TRN_RAIL_STATION"
+      ],
+      "verification": "blender -b -P modules/verify_access.py exit code 0"
+    },
+    "R3": {
+      "title": "Stadium/Park Conversion Conflicts",
+      "description": "5 stadium venues convert park land, requiring the assembler to strip Nature objects from converted green areas. Each has a 24 m green ring kept inside the venue rect.",
+      "affected_venues": [
+        "STADIUM_CRICKET",
+        "STADIUM_FOOTBALL",
+        "STADIUM_ATHLETICS",
+        "COMPLEX_SWIMMING",
+        "ARENA_INDOOR"
+      ],
+      "park_convert_count": 5,
+      "detail_per_venue": [
+        {
+          "facility_id": "STADIUM_CRICKET",
+          "rect": [
+            -864.0,
+            -1164.0,
+            -636.0,
+            -936.0
+          ],
+          "green_ring_m": 24,
+          "detail": "new_placement",
+          "parcel_types_here": "none - open land / converted green"
+        },
+        {
+          "facility_id": "STADIUM_FOOTBALL",
+          "rect": [
+            36.0,
+            -1164.0,
+            264.0,
+            -936.0
+          ],
+          "green_ring_m": 24,
+          "detail": "new_placement",
+          "parcel_types_here": "none - open land / converted green"
+        },
+        {
+          "facility_id": "STADIUM_ATHLETICS",
+          "rect": [
+            -1164.0,
+            -864.0,
+            -936.0,
+            -636.0
+          ],
+          "green_ring_m": 24,
+          "detail": "new_placement",
+          "parcel_types_here": "none - open land / converted green"
+        },
+        {
+          "facility_id": "COMPLEX_SWIMMING",
+          "rect": [
+            36.0,
+            -864.0,
+            264.0,
+            -636.0
+          ],
+          "green_ring_m": 24,
+          "detail": "new_placement",
+          "parcel_types_here": "none - open land / converted green"
+        },
+        {
+          "facility_id": "ARENA_INDOOR",
+          "rect": [
+            -1164.0,
+            -564.0,
+            -936.0,
+            -336.0
+          ],
+          "green_ring_m": 24,
+          "detail": "new_placement",
+          "parcel_types_here": "none - open land / converted green"
+        }
+      ]
+    }
+  },
+  "strip_list": [
+    {
+      "facility_id": "COURTHOUSE",
+      "rect": [
+        -288.0,
+        312.0,
+        -156.0,
+        444.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [3, 5] (D) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_3_5_0_0_0_0",
+        "B_3_5_0_0_1_0",
+        "B_3_5_0_0_0_1",
+        "B_3_5_0_0_1_1"
+      ]
+    },
+    {
+      "facility_id": "MUSEUM_CITY",
+      "rect": [
+        156.0,
+        12.0,
+        288.0,
+        144.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [4, 4] (D) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_4_4_1_0_0_0",
+        "B_4_4_1_0_1_0",
+        "B_4_4_1_0_0_1",
+        "B_4_4_1_0_1_1"
+      ]
+    },
+    {
+      "facility_id": "PLANETARIUM",
+      "rect": [
+        156.0,
+        156.0,
+        288.0,
+        288.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [4, 4] (D) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_4_4_1_1_0_0",
+        "B_4_4_1_1_1_0",
+        "B_4_4_1_1_0_1",
+        "B_4_4_1_1_1_1"
+      ]
+    },
+    {
+      "facility_id": "DEPARTMENT_STORE",
+      "rect": [
+        -144.0,
+        156.0,
+        -12.0,
+        288.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [3, 4] (D) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_3_4_1_1_0_0",
+        "B_3_4_1_1_1_0",
+        "B_3_4_1_1_0_1",
+        "B_3_4_1_1_1_1"
+      ]
+    },
+    {
+      "facility_id": "CARPARK_MULTISTOREY",
+      "rect": [
+        456.0,
+        156.0,
+        588.0,
+        288.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [5, 4] (D) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_5_4_1_1_0_0",
+        "B_5_4_1_1_1_0",
+        "B_5_4_1_1_0_1",
+        "B_5_4_1_1_1_1"
+      ]
+    },
+    {
+      "facility_id": "CONFERENCE_CENTRE",
+      "rect": [
+        312.0,
+        456.0,
+        444.0,
+        588.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [5, 5] (D) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_5_5_0_1_0_0",
+        "B_5_5_0_1_1_0",
+        "B_5_5_0_1_0_1",
+        "B_5_5_0_1_1_1"
+      ]
+    },
+    {
+      "facility_id": "OFFICE_COWORKING",
+      "rect": [
+        156.0,
+        456.0,
+        288.0,
+        588.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [4, 5] (D) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_4_5_1_1_0_0",
+        "B_4_5_1_1_1_0",
+        "B_4_5_1_1_0_1",
+        "B_4_5_1_1_1_1"
+      ]
+    },
+    {
+      "facility_id": "THEATRE",
+      "rect": [
+        -288.0,
+        -288.0,
+        -156.0,
+        -156.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 9,
+      "detail": "9 contiguous parcels in cell [3, 3] (E) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_3_3_0_0_0_0",
+        "B_3_3_0_0_1_0",
+        "B_3_3_0_0_2_0",
+        "B_3_3_0_0_0_1",
+        "B_3_3_0_0_2_1",
+        "B_3_3_0_0_0_2",
+        "B_3_3_0_0_1_2",
+        "B_3_3_0_0_2_2",
+        "CY_3_3_0_0"
+      ]
+    },
+    {
+      "facility_id": "CONCERT_HALL",
+      "rect": [
+        312.0,
+        -288.0,
+        444.0,
+        -156.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 9,
+      "detail": "9 contiguous parcels in cell [5, 3] (E) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_5_3_0_0_0_0",
+        "B_5_3_0_0_1_0",
+        "B_5_3_0_0_2_0",
+        "B_5_3_0_0_0_1",
+        "B_5_3_0_0_2_1",
+        "B_5_3_0_0_0_2",
+        "B_5_3_0_0_1_2",
+        "B_5_3_0_0_2_2",
+        "CY_5_3_0_0"
+      ]
+    },
+    {
+      "facility_id": "GALLERY_ART",
+      "rect": [
+        -588.0,
+        12.0,
+        -456.0,
+        144.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 9,
+      "detail": "9 contiguous parcels in cell [2, 4] (E) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_2_4_0_0_0_0",
+        "B_2_4_0_0_1_0",
+        "B_2_4_0_0_2_0",
+        "B_2_4_0_0_0_1",
+        "B_2_4_0_0_2_1",
+        "B_2_4_0_0_0_2",
+        "B_2_4_0_0_1_2",
+        "B_2_4_0_0_2_2",
+        "CY_2_4_0_0"
+      ]
+    },
+    {
+      "facility_id": "ARCADE_GAMES",
+      "rect": [
+        612.0,
+        12.0,
+        744.0,
+        144.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 9,
+      "detail": "9 contiguous parcels in cell [6, 4] (E) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_6_4_0_0_0_0",
+        "B_6_4_0_0_1_0",
+        "B_6_4_0_0_2_0",
+        "B_6_4_0_0_0_1",
+        "B_6_4_0_0_2_1",
+        "B_6_4_0_0_0_2",
+        "B_6_4_0_0_1_2",
+        "B_6_4_0_0_2_2",
+        "CY_6_4_0_0"
+      ]
+    },
+    {
+      "facility_id": "CASINO",
+      "rect": [
+        12.0,
+        612.0,
+        144.0,
+        744.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 9,
+      "detail": "9 contiguous parcels in cell [4, 6] (E) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_4_6_0_0_0_0",
+        "B_4_6_0_0_1_0",
+        "B_4_6_0_0_2_0",
+        "B_4_6_0_0_0_1",
+        "B_4_6_0_0_2_1",
+        "B_4_6_0_0_0_2",
+        "B_4_6_0_0_1_2",
+        "B_4_6_0_0_2_2",
+        "CY_4_6_0_0"
+      ]
+    },
+    {
+      "facility_id": "BANQUET_HALL",
+      "rect": [
+        612.0,
+        312.0,
+        744.0,
+        444.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 9,
+      "detail": "9 contiguous parcels in cell [6, 5] (E) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_6_5_0_0_0_0",
+        "B_6_5_0_0_1_0",
+        "B_6_5_0_0_2_0",
+        "B_6_5_0_0_0_1",
+        "B_6_5_0_0_2_1",
+        "B_6_5_0_0_0_2",
+        "B_6_5_0_0_1_2",
+        "B_6_5_0_0_2_2",
+        "CY_6_5_0_0"
+      ]
+    },
+    {
+      "facility_id": "HOSTEL",
+      "rect": [
+        -888.0,
+        312.0,
+        -756.0,
+        444.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 13,
+      "detail": "13 contiguous parcels in cell [1, 5] (R) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_1_5_0_0_0_0",
+        "B_1_5_0_0_1_0",
+        "B_1_5_0_0_2_0",
+        "B_1_5_0_0_3_0",
+        "B_1_5_0_0_0_1",
+        "B_1_5_0_0_3_1",
+        "B_1_5_0_0_0_2",
+        "B_1_5_0_0_3_2",
+        "B_1_5_0_0_0_3",
+        "B_1_5_0_0_1_3",
+        "B_1_5_0_0_2_3",
+        "B_1_5_0_0_3_3",
+        "CY_1_5_0_0"
+      ]
+    },
+    {
+      "facility_id": "EMBASSY",
+      "rect": [
+        -888.0,
+        912.0,
+        -756.0,
+        1044.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 13,
+      "detail": "13 contiguous parcels in cell [1, 7] (R) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_1_7_0_0_0_0",
+        "B_1_7_0_0_1_0",
+        "B_1_7_0_0_2_0",
+        "B_1_7_0_0_3_0",
+        "B_1_7_0_0_0_1",
+        "B_1_7_0_0_3_1",
+        "B_1_7_0_0_0_2",
+        "B_1_7_0_0_3_2",
+        "B_1_7_0_0_0_3",
+        "B_1_7_0_0_1_3",
+        "B_1_7_0_0_2_3",
+        "B_1_7_0_0_3_3",
+        "CY_1_7_0_0"
+      ]
+    },
+    {
+      "facility_id": "UNIVERSITY_MAIN",
+      "rect": [
+        -288.0,
+        912.0,
+        -156.0,
+        1044.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 13,
+      "detail": "13 contiguous parcels in cell [3, 7] (R) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_3_7_0_0_0_0",
+        "B_3_7_0_0_1_0",
+        "B_3_7_0_0_2_0",
+        "B_3_7_0_0_3_0",
+        "B_3_7_0_0_0_1",
+        "B_3_7_0_0_3_1",
+        "B_3_7_0_0_0_2",
+        "B_3_7_0_0_3_2",
+        "B_3_7_0_0_0_3",
+        "B_3_7_0_0_1_3",
+        "B_3_7_0_0_2_3",
+        "B_3_7_0_0_3_3",
+        "CY_3_7_0_0"
+      ]
+    },
+    {
+      "facility_id": "UNIVERSITY_FACULTY",
+      "rect": [
+        -144.0,
+        912.0,
+        -12.0,
+        1044.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 13,
+      "detail": "13 contiguous parcels in cell [3, 7] (R) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_3_7_1_0_0_0",
+        "B_3_7_1_0_1_0",
+        "B_3_7_1_0_2_0",
+        "B_3_7_1_0_3_0",
+        "B_3_7_1_0_0_1",
+        "B_3_7_1_0_3_1",
+        "B_3_7_1_0_0_2",
+        "B_3_7_1_0_3_2",
+        "B_3_7_1_0_0_3",
+        "B_3_7_1_0_1_3",
+        "B_3_7_1_0_2_3",
+        "B_3_7_1_0_3_3",
+        "CY_3_7_1_0"
+      ]
+    },
+    {
+      "facility_id": "DORMITORIES",
+      "rect": [
+        -288.0,
+        1056.0,
+        -156.0,
+        1188.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 13,
+      "detail": "13 contiguous parcels in cell [3, 7] (R) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_3_7_0_1_0_0",
+        "B_3_7_0_1_1_0",
+        "B_3_7_0_1_2_0",
+        "B_3_7_0_1_3_0",
+        "B_3_7_0_1_0_1",
+        "B_3_7_0_1_3_1",
+        "B_3_7_0_1_0_2",
+        "B_3_7_0_1_3_2",
+        "B_3_7_0_1_0_3",
+        "B_3_7_0_1_1_3",
+        "B_3_7_0_1_2_3",
+        "B_3_7_0_1_3_3",
+        "CY_3_7_0_1"
+      ]
+    },
+    {
+      "facility_id": "BREWERY",
+      "rect": [
+        312.0,
+        -744.0,
+        444.0,
+        -612.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [5, 1] (I) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_5_1_0_1_0_0",
+        "B_5_1_0_1_1_0",
+        "B_5_1_0_1_0_1",
+        "B_5_1_0_1_1_1"
+      ]
+    },
+    {
+      "facility_id": "COLD_STORAGE",
+      "rect": [
+        456.0,
+        -1188.0,
+        588.0,
+        -1056.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [5, 0] (I) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_5_0_1_0_0_0",
+        "B_5_0_1_0_1_0",
+        "B_5_0_1_0_0_1",
+        "B_5_0_1_0_1_1"
+      ]
+    },
+    {
+      "facility_id": "WORKSHOP_FABRICATION",
+      "rect": [
+        312.0,
+        -444.0,
+        444.0,
+        -312.0
+      ],
+      "type": "superlot_merge",
+      "merged_parcel_count": 4,
+      "detail": "4 contiguous parcels in cell [5, 2] (I) are REMOVED and replaced by one building",
+      "merged_parcel_ids": [
+        "B_5_2_0_1_0_0",
+        "B_5_2_0_1_1_0",
+        "B_5_2_0_1_0_1",
+        "B_5_2_0_1_1_1"
+      ]
+    },
+    {
+      "facility_id": "STADIUM_CRICKET",
+      "rect": [
+        -864.0,
+        -1164.0,
+        -636.0,
+        -936.0
+      ],
+      "type": "park_convert",
+      "green_ring_m": 24,
+      "detail": "new_placement",
+      "parcel_types_here": "none - open land / converted green"
+    },
+    {
+      "facility_id": "STADIUM_FOOTBALL",
+      "rect": [
+        36.0,
+        -1164.0,
+        264.0,
+        -936.0
+      ],
+      "type": "park_convert",
+      "green_ring_m": 24,
+      "detail": "new_placement",
+      "parcel_types_here": "none - open land / converted green"
+    },
+    {
+      "facility_id": "STADIUM_ATHLETICS",
+      "rect": [
+        -1164.0,
+        -864.0,
+        -936.0,
+        -636.0
+      ],
+      "type": "park_convert",
+      "green_ring_m": 24,
+      "detail": "new_placement",
+      "parcel_types_here": "none - open land / converted green"
+    },
+    {
+      "facility_id": "COMPLEX_SWIMMING",
+      "rect": [
+        36.0,
+        -864.0,
+        264.0,
+        -636.0
+      ],
+      "type": "park_convert",
+      "green_ring_m": 24,
+      "detail": "new_placement",
+      "parcel_types_here": "none - open land / converted green"
+    },
+    {
+      "facility_id": "ARENA_INDOOR",
+      "rect": [
+        -1164.0,
+        -564.0,
+        -936.0,
+        -336.0
+      ],
+      "type": "park_convert",
+      "green_ring_m": 24,
+      "detail": "new_placement",
+      "parcel_types_here": "none - open land / converted green"
+    }
+  ],
+  "skip_list": []
+}

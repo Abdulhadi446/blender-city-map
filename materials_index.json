@@ -1,0 +1,1544 @@
+{
+ "schema": "city-materials-index/1",
+ "blend": "/city/materials.blend",
+ "generated_by": "city/modules/materials.py",
+ "unit": "metre",
+ "node_groups": [
+  "NG_EdgeWear_Dirt",
+  "NG_ColorVariation"
+ ],
+ "palette": {
+  "bone": "#E9E3D7",
+  "sand": "#D4BD99",
+  "terracotta": "#B0603C",
+  "oxblood": "#8E2F2B",
+  "mustard": "#D9A41F",
+  "sage": "#7F9070",
+  "teal": "#2E7C74",
+  "navy": "#263B5C",
+  "charcoal": "#34373D",
+  "stone": "#9B968D",
+  "magenta": "#D9447F",
+  "violet": "#7A4FB6"
+ },
+ "conventions": {
+  "mapping": "TEXCOORD Object -> Mapping(scale = 1/tile_scale_m); no UVs required",
+  "image_projection": "BOX, projection_blend 0.12",
+  "height": "Bump node fed by the PolyHaven displacement map (UV-free)",
+  "texel_density": "target 512 px / 2 m (256 px/m); floor 256 px/m (tile <= resolution/256)",
+  "append": "bpy.data.libraries.load('/city/materials.blend') -- append by name, never edit",
+  "night": "emissive materials store DAY strength; see style_bible.md for night multipliers"
+ },
+ "material_names": [
+  "decal_grime",
+  "decal_puddle_wet",
+  "fabric_awning_bone",
+  "fabric_awning_magenta",
+  "fabric_awning_mustard",
+  "fabric_awning_navy",
+  "fabric_awning_oxblood",
+  "fabric_awning_sage",
+  "fabric_awning_sand",
+  "fabric_awning_teal",
+  "fabric_awning_terracotta",
+  "facade_brick_painted",
+  "facade_brick_red",
+  "facade_concrete",
+  "facade_concrete_slab",
+  "facade_concrete_weathered",
+  "facade_metal_panel",
+  "facade_metal_panel_weathered",
+  "facade_plaster_bone",
+  "facade_plaster_charcoal",
+  "facade_plaster_magenta",
+  "facade_plaster_mustard",
+  "facade_plaster_navy",
+  "facade_plaster_oxblood",
+  "facade_plaster_sage",
+  "facade_plaster_sand",
+  "facade_plaster_stone",
+  "facade_plaster_teal",
+  "facade_plaster_terracotta",
+  "facade_plaster_violet",
+  "facade_plaster_weathered",
+  "facade_stucco",
+  "facade_timber_cladding",
+  "glass_clear",
+  "glass_frosted",
+  "glass_shop",
+  "glass_tinted_office",
+  "int_carpet",
+  "int_laminate_counter",
+  "int_marble",
+  "int_mirror",
+  "int_tile_floor",
+  "int_upholstery",
+  "int_wall_paint_bone",
+  "int_wall_paint_sand",
+  "int_wall_paint_teal",
+  "int_wood_floor",
+  "light_cool",
+  "light_warm",
+  "metal_checker_plate",
+  "metal_painted_bone",
+  "metal_painted_charcoal",
+  "metal_painted_mustard",
+  "metal_painted_navy",
+  "metal_painted_oxblood",
+  "metal_painted_sage",
+  "metal_painted_sand",
+  "metal_painted_teal",
+  "metal_rust",
+  "metal_steel",
+  "nature_bark",
+  "nature_dirt",
+  "nature_grass",
+  "nature_gravel",
+  "nature_leaf_dark",
+  "nature_leaf_light",
+  "nature_leaf_mid",
+  "nature_water_lake",
+  "nature_wild_grass",
+  "neon_magenta",
+  "neon_mustard",
+  "neon_oxblood",
+  "neon_teal",
+  "neon_violet",
+  "road_asphalt_new",
+  "road_asphalt_worn",
+  "road_cobble",
+  "road_curb_concrete",
+  "road_lane_paint_white",
+  "road_lane_paint_yellow",
+  "road_manhole_metal",
+  "road_track_asphalt",
+  "roof_bitumen_flat",
+  "roof_clay_tile",
+  "roof_corrugated_metal",
+  "sidewalk_paving",
+  "sign_white",
+  "vehicle_paint_bone",
+  "vehicle_paint_charcoal",
+  "vehicle_paint_navy",
+  "vehicle_paint_oxblood",
+  "wood_planks",
+  "wood_planks_weathered"
+ ],
+ "materials": {
+  "road_asphalt_new": {
+   "base_color": "#8E8F8F",
+   "base_color_rgb": [
+    0.2695,
+    0.2741,
+    0.2755
+   ],
+   "roughness": 0.66,
+   "metalness": 0.0,
+   "tile_scale_m": 4.0,
+   "category": "roads",
+   "emissive": false,
+   "source": "polyhaven:clean_asphalt@2k",
+   "description": "New asphalt: highway ring, freshly resurfaced arterials, car parks."
+  },
+  "road_asphalt_worn": {
+   "base_color": "#A0988F",
+   "base_color_rgb": [
+    0.3495,
+    0.313,
+    0.2758
+   ],
+   "roughness": 0.77,
+   "metalness": 0.0,
+   "tile_scale_m": 4.0,
+   "category": "roads",
+   "emissive": false,
+   "source": "polyhaven:asphalt_01@2k",
+   "description": "Default street asphalt: worn, patchy, tyre-polished. Use for most streets."
+  },
+  "road_track_asphalt": {
+   "base_color": "#7E7F80",
+   "base_color_rgb": [
+    0.2102,
+    0.2138,
+    0.2149
+   ],
+   "roughness": 0.66,
+   "metalness": 0.0,
+   "tile_scale_m": 4.0,
+   "category": "roads",
+   "emissive": false,
+   "source": "polyhaven:clean_asphalt@2k",
+   "description": "Race circuit surface: darker, gripped (clean_asphalt x0.78)."
+  },
+  "road_lane_paint_white": {
+   "base_color": "#E9E3D7",
+   "base_color_rgb": [
+    0.8148,
+    0.7682,
+    0.6795
+   ],
+   "roughness": 0.52,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "roads",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Lane divider, crosswalk stripes, stop lines, arrows. Bone white."
+  },
+  "road_lane_paint_yellow": {
+   "base_color": "#D9A41F",
+   "base_color_rgb": [
+    0.6939,
+    0.3712,
+    0.0137
+   ],
+   "roughness": 0.52,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "roads",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Centre line / edge line yellow (palette mustard)."
+  },
+  "road_curb_concrete": {
+   "base_color": "#C4BFB1",
+   "base_color_rgb": [
+    0.552,
+    0.5235,
+    0.4374
+   ],
+   "roughness": 0.737,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "roads",
+   "emissive": false,
+   "source": "polyhaven:concrete_wall_008@2k",
+   "description": "Curb faces and gutter lips. Height 0.15 m per contract."
+  },
+  "sidewalk_paving": {
+   "base_color": "#C0B9B0",
+   "base_color_rgb": [
+    0.526,
+    0.4823,
+    0.4343
+   ],
+   "roughness": 0.784,
+   "metalness": 0.0,
+   "tile_scale_m": 1.8,
+   "category": "roads",
+   "emissive": false,
+   "source": "polyhaven:concrete_pavement_02@1k",
+   "description": "Sidewalk slab paving (also plaza and park paths)."
+  },
+  "road_cobble": {
+   "base_color": "#C2BAA6",
+   "base_color_rgb": [
+    0.5405,
+    0.4913,
+    0.3836
+   ],
+   "roughness": 0.627,
+   "metalness": 0.0,
+   "tile_scale_m": 1.5,
+   "category": "roads",
+   "emissive": false,
+   "source": "polyhaven:cobblestone_floor_04@1k",
+   "description": "Market alleys, pedestrian deep streets, old town lanes."
+  },
+  "road_manhole_metal": {
+   "base_color": "#3A3C40",
+   "base_color_rgb": [
+    0.0423,
+    0.0452,
+    0.0513
+   ],
+   "roughness": 0.5,
+   "metalness": 1.0,
+   "tile_scale_m": 0.6,
+   "category": "roads",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Manhole covers, drain grates, utility plates."
+  },
+  "facade_concrete": {
+   "base_color": "#C4BFB1",
+   "base_color_rgb": [
+    0.552,
+    0.5235,
+    0.4374
+   ],
+   "roughness": 0.737,
+   "metalness": 0.0,
+   "tile_scale_m": 2.71,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:concrete_wall_008@2k",
+   "description": "Smooth board-formed concrete. Downtown pods, civic, towers."
+  },
+  "facade_concrete_weathered": {
+   "base_color": "#E8DDCE",
+   "base_color_rgb": [
+    0.8073,
+    0.7222,
+    0.6156
+   ],
+   "roughness": 0.619,
+   "metalness": 0.0,
+   "tile_scale_m": 3.0,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:concrete_wall_003@1k",
+   "description": "Stained / weathered concrete. Industrial, back walls, service cores."
+  },
+  "facade_concrete_slab": {
+   "base_color": "#D5D1CC",
+   "base_color_rgb": [
+    0.6661,
+    0.6384,
+    0.6068
+   ],
+   "roughness": 0.866,
+   "metalness": 0.0,
+   "tile_scale_m": 2.3,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:concrete_slab_wall@1k",
+   "description": "Banded precast slab facade. Downtown podiums, parking, brutalist blocks."
+  },
+  "facade_stucco": {
+   "base_color": "#EDEBE9",
+   "base_color_rgb": [
+    0.8433,
+    0.8272,
+    0.8147
+   ],
+   "roughness": 0.881,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:white_stucco@1k",
+   "description": "Clean off-white stucco render. Residential + green belt."
+  },
+  "facade_plaster_weathered": {
+   "base_color": "#BAB19D",
+   "base_color_rgb": [
+    0.4936,
+    0.4372,
+    0.3365
+   ],
+   "roughness": 0.872,
+   "metalness": 0.0,
+   "tile_scale_m": 1.8,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:worn_cracked_plaster@1k",
+   "description": "Cracked, patchy plaster. Market back streets, older blocks."
+  },
+  "facade_brick_red": {
+   "base_color": "#A89385",
+   "base_color_rgb": [
+    0.3926,
+    0.2912,
+    0.2349
+   ],
+   "roughness": 0.911,
+   "metalness": 0.0,
+   "tile_scale_m": 3.0,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:brick_wall_001@2k",
+   "description": "Red clay brick, hero resolution. Houses, lofts, warehouse conversions."
+  },
+  "facade_timber_cladding": {
+   "base_color": "#A59482",
+   "base_color_rgb": [
+    0.376,
+    0.2946,
+    0.2243
+   ],
+   "roughness": 0.654,
+   "metalness": 0.0,
+   "tile_scale_m": 1.8,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:weathered_brown_planks@1k",
+   "description": "Horizontal timber cladding. Cottages, park pavilions, cafe annexes."
+  },
+  "facade_plaster_bone": {
+   "base_color": "#E9E3D7",
+   "base_color_rgb": [
+    0.8148,
+    0.7682,
+    0.6795
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'bone' (#E9E3D7). Main district wall colour."
+  },
+  "facade_plaster_sand": {
+   "base_color": "#D4BD99",
+   "base_color_rgb": [
+    0.6584,
+    0.5089,
+    0.3185
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'sand' (#D4BD99). Main district wall colour."
+  },
+  "facade_plaster_terracotta": {
+   "base_color": "#B0603C",
+   "base_color_rgb": [
+    0.4342,
+    0.117,
+    0.0452
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'terracotta' (#B0603C). Main district wall colour."
+  },
+  "facade_plaster_oxblood": {
+   "base_color": "#8E2F2B",
+   "base_color_rgb": [
+    0.2705,
+    0.0284,
+    0.0242
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'oxblood' (#8E2F2B). Main district wall colour."
+  },
+  "facade_plaster_mustard": {
+   "base_color": "#D9A41F",
+   "base_color_rgb": [
+    0.6939,
+    0.3712,
+    0.0137
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'mustard' (#D9A41F). Main district wall colour."
+  },
+  "facade_plaster_sage": {
+   "base_color": "#7F9070",
+   "base_color_rgb": [
+    0.2122,
+    0.2789,
+    0.162
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'sage' (#7F9070). Main district wall colour."
+  },
+  "facade_plaster_teal": {
+   "base_color": "#2E7C74",
+   "base_color_rgb": [
+    0.0273,
+    0.2016,
+    0.1746
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'teal' (#2E7C74). Main district wall colour."
+  },
+  "facade_plaster_navy": {
+   "base_color": "#263B5C",
+   "base_color_rgb": [
+    0.0194,
+    0.0437,
+    0.107
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'navy' (#263B5C). Main district wall colour."
+  },
+  "facade_plaster_charcoal": {
+   "base_color": "#34373D",
+   "base_color_rgb": [
+    0.0343,
+    0.0382,
+    0.0467
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'charcoal' (#34373D). Main district wall colour."
+  },
+  "facade_plaster_stone": {
+   "base_color": "#9B968D",
+   "base_color_rgb": [
+    0.3278,
+    0.305,
+    0.2664
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'stone' (#9B968D). Main district wall colour."
+  },
+  "facade_plaster_magenta": {
+   "base_color": "#D9447F",
+   "base_color_rgb": [
+    0.6939,
+    0.0578,
+    0.2122
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'magenta' (#D9447F). Main district wall colour."
+  },
+  "facade_plaster_violet": {
+   "base_color": "#7A4FB6",
+   "base_color_rgb": [
+    0.1946,
+    0.0782,
+    0.4678
+   ],
+   "roughness": 0.907,
+   "metalness": 0.0,
+   "tile_scale_m": 2.23,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:plastered_wall_02@1k",
+   "description": "Painted plaster facade in palette 'violet' (#7A4FB6). Main district wall colour."
+  },
+  "facade_brick_painted": {
+   "base_color": "#E9E3D7",
+   "base_color_rgb": [
+    0.8148,
+    0.7682,
+    0.6795
+   ],
+   "roughness": 0.911,
+   "metalness": 0.0,
+   "tile_scale_m": 3.0,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:brick_wall_001@2k",
+   "description": "Whitewashed / painted brick (bone). Re-tint by re-running materials.py."
+  },
+  "facade_metal_panel": {
+   "base_color": "#BCBEC0",
+   "base_color_rgb": [
+    0.5002,
+    0.5143,
+    0.5251
+   ],
+   "roughness": 0.38,
+   "metalness": 0.75,
+   "tile_scale_m": 2.0,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:painted_metal_shutter@1k",
+   "description": "Profiled metal cladding, clean. Towers, retail boxes, modern infill."
+  },
+  "facade_metal_panel_weathered": {
+   "base_color": "#AEA9A9",
+   "base_color_rgb": [
+    0.4238,
+    0.3966,
+    0.3971
+   ],
+   "roughness": 0.62,
+   "metalness": 0.6,
+   "tile_scale_m": 2.0,
+   "category": "facades",
+   "emissive": false,
+   "source": "polyhaven:painted_metal_shutter@1k",
+   "description": "Rusted profiled metal. Industrial halls, sheds, service elevations."
+  },
+  "glass_clear": {
+   "base_color": "#CFDCD6",
+   "base_color_rgb": [
+    0.624,
+    0.7157,
+    0.6724
+   ],
+   "roughness": 0.04,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "glass",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Window glass for houses/offices. Semi-transparent (alpha blended)."
+  },
+  "glass_tinted_office": {
+   "base_color": "#20364F",
+   "base_color_rgb": [
+    0.0144,
+    0.0369,
+    0.0782
+   ],
+   "roughness": 0.08,
+   "metalness": 0.0,
+   "tile_scale_m": 2.5,
+   "category": "glass",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Dark tinted curtain wall for downtown towers. Mostly reflective."
+  },
+  "glass_shop": {
+   "base_color": "#DDE9E7",
+   "base_color_rgb": [
+    0.7231,
+    0.8148,
+    0.7991
+   ],
+   "roughness": 0.03,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "glass",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Shopfront glass: very clear so interiors read through."
+  },
+  "glass_frosted": {
+   "base_color": "#D5DBDB",
+   "base_color_rgb": [
+    0.6654,
+    0.7084,
+    0.7084
+   ],
+   "roughness": 0.45,
+   "metalness": 0.0,
+   "tile_scale_m": 1.5,
+   "category": "glass",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Frosted/bathroom/partition glass."
+  },
+  "metal_steel": {
+   "base_color": "#9B968D",
+   "base_color_rgb": [
+    0.3278,
+    0.305,
+    0.2664
+   ],
+   "roughness": 0.34,
+   "metalness": 1.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Bare steel: railings, frames, gantries, street furniture."
+  },
+  "metal_checker_plate": {
+   "base_color": "#877A5D",
+   "base_color_rgb": [
+    0.2407,
+    0.1958,
+    0.1098
+   ],
+   "roughness": 0.45,
+   "metalness": 0.9,
+   "tile_scale_m": 0.5,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "polyhaven:metal_plate@1k",
+   "description": "Chequer plate: industrial walkways, stairs, ramp surfaces."
+  },
+  "metal_rust": {
+   "base_color": "#AE8473",
+   "base_color_rgb": [
+    0.4256,
+    0.2325,
+    0.171
+   ],
+   "roughness": 0.85,
+   "metalness": 0.3,
+   "tile_scale_m": 2.2,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "polyhaven:rusty_painted_metal@1k",
+   "description": "Heavy rust. Barriers, old containers, track furniture, scrap."
+  },
+  "metal_painted_charcoal": {
+   "base_color": "#34373D",
+   "base_color_rgb": [
+    0.0343,
+    0.0382,
+    0.0467
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'charcoal': poles, bollards, rails, doors, shutters."
+  },
+  "metal_painted_bone": {
+   "base_color": "#E9E3D7",
+   "base_color_rgb": [
+    0.8148,
+    0.7682,
+    0.6795
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'bone': poles, bollards, rails, doors, shutters."
+  },
+  "metal_painted_teal": {
+   "base_color": "#2E7C74",
+   "base_color_rgb": [
+    0.0273,
+    0.2016,
+    0.1746
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'teal': poles, bollards, rails, doors, shutters."
+  },
+  "metal_painted_oxblood": {
+   "base_color": "#8E2F2B",
+   "base_color_rgb": [
+    0.2705,
+    0.0284,
+    0.0242
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'oxblood': poles, bollards, rails, doors, shutters."
+  },
+  "metal_painted_mustard": {
+   "base_color": "#D9A41F",
+   "base_color_rgb": [
+    0.6939,
+    0.3712,
+    0.0137
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'mustard': poles, bollards, rails, doors, shutters."
+  },
+  "metal_painted_sage": {
+   "base_color": "#7F9070",
+   "base_color_rgb": [
+    0.2122,
+    0.2789,
+    0.162
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'sage': poles, bollards, rails, doors, shutters."
+  },
+  "metal_painted_navy": {
+   "base_color": "#263B5C",
+   "base_color_rgb": [
+    0.0194,
+    0.0437,
+    0.107
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'navy': poles, bollards, rails, doors, shutters."
+  },
+  "metal_painted_sand": {
+   "base_color": "#D4BD99",
+   "base_color_rgb": [
+    0.6584,
+    0.5089,
+    0.3185
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Painted/galvanised metal in palette 'sand': poles, bollards, rails, doors, shutters."
+  },
+  "wood_planks": {
+   "base_color": "#B79F82",
+   "base_color_rgb": [
+    0.4726,
+    0.3462,
+    0.2227
+   ],
+   "roughness": 0.862,
+   "metalness": 0.0,
+   "tile_scale_m": 1.5,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "polyhaven:wood_planks@1k",
+   "description": "Clean sawn planks: decks, stalls, furniture, gates."
+  },
+  "wood_planks_weathered": {
+   "base_color": "#988C84",
+   "base_color_rgb": [
+    0.3129,
+    0.2642,
+    0.2296
+   ],
+   "roughness": 0.736,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "polyhaven:weathered_planks@1k",
+   "description": "Grey weathered planks: fences, boardwalks, crates, market trestles."
+  },
+  "fabric_awning_bone": {
+   "base_color": "#E9E3D7",
+   "base_color_rgb": [
+    0.8148,
+    0.7682,
+    0.6795
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'bone'. Stripe by splitting geometry."
+  },
+  "fabric_awning_sand": {
+   "base_color": "#D4BD99",
+   "base_color_rgb": [
+    0.6584,
+    0.5089,
+    0.3185
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'sand'. Stripe by splitting geometry."
+  },
+  "fabric_awning_terracotta": {
+   "base_color": "#B0603C",
+   "base_color_rgb": [
+    0.4342,
+    0.117,
+    0.0452
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'terracotta'. Stripe by splitting geometry."
+  },
+  "fabric_awning_oxblood": {
+   "base_color": "#8E2F2B",
+   "base_color_rgb": [
+    0.2705,
+    0.0284,
+    0.0242
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'oxblood'. Stripe by splitting geometry."
+  },
+  "fabric_awning_mustard": {
+   "base_color": "#D9A41F",
+   "base_color_rgb": [
+    0.6939,
+    0.3712,
+    0.0137
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'mustard'. Stripe by splitting geometry."
+  },
+  "fabric_awning_sage": {
+   "base_color": "#7F9070",
+   "base_color_rgb": [
+    0.2122,
+    0.2789,
+    0.162
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'sage'. Stripe by splitting geometry."
+  },
+  "fabric_awning_teal": {
+   "base_color": "#2E7C74",
+   "base_color_rgb": [
+    0.0273,
+    0.2016,
+    0.1746
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'teal'. Stripe by splitting geometry."
+  },
+  "fabric_awning_navy": {
+   "base_color": "#263B5C",
+   "base_color_rgb": [
+    0.0194,
+    0.0437,
+    0.107
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'navy'. Stripe by splitting geometry."
+  },
+  "fabric_awning_magenta": {
+   "base_color": "#D9447F",
+   "base_color_rgb": [
+    0.6939,
+    0.0578,
+    0.2122
+   ],
+   "roughness": 0.78,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "metal_wood_fabric",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Awning / canopy / stall cloth in palette 'magenta'. Stripe by splitting geometry."
+  },
+  "roof_clay_tile": {
+   "base_color": "#A07C5D",
+   "base_color_rgb": [
+    0.3503,
+    0.2013,
+    0.109
+   ],
+   "roughness": 0.93,
+   "metalness": 0.0,
+   "tile_scale_m": 4.0,
+   "category": "roofs",
+   "emissive": false,
+   "source": "polyhaven:clay_roof_tiles@1k",
+   "description": "Terracotta barrel tiles. Houses, teahouses, civic pitched roofs."
+  },
+  "roof_corrugated_metal": {
+   "base_color": "#D5DAD8",
+   "base_color_rgb": [
+    0.6662,
+    0.7006,
+    0.6841
+   ],
+   "roughness": 0.5,
+   "metalness": 0.65,
+   "tile_scale_m": 1.12,
+   "category": "roofs",
+   "emissive": false,
+   "source": "polyhaven:corrugated_iron@1k",
+   "description": "Corrugated steel roofing. Industrial, sheds, market canopies."
+  },
+  "roof_bitumen_flat": {
+   "base_color": "#847F7D",
+   "base_color_rgb": [
+    0.2295,
+    0.2128,
+    0.204
+   ],
+   "roughness": 0.938,
+   "metalness": 0.0,
+   "tile_scale_m": 4.0,
+   "category": "roofs",
+   "emissive": false,
+   "source": "polyhaven:bitumen@1k",
+   "description": "Flat felt/bitumen roof membrane. Apartments, towers, retail boxes."
+  },
+  "nature_grass": {
+   "base_color": "#AFA587",
+   "base_color_rgb": [
+    0.4309,
+    0.3777,
+    0.2426
+   ],
+   "roughness": 0.937,
+   "metalness": 0.0,
+   "tile_scale_m": 2.51,
+   "category": "nature",
+   "emissive": false,
+   "source": "polyhaven:grass_ground@1k",
+   "description": "Mown lawn: parks, verges, gardens, sports fields."
+  },
+  "nature_wild_grass": {
+   "base_color": "#978751",
+   "base_color_rgb": [
+    0.3114,
+    0.2408,
+    0.0831
+   ],
+   "roughness": 0.943,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "nature",
+   "emissive": false,
+   "source": "polyhaven:sparse_grass@1k",
+   "description": "Longer / sparser grass: verges, embankments, river banks, track run-off."
+  },
+  "nature_leaf_dark": {
+   "base_color": "#2F4A28",
+   "base_color_rgb": [
+    0.0284,
+    0.0685,
+    0.0212
+   ],
+   "roughness": 0.55,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "nature",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Foliage colour 'dark' for leaf cards/clumps (#2F4A28). Opaque: model leaf shape."
+  },
+  "nature_leaf_mid": {
+   "base_color": "#4A7A38",
+   "base_color_rgb": [
+    0.0685,
+    0.1946,
+    0.0395
+   ],
+   "roughness": 0.55,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "nature",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Foliage colour 'mid' for leaf cards/clumps (#4A7A38). Opaque: model leaf shape."
+  },
+  "nature_leaf_light": {
+   "base_color": "#7FA24A",
+   "base_color_rgb": [
+    0.2122,
+    0.3613,
+    0.0685
+   ],
+   "roughness": 0.55,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "nature",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Foliage colour 'light' for leaf cards/clumps (#7FA24A). Opaque: model leaf shape."
+  },
+  "nature_bark": {
+   "base_color": "#B3A37E",
+   "base_color_rgb": [
+    0.4485,
+    0.3654,
+    0.2092
+   ],
+   "roughness": 0.904,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "nature",
+   "emissive": false,
+   "source": "polyhaven:bark_brown_01@1k",
+   "description": "Tree bark (vertical mapping reads correctly on trunks)."
+  },
+  "nature_dirt": {
+   "base_color": "#9E886E",
+   "base_color_rgb": [
+    0.3434,
+    0.2481,
+    0.1556
+   ],
+   "roughness": 0.976,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "nature",
+   "emissive": false,
+   "source": "polyhaven:farm_soil@1k",
+   "description": "Bare soil: planting beds, construction yards, worn ground."
+  },
+  "nature_gravel": {
+   "base_color": "#D1C0A9",
+   "base_color_rgb": [
+    0.6354,
+    0.5242,
+    0.3947
+   ],
+   "roughness": 0.506,
+   "metalness": 0.0,
+   "tile_scale_m": 2.25,
+   "category": "nature",
+   "emissive": false,
+   "source": "polyhaven:gravel_floor@1k",
+   "description": "Gravel: paths, shoulders, track run-off, industrial yards."
+  },
+  "nature_water_lake": {
+   "base_color": "#10262B",
+   "base_color_rgb": [
+    0.0052,
+    0.0194,
+    0.0242
+   ],
+   "roughness": 0.035,
+   "metalness": 0.0,
+   "tile_scale_m": 3.0,
+   "category": "nature",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Lake / pond / fountain water: glossy, rippled, opaque (EEVEE safe)."
+  },
+  "neon_teal": {
+   "base_color": "#3FF0E2",
+   "base_color_rgb": [
+    0.0497,
+    0.8714,
+    0.7605
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Neon/LED in palette teal: bars, tubes, edge strips.  Day strength 6 (night: see bible)."
+  },
+  "neon_magenta": {
+   "base_color": "#FF4D94",
+   "base_color_rgb": [
+    1.0,
+    0.0742,
+    0.2961
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Neon/LED in palette magenta: clubs, cinema, signage.  Day strength 6 (night: see bible)."
+  },
+  "neon_violet": {
+   "base_color": "#A66BFF",
+   "base_color_rgb": [
+    0.3813,
+    0.147,
+    1.0
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Neon/LED in palette violet: clubs, late-night signage.  Day strength 6 (night: see bible)."
+  },
+  "neon_oxblood": {
+   "base_color": "#FF3B30",
+   "base_color_rgb": [
+    1.0,
+    0.0437,
+    0.0296
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Neon/LED red (palette oxblood): warnings, bars, signs.  Day strength 6 (night: see bible)."
+  },
+  "neon_mustard": {
+   "base_color": "#FFC043",
+   "base_color_rgb": [
+    1.0,
+    0.5271,
+    0.0561
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Neon/LED amber (palette mustard): lanterns, signage.  Day strength 6 (night: see bible)."
+  },
+  "light_warm": {
+   "base_color": "#FFD9A8",
+   "base_color_rgb": [
+    1.0,
+    0.6939,
+    0.3916
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Warm 2700K interior/lamp emissive: homes, restaurants.  Day strength 8 (night: see bible)."
+  },
+  "light_cool": {
+   "base_color": "#DCEFFF",
+   "base_color_rgb": [
+    0.7157,
+    0.8632,
+    1.0
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Cool 5000K office/retail emissive: shops, lobbies.  Day strength 8 (night: see bible)."
+  },
+  "sign_white": {
+   "base_color": "#FFFFFF",
+   "base_color_rgb": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "emissive",
+   "emissive": true,
+   "source": "procedural-emissive",
+   "description": "Backlit sign face / lightbox / LED billboard white.  Day strength 5 (night: see bible)."
+  },
+  "int_wall_paint_bone": {
+   "base_color": "#E9E3D7",
+   "base_color_rgb": [
+    0.8148,
+    0.7682,
+    0.6795
+   ],
+   "roughness": 0.82,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "interiors",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Interior wall paint, palette 'bone'. Eggshell, slight roller texture."
+  },
+  "int_wall_paint_sand": {
+   "base_color": "#D4BD99",
+   "base_color_rgb": [
+    0.6584,
+    0.5089,
+    0.3185
+   ],
+   "roughness": 0.82,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "interiors",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Interior wall paint, palette 'sand'. Eggshell, slight roller texture."
+  },
+  "int_wall_paint_teal": {
+   "base_color": "#2E7C74",
+   "base_color_rgb": [
+    0.0273,
+    0.2016,
+    0.1746
+   ],
+   "roughness": 0.82,
+   "metalness": 0.0,
+   "tile_scale_m": 2.0,
+   "category": "interiors",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Interior wall paint, palette 'teal'. Eggshell, slight roller texture."
+  },
+  "int_wood_floor": {
+   "base_color": "#BCA58B",
+   "base_color_rgb": [
+    0.5015,
+    0.3751,
+    0.2592
+   ],
+   "roughness": 0.471,
+   "metalness": 0.0,
+   "tile_scale_m": 1.7,
+   "category": "interiors",
+   "emissive": false,
+   "source": "polyhaven:wood_floor@1k",
+   "description": "Laid wood floor: homes, hotels, restaurants, offices."
+  },
+  "int_tile_floor": {
+   "base_color": "#D5CBBF",
+   "base_color_rgb": [
+    0.667,
+    0.5947,
+    0.5183
+   ],
+   "roughness": 0.696,
+   "metalness": 0.0,
+   "tile_scale_m": 1.9,
+   "category": "interiors",
+   "emissive": false,
+   "source": "polyhaven:interior_tiles@1k",
+   "description": "Ceramic tile floor: bathrooms, kitchens, lobbies, canteens."
+  },
+  "int_carpet": {
+   "base_color": "#3A3630",
+   "base_color_rgb": [
+    0.0423,
+    0.0369,
+    0.0296
+   ],
+   "roughness": 0.95,
+   "metalness": 0.0,
+   "tile_scale_m": 0.5,
+   "category": "interiors",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Cut-pile carpet: offices, hotel rooms, clubs, gym studios."
+  },
+  "int_marble": {
+   "base_color": "#EDEAE4",
+   "base_color_rgb": [
+    0.8469,
+    0.8228,
+    0.7758
+   ],
+   "roughness": 0.15,
+   "metalness": 0.0,
+   "tile_scale_m": 2.5,
+   "category": "interiors",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Polished marble slab: bank lobbies, hotel receptions, hero interiors."
+  },
+  "int_upholstery": {
+   "base_color": "#263B5C",
+   "base_color_rgb": [
+    0.0194,
+    0.0437,
+    0.107
+   ],
+   "roughness": 0.82,
+   "metalness": 0.0,
+   "tile_scale_m": 1.0,
+   "category": "interiors",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Woven upholstery (palette navy): booths, sofas, headboards."
+  },
+  "int_laminate_counter": {
+   "base_color": "#CDBCA8",
+   "base_color_rgb": [
+    0.609,
+    0.5035,
+    0.39
+   ],
+   "roughness": 0.35,
+   "metalness": 0.0,
+   "tile_scale_m": 1.7,
+   "category": "interiors",
+   "emissive": false,
+   "source": "polyhaven:laminate_floor_02@1k",
+   "description": "Sealed laminate counter top: shops, bars, reception desks, kitchens."
+  },
+  "int_mirror": {
+   "base_color": "#EDEDED",
+   "base_color_rgb": [
+    0.8469,
+    0.8469,
+    0.8469
+   ],
+   "roughness": 0.03,
+   "metalness": 1.0,
+   "tile_scale_m": 1.0,
+   "category": "interiors",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Mirror: gyms, bathrooms, boutiques, elevator cabins."
+  },
+  "vehicle_paint_bone": {
+   "base_color": "#E9E3D7",
+   "base_color_rgb": [
+    0.8148,
+    0.7682,
+    0.6795
+   ],
+   "roughness": 0.28,
+   "metalness": 0.25,
+   "tile_scale_m": 1.0,
+   "category": "vehicles",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Car body paint, palette 'bone' (clearcoated)."
+  },
+  "vehicle_paint_charcoal": {
+   "base_color": "#34373D",
+   "base_color_rgb": [
+    0.0343,
+    0.0382,
+    0.0467
+   ],
+   "roughness": 0.28,
+   "metalness": 0.25,
+   "tile_scale_m": 1.0,
+   "category": "vehicles",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Car body paint, palette 'charcoal' (clearcoated)."
+  },
+  "vehicle_paint_navy": {
+   "base_color": "#263B5C",
+   "base_color_rgb": [
+    0.0194,
+    0.0437,
+    0.107
+   ],
+   "roughness": 0.28,
+   "metalness": 0.25,
+   "tile_scale_m": 1.0,
+   "category": "vehicles",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Car body paint, palette 'navy' (clearcoated)."
+  },
+  "vehicle_paint_oxblood": {
+   "base_color": "#8E2F2B",
+   "base_color_rgb": [
+    0.2705,
+    0.0284,
+    0.0242
+   ],
+   "roughness": 0.28,
+   "metalness": 0.25,
+   "tile_scale_m": 1.0,
+   "category": "vehicles",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Car body paint, palette 'oxblood' (clearcoated)."
+  },
+  "decal_puddle_wet": {
+   "base_color": "#1A1D20",
+   "base_color_rgb": [
+    0.0103,
+    0.0123,
+    0.0144
+   ],
+   "roughness": 0.06,
+   "metalness": 0.0,
+   "tile_scale_m": 3.0,
+   "category": "decals",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Puddle / wet patch decal on flat planes (alpha blended)."
+  },
+  "decal_grime": {
+   "base_color": "#2A241C",
+   "base_color_rgb": [
+    0.0232,
+    0.0176,
+    0.0116
+   ],
+   "roughness": 0.9,
+   "metalness": 0.0,
+   "tile_scale_m": 2.5,
+   "category": "decals",
+   "emissive": false,
+   "source": "procedural",
+   "description": "Grime/dirt decal patch for kerbs and wall bases."
+  }
+ },
+ "stats": {
+  "material_count": 93,
+  "category_counts": {
+   "decals": 2,
+   "emissive": 8,
+   "facades": 22,
+   "glass": 4,
+   "interiors": 10,
+   "metal_wood_fabric": 22,
+   "nature": 9,
+   "roads": 9,
+   "roofs": 3,
+   "vehicles": 4
+  },
+  "emissive_count": 8,
+  "polyhaven_materials": 43,
+  "procedural_materials": 50,
+  "texture_sets": 28,
+  "failed": []
+ }
+}

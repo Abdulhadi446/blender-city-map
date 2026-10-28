@@ -1,0 +1,937 @@
+{
+ "module": "Interiors",
+ "engine": "BLENDER_EEVEE",
+ "units": "metres",
+ "z_up": true,
+ "facilities": [
+  {
+   "id": "INT_HERO_INTERIORS",
+   "label": "Hero interiors: 39 tier-1 buildings (lobby, stair, 1 furnished floor each)",
+   "district": "R",
+   "interior_tier": 1,
+   "budget_class": "regular"
+  },
+  {
+   "id": "INT_SHELL_INTERIORS",
+   "label": "Shell interiors: tier-2 enterable buildings (one furnished room + shell)",
+   "district": "I",
+   "interior_tier": 1,
+   "budget_class": "regular"
+  },
+  {
+   "id": "INT_MALL_FITOUT",
+   "label": "Shopping mall fit-out (atrium, escalators, shop fronts)",
+   "district": "D",
+   "interior_tier": 1,
+   "budget_class": "regular"
+  }
+ ],
+ "hero_market_skip": {
+  "market_t1_in_hero": 7,
+  "skipped_ids": [
+   "BZ_6_6_1_1",
+   "B_7_6_2_0_0_0",
+   "B_5_7_1_0_0_3",
+   "B_5_7_0_2_3_0",
+   "B_5_7_1_3_2_3",
+   "B_6_7_3_3_0_2",
+   "B_7_7_1_3_2_0"
+  ],
+  "other_parcels_district_owned": 32
+ },
+ "skip_list": [
+  {
+   "id": "BZ_6_6_1_1",
+   "district": "M",
+   "reason": "market t1 interior already built by market module - skipped to avoid duplication"
+  },
+  {
+   "id": "B_7_6_2_0_0_0",
+   "district": "M",
+   "reason": "market t1 interior already built by market module - skipped to avoid duplication"
+  },
+  {
+   "id": "B_5_7_1_0_0_3",
+   "district": "M",
+   "reason": "market t1 interior already built by market module - skipped to avoid duplication"
+  },
+  {
+   "id": "B_5_7_0_2_3_0",
+   "district": "M",
+   "reason": "market t1 interior already built by market module - skipped to avoid duplication"
+  },
+  {
+   "id": "B_5_7_1_3_2_3",
+   "district": "M",
+   "reason": "market t1 interior already built by market module - skipped to avoid duplication"
+  },
+  {
+   "id": "B_6_7_3_3_0_2",
+   "district": "M",
+   "reason": "market t1 interior already built by market module - skipped to avoid duplication"
+  },
+  {
+   "id": "B_7_7_1_3_2_0",
+   "district": "M",
+   "reason": "market t1 interior already built by market module - skipped to avoid duplication"
+  }
+ ],
+ "kits": {
+  "office": [
+   {
+    "part": "wall_paint",
+    "tris": 12
+   },
+   {
+    "part": "wall_wallpaper",
+    "tris": 12
+   },
+   {
+    "part": "floor_tile",
+    "tris": 12
+   },
+   {
+    "part": "floor_carpet",
+    "tris": 12
+   },
+   {
+    "part": "floor_wood",
+    "tris": 12
+   },
+   {
+    "part": "ceiling",
+    "tris": 12
+   },
+   {
+    "part": "door_frame_arch",
+    "tris": 36
+   },
+   {
+    "part": "counter",
+    "tris": 12
+   },
+   {
+    "part": "reception_desk",
+    "tris": 12
+   },
+   {
+    "part": "shelving",
+    "tris": 72
+   },
+   {
+    "part": "table",
+    "tris": 24
+   },
+   {
+    "part": "chair",
+    "tris": 36
+   },
+   {
+    "part": "sofa",
+    "tris": 24
+   },
+   {
+    "part": "coffee_table",
+    "tris": 12
+   },
+   {
+    "part": "partition",
+    "tris": 12
+   },
+   {
+    "part": "wall_shelf",
+    "tris": 12
+   },
+   {
+    "part": "rug",
+    "tris": 12
+   },
+   {
+    "part": "pendant_lamp",
+    "tris": 32
+   },
+   {
+    "part": "framed_art",
+    "tris": 12
+   },
+   {
+    "part": "mirror",
+    "tris": 12
+   },
+   {
+    "part": "curtain",
+    "tris": 12
+   },
+   {
+    "part": "plant",
+    "tris": 12
+   },
+   {
+    "part": "tv_dark",
+    "tris": 12
+   },
+   {
+    "part": "tv_screen",
+    "tris": 12
+   }
+  ],
+  "hotel": [
+   {
+    "part": "wall_paint",
+    "tris": 12
+   },
+   {
+    "part": "wall_wallpaper",
+    "tris": 12
+   },
+   {
+    "part": "floor_tile",
+    "tris": 12
+   },
+   {
+    "part": "floor_carpet",
+    "tris": 12
+   },
+   {
+    "part": "floor_wood",
+    "tris": 12
+   },
+   {
+    "part": "ceiling",
+    "tris": 12
+   },
+   {
+    "part": "door_frame_arch",
+    "tris": 36
+   },
+   {
+    "part": "reception_desk",
+    "tris": 12
+   },
+   {
+    "part": "shelving",
+    "tris": 72
+   },
+   {
+    "part": "table",
+    "tris": 24
+   },
+   {
+    "part": "chair",
+    "tris": 36
+   },
+   {
+    "part": "sofa",
+    "tris": 24
+   },
+   {
+    "part": "coffee_table",
+    "tris": 12
+   },
+   {
+    "part": "bed",
+    "tris": 24
+   },
+   {
+    "part": "partition",
+    "tris": 12
+   },
+   {
+    "part": "wall_shelf",
+    "tris": 12
+   },
+   {
+    "part": "rug",
+    "tris": 12
+   },
+   {
+    "part": "pendant_lamp",
+    "tris": 32
+   },
+   {
+    "part": "framed_art",
+    "tris": 12
+   },
+   {
+    "part": "mirror",
+    "tris": 12
+   },
+   {
+    "part": "curtain",
+    "tris": 12
+   },
+   {
+    "part": "plant",
+    "tris": 12
+   }
+  ],
+  "gym": [
+   {
+    "part": "wall_paint",
+    "tris": 12
+   },
+   {
+    "part": "wall_wallpaper",
+    "tris": 12
+   },
+   {
+    "part": "floor_tile",
+    "tris": 12
+   },
+   {
+    "part": "floor_wood",
+    "tris": 12
+   },
+   {
+    "part": "ceiling",
+    "tris": 12
+   },
+   {
+    "part": "door_frame_arch",
+    "tris": 36
+   },
+   {
+    "part": "shelving",
+    "tris": 72
+   },
+   {
+    "part": "table",
+    "tris": 24
+   },
+   {
+    "part": "chair",
+    "tris": 36
+   },
+   {
+    "part": "partition",
+    "tris": 12
+   },
+   {
+    "part": "wall_shelf",
+    "tris": 12
+   },
+   {
+    "part": "rug",
+    "tris": 12
+   },
+   {
+    "part": "pendant_lamp",
+    "tris": 32
+   },
+   {
+    "part": "mirror",
+    "tris": 12
+   },
+   {
+    "part": "curtain",
+    "tris": 12
+   },
+   {
+    "part": "plant",
+    "tris": 12
+   },
+   {
+    "part": "tv_dark",
+    "tris": 12
+   },
+   {
+    "part": "tv_screen",
+    "tris": 12
+   }
+  ],
+  "restaurant": [
+   {
+    "part": "wall_paint",
+    "tris": 12
+   },
+   {
+    "part": "wall_wallpaper",
+    "tris": 12
+   },
+   {
+    "part": "floor_tile",
+    "tris": 12
+   },
+   {
+    "part": "floor_wood",
+    "tris": 12
+   },
+   {
+    "part": "ceiling",
+    "tris": 12
+   },
+   {
+    "part": "door_frame_arch",
+    "tris": 36
+   },
+   {
+    "part": "counter",
+    "tris": 12
+   },
+   {
+    "part": "shelving",
+    "tris": 72
+   },
+   {
+    "part": "table",
+    "tris": 24
+   },
+   {
+    "part": "chair",
+    "tris": 36
+   },
+   {
+    "part": "sofa",
+    "tris": 24
+   },
+   {
+    "part": "coffee_table",
+    "tris": 12
+   },
+   {
+    "part": "partition",
+    "tris": 12
+   },
+   {
+    "part": "wall_shelf",
+    "tris": 12
+   },
+   {
+    "part": "rug",
+    "tris": 12
+   },
+   {
+    "part": "pendant_lamp",
+    "tris": 32
+   },
+   {
+    "part": "framed_art",
+    "tris": 12
+   },
+   {
+    "part": "mirror",
+    "tris": 12
+   },
+   {
+    "part": "curtain",
+    "tris": 12
+   },
+   {
+    "part": "plant",
+    "tris": 12
+   },
+   {
+    "part": "tv_dark",
+    "tris": 12
+   },
+   {
+    "part": "tv_screen",
+    "tris": 12
+   }
+  ],
+  "shop": [
+   {
+    "part": "wall_paint",
+    "tris": 12
+   },
+   {
+    "part": "wall_wallpaper",
+    "tris": 12
+   },
+   {
+    "part": "floor_tile",
+    "tris": 12
+   },
+   {
+    "part": "floor_wood",
+    "tris": 12
+   },
+   {
+    "part": "ceiling",
+    "tris": 12
+   },
+   {
+    "part": "door_frame_arch",
+    "tris": 36
+   },
+   {
+    "part": "counter",
+    "tris": 12
+   },
+   {
+    "part": "shelving",
+    "tris": 72
+   },
+   {
+    "part": "table",
+    "tris": 24
+   },
+   {
+    "part": "chair",
+    "tris": 36
+   },
+   {
+    "part": "partition",
+    "tris": 12
+   },
+   {
+    "part": "wall_shelf",
+    "tris": 12
+   },
+   {
+    "part": "rug",
+    "tris": 12
+   },
+   {
+    "part": "pendant_lamp",
+    "tris": 32
+   },
+   {
+    "part": "framed_art",
+    "tris": 12
+   },
+   {
+    "part": "mirror",
+    "tris": 12
+   },
+   {
+    "part": "curtain",
+    "tris": 12
+   },
+   {
+    "part": "plant",
+    "tris": 12
+   },
+   {
+    "part": "tv_dark",
+    "tris": 12
+   }
+  ],
+  "home": [
+   {
+    "part": "wall_paint",
+    "tris": 12
+   },
+   {
+    "part": "wall_wallpaper",
+    "tris": 12
+   },
+   {
+    "part": "floor_tile",
+    "tris": 12
+   },
+   {
+    "part": "floor_carpet",
+    "tris": 12
+   },
+   {
+    "part": "floor_wood",
+    "tris": 12
+   },
+   {
+    "part": "ceiling",
+    "tris": 12
+   },
+   {
+    "part": "door_frame_arch",
+    "tris": 36
+   },
+   {
+    "part": "counter",
+    "tris": 12
+   },
+   {
+    "part": "kitchen_unit",
+    "tris": 12
+   },
+   {
+    "part": "table",
+    "tris": 24
+   },
+   {
+    "part": "chair",
+    "tris": 36
+   },
+   {
+    "part": "sofa",
+    "tris": 24
+   },
+   {
+    "part": "coffee_table",
+    "tris": 12
+   },
+   {
+    "part": "bed",
+    "tris": 24
+   },
+   {
+    "part": "toilet",
+    "tris": 12
+   },
+   {
+    "part": "sink",
+    "tris": 12
+   },
+   {
+    "part": "shower",
+    "tris": 12
+   },
+   {
+    "part": "partition",
+    "tris": 12
+   },
+   {
+    "part": "wall_shelf",
+    "tris": 12
+   },
+   {
+    "part": "rug",
+    "tris": 12
+   },
+   {
+    "part": "pendant_lamp",
+    "tris": 32
+   },
+   {
+    "part": "framed_art",
+    "tris": 12
+   },
+   {
+    "part": "mirror",
+    "tris": 12
+   },
+   {
+    "part": "curtain",
+    "tris": 12
+   },
+   {
+    "part": "plant",
+    "tris": 12
+   },
+   {
+    "part": "tv_dark",
+    "tris": 12
+   },
+   {
+    "part": "tv_screen",
+    "tris": 12
+   }
+  ]
+ },
+ "kit_families": {
+  "office": [
+   "wall_paint",
+   "wall_wallpaper",
+   "floor_tile",
+   "floor_carpet",
+   "floor_wood",
+   "ceiling",
+   "door_frame_arch",
+   "counter",
+   "reception_desk",
+   "shelving",
+   "table",
+   "chair",
+   "sofa",
+   "coffee_table",
+   "partition",
+   "wall_shelf",
+   "rug",
+   "pendant_lamp",
+   "framed_art",
+   "mirror",
+   "curtain",
+   "plant",
+   "tv_dark",
+   "tv_screen"
+  ],
+  "hotel": [
+   "wall_paint",
+   "wall_wallpaper",
+   "floor_tile",
+   "floor_carpet",
+   "floor_wood",
+   "ceiling",
+   "door_frame_arch",
+   "reception_desk",
+   "shelving",
+   "table",
+   "chair",
+   "sofa",
+   "coffee_table",
+   "bed",
+   "partition",
+   "wall_shelf",
+   "rug",
+   "pendant_lamp",
+   "framed_art",
+   "mirror",
+   "curtain",
+   "plant"
+  ],
+  "gym": [
+   "wall_paint",
+   "wall_wallpaper",
+   "floor_tile",
+   "floor_wood",
+   "ceiling",
+   "door_frame_arch",
+   "shelving",
+   "table",
+   "chair",
+   "partition",
+   "wall_shelf",
+   "rug",
+   "pendant_lamp",
+   "mirror",
+   "curtain",
+   "plant",
+   "tv_dark",
+   "tv_screen"
+  ],
+  "restaurant": [
+   "wall_paint",
+   "wall_wallpaper",
+   "floor_tile",
+   "floor_wood",
+   "ceiling",
+   "door_frame_arch",
+   "counter",
+   "shelving",
+   "table",
+   "chair",
+   "sofa",
+   "coffee_table",
+   "partition",
+   "wall_shelf",
+   "rug",
+   "pendant_lamp",
+   "framed_art",
+   "mirror",
+   "curtain",
+   "plant",
+   "tv_dark",
+   "tv_screen"
+  ],
+  "shop": [
+   "wall_paint",
+   "wall_wallpaper",
+   "floor_tile",
+   "floor_wood",
+   "ceiling",
+   "door_frame_arch",
+   "counter",
+   "shelving",
+   "table",
+   "chair",
+   "partition",
+   "wall_shelf",
+   "rug",
+   "pendant_lamp",
+   "framed_art",
+   "mirror",
+   "curtain",
+   "plant",
+   "tv_dark"
+  ],
+  "home": [
+   "wall_paint",
+   "wall_wallpaper",
+   "floor_tile",
+   "floor_carpet",
+   "floor_wood",
+   "ceiling",
+   "door_frame_arch",
+   "counter",
+   "kitchen_unit",
+   "table",
+   "chair",
+   "sofa",
+   "coffee_table",
+   "bed",
+   "toilet",
+   "sink",
+   "shower",
+   "partition",
+   "wall_shelf",
+   "rug",
+   "pendant_lamp",
+   "framed_art",
+   "mirror",
+   "curtain",
+   "plant",
+   "tv_dark",
+   "tv_screen"
+  ]
+ },
+ "kit_part_count": 132,
+ "kit_total_tris": 2436,
+ "reference_rooms": [
+  {
+   "room": "OfficeLobby",
+   "anchor": "B_4_3_0_1_0_0",
+   "type": "office_tower",
+   "objects": 14,
+   "tris": 240,
+   "buildable_rect": [
+    16.0,
+    -140.0,
+    74.0,
+    -82.0
+   ],
+   "centre": [
+    45.0,
+    -111.0
+   ]
+  },
+  {
+   "room": "RestaurantDining",
+   "anchor": "B_3_4_1_0_0_0",
+   "type": "office_tower",
+   "objects": 16,
+   "tris": 324,
+   "buildable_rect": [
+    -140.0,
+    16.0,
+    -82.0,
+    74.0
+   ],
+   "centre": [
+    -111.0,
+    45.0
+   ]
+  },
+  {
+   "room": "HomeLiving",
+   "anchor": "B_3_4_1_1_1_1",
+   "type": "office_tower",
+   "objects": 16,
+   "tris": 288,
+   "buildable_rect": [
+    -74.0,
+    226.0,
+    -16.0,
+    284.0
+   ],
+   "centre": [
+    -45.0,
+    255.0
+   ]
+  }
+ ],
+ "reference_room_floor_z": 0.15,
+ "lights": {
+  "count": 10,
+  "limit": 40,
+  "prefix": "LT_int_"
+ },
+ "colliders": {
+  "count": 6,
+  "tris": 72,
+  "prefix": "COL_int_kit_"
+ },
+ "collections": [
+  "Interiors",
+  "Interiors/Meshes",
+  "Interiors/Colliders",
+  "Interiors/Lights"
+ ],
+ "materials": "appended only from materials.blend (no new materials created)",
+ "naming": "INT_<kit>_<part>_<nn> kit parts; INT_REF_<room>_<part>_<nn> room pieces; COL_int_kit_<family>_01 colliders; LT_int_<nn> lights",
+ "tris": {
+  "kit_unique": 2436,
+  "colliders": 72,
+  "reference_rooms": 852
+ },
+ "gap_audit": {
+  "parcel_stats": {
+   "R": {
+    "total": 844,
+    "t1": 6,
+    "t2": 71,
+    "t3": 691,
+    "t0": 76,
+    "enterable": 77
+   },
+   "D": {
+    "total": 109,
+    "t1": 11,
+    "t2": 91,
+    "t3": 6,
+    "t0": 1,
+    "enterable": 102
+   },
+   "E": {
+    "total": 288,
+    "t1": 15,
+    "t2": 154,
+    "t3": 87,
+    "t0": 32,
+    "enterable": 169
+   },
+   "M": {
+    "total": 1236,
+    "t1": 7,
+    "t2": 188,
+    "t3": 946,
+    "t0": 95,
+    "enterable": 195
+   },
+   "G": {
+    "total": 13,
+    "t1": 0,
+    "t2": 0,
+    "t3": 0,
+    "t0": 13,
+    "enterable": 0
+   },
+   "I": {
+    "total": 48,
+    "t1": 0,
+    "t2": 11,
+    "t3": 37,
+    "t0": 0,
+    "enterable": 11
+   },
+   "T": {
+    "total": 7,
+    "t1": 0,
+    "t2": 3,
+    "t3": 4,
+    "t0": 0,
+    "enterable": 3
+   }
+  },
+  "gaps": [
+   {
+    "district": "D",
+    "parcel_t1": 11,
+    "report_t1": 11,
+    "status": "ok"
+   },
+   {
+    "district": "E",
+    "parcel_t1": 15,
+    "report_t1": 15,
+    "status": "ok"
+   },
+   {
+    "district": "M",
+    "parcel_t1": 7,
+    "report_t1": null,
+    "status": "no_tier_field"
+   },
+   {
+    "district": "R",
+    "parcel_t1": 6,
+    "report_t1": null,
+    "status": "unaudited_no_report"
+   }
+  ]
+ },
+ "issues": [
+  "kit sources keep translation-only transforms (shared datablocks require instancing \u2014 codebase convention, see market report); transforms not baked on instances"
+ ],
+ "_module": "interiors",
+ "_written": "2026-10-27T14:37:18"
+}

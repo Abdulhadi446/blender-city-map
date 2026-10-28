@@ -1,0 +1,4119 @@
+[
+  {
+    "facility_id": "RES_HOUSE_TERRACED",
+    "rect": [
+      -444.0,
+      -588.0,
+      -411.0,
+      -555.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-450_-600",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        -450.0,
+        -525.0
+      ],
+      [
+        -449.241527258976,
+        -532.9639637807517
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RES_HOUSE_VILLA",
+    "rect": [
+      -444.0,
+      -555.0,
+      -411.0,
+      -522.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-450_-600",
+    "nearest_node_dist_m": 45.398238,
+    "spur_polyline": [
+      [
+        -450.0,
+        -525.0
+      ],
+      [
+        -448.43107091889453,
+        -532.8446454055273
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RES_APARTMENT_LOW",
+    "rect": [
+      -200.0,
+      -588.0,
+      -156.0,
+      -544.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-150_-600",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        -150.0,
+        -525.0
+      ],
+      [
+        -150.75847274102395,
+        -532.9639637807517
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RES_APARTMENT_TOWER",
+    "rect": [
+      156.0,
+      -288.0,
+      222.0,
+      -222.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_150_-300",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        150.0,
+        -375.0
+      ],
+      [
+        150.55041673292303,
+        -367.0189573726161
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RES_SHOPHOUSE",
+    "rect": [
+      312.0,
+      644.7,
+      328.3,
+      660.9
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_300_679.75",
+    "nearest_node_dist_m": 22.345525,
+    "spur_polyline": [
+      [
+        339.875,
+        679.75
+      ],
+      [
+        333.2480026324111,
+        675.2686044707067
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RES_COURTYARD_HOMES",
+    "rect": [
+      -411.0,
+      -555.0,
+      -345.0,
+      -489.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_2_2",
+    "nearest_node_dist_m": 55.154329,
+    "spur_polyline": [
+      [
+        -525.0,
+        -450.0
+      ],
+      [
+        -517.4306881203731,
+        -452.58950143250394
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_SHOPS",
+    "rect": [
+      -288.0,
+      -500.0,
+      -244.0,
+      -456.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-300_-450",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        -375.0,
+        -450.0
+      ],
+      [
+        -367.0189573726161,
+        -450.550416732923
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_CORNER_SHOP",
+    "rect": [
+      -945.0,
+      -189.0,
+      -912.0,
+      -156.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-900_-150",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        -975.0,
+        -150.0
+      ],
+      [
+        -967.0360362192483,
+        -150.75847274102395
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_SUPERMARKET",
+    "rect": [
+      56.0,
+      -500.0,
+      100.0,
+      -456.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_4_2",
+    "nearest_node_dist_m": 50.358713,
+    "spur_polyline": [
+      [
+        75.0,
+        -450.0
+      ],
+      [
+        82.77909841584415,
+        -451.86698361980257
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_MALL",
+    "rect": [
+      78.0,
+      -288.0,
+      144.0,
+      -222.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_150_-300",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        150.0,
+        -375.0
+      ],
+      [
+        149.44958326707697,
+        -367.0189573726161
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_BAZAAR",
+    "rect": [
+      682.3,
+      682.3,
+      747.5,
+      747.5
+    ],
+    "has_road": false,
+    "nearest_node_id": "A_6_6_1_1",
+    "nearest_node_dist_m": 3.535534,
+    "spur_polyline": [
+      [
+        750.0,
+        714.875
+      ],
+      [
+        749.3887651098389,
+        722.851615316602
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_RESTAURANT",
+    "rect": [
+      -56.0,
+      -544.0,
+      -12.0,
+      -500.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_0_-450",
+    "nearest_node_dist_m": 51.419841,
+    "spur_polyline": [
+      [
+        -75.0,
+        -450.0
+      ],
+      [
+        -68.73368877559479,
+        -454.9732628765121
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_CAFE",
+    "rect": [
+      -244.0,
+      -588.0,
+      -200.0,
+      -544.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-150_-600",
+    "nearest_node_dist_m": 51.419841,
+    "spur_polyline": [
+      [
+        -150.0,
+        -525.0
+      ],
+      [
+        -154.97326287651208,
+        -531.2663112244052
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_TEAHOUSE",
+    "rect": [
+      361.0,
+      644.7,
+      377.2,
+      660.9
+    ],
+    "has_road": false,
+    "nearest_node_id": "A_5_6_0_0",
+    "nearest_node_dist_m": 19.021698,
+    "spur_polyline": [
+      [
+        379.75,
+        639.875
+      ],
+      [
+        378.7867850290196,
+        647.8168018685736
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "FIN_BANK",
+    "rect": [
+      222.0,
+      -288.0,
+      288.0,
+      -222.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_5_3",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        150.0,
+        -300.0
+      ],
+      [
+        157.96992470556546,
+        -299.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_WORKSHOP_STALL",
+    "rect": [
+      344.7,
+      661.0,
+      360.9,
+      677.2
+    ],
+    "has_road": false,
+    "nearest_node_id": "A_5_6_0_0",
+    "nearest_node_dist_m": 19.021698,
+    "spur_polyline": [
+      [
+        379.75,
+        639.875
+      ],
+      [
+        376.14362204275545,
+        647.0160109949153
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "OFF_TOWER",
+    "rect": [
+      12.0,
+      -288.0,
+      78.0,
+      -222.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_3",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        -150.0,
+        -300.0
+      ],
+      [
+        -142.02185796434634,
+        -299.4090265158775
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "OFF_MIDRISE",
+    "rect": [
+      12.0,
+      -288.0,
+      78.0,
+      -222.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_3",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        -150.0,
+        -300.0
+      ],
+      [
+        -142.02185796434634,
+        -299.4090265158775
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "IND_WAREHOUSE",
+    "rect": [
+      312.0,
+      -1188.0,
+      378.0,
+      -1122.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_5_0",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        150.0,
+        -1200.0
+      ],
+      [
+        157.97814203565366,
+        -1199.4090265158775
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "IND_FACTORY",
+    "rect": [
+      312.0,
+      -1122.0,
+      378.0,
+      -1056.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_300_-1050",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        375.0,
+        -1050.0
+      ],
+      [
+        367.0360362192484,
+        -1050.758472741024
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "IND_DEPOT",
+    "rect": [
+      378.0,
+      -978.0,
+      444.0,
+      -912.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_450_-900",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        450.0,
+        -975.0
+      ],
+      [
+        449.241527258976,
+        -967.0360362192483
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "IND_YARD",
+    "rect": [
+      378.0,
+      -1188.0,
+      444.0,
+      -1122.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_450_-1200",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        450.0,
+        -1125.0
+      ],
+      [
+        449.241527258976,
+        -1132.9639637807516
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "MKT_COURTYARD",
+    "rect": [
+      328.4,
+      628.4,
+      360.9,
+      660.9
+    ],
+    "has_road": false,
+    "nearest_node_id": "A_5_6_0_0",
+    "nearest_node_dist_m": 26.657926,
+    "spur_polyline": [
+      [
+        379.75,
+        639.875
+      ],
+      [
+        374.4096398739838,
+        645.8315555251719
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RES_COURTYARD_EM",
+    "rect": [
+      -244.0,
+      -544.0,
+      -200.0,
+      -500.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_2",
+    "nearest_node_dist_m": 70.710678,
+    "spur_polyline": [
+      [
+        -225.0,
+        -450.0
+      ],
+      [
+        -221.42229123600035,
+        -457.1554175279993
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CIVIC_TOWN_OFFICES",
+    "rect": [
+      -144.0,
+      312.0,
+      -78.0,
+      378.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-150_300",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        -150.0,
+        225.0
+      ],
+      [
+        -149.44958326707697,
+        232.98104262738386
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CITY_HALL",
+    "rect": [
+      12.0,
+      222.0,
+      78.0,
+      288.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_5",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        -150.0,
+        300.0
+      ],
+      [
+        -142.02185796434634,
+        299.4090265158775
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "HOT_HOTEL",
+    "rect": [
+      78.0,
+      -222.0,
+      144.0,
+      -156.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_4_3",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        75.0,
+        -150.0
+      ],
+      [
+        82.96992470556546,
+        -150.69303693091874
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CUL_CINEMA",
+    "rect": [
+      -288.0,
+      -400.0,
+      -244.0,
+      -356.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-300_-450",
+    "nearest_node_dist_m": 51.419841,
+    "spur_polyline": [
+      [
+        -375.0,
+        -450.0
+      ],
+      [
+        -368.0638884481199,
+        -446.0137289931723
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CUL_CLUB",
+    "rect": [
+      -288.0,
+      -356.0,
+      -244.0,
+      -312.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_3",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        -450.0,
+        -300.0
+      ],
+      [
+        -442.02185796434634,
+        -300.5909734841225
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_GYM",
+    "rect": [
+      -200.0,
+      -544.0,
+      -156.0,
+      -500.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_2",
+    "nearest_node_dist_m": 50.358713,
+    "spur_polyline": [
+      [
+        -225.0,
+        -450.0
+      ],
+      [
+        -218.5220012577824,
+        -454.69420198711424
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PARK_MAIN",
+    "rect": [
+      -1188.0,
+      -1188.0,
+      -912.0,
+      -912.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_0",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -1200.0
+      ],
+      [
+        -1057.9699247055655,
+        -1199.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PARK_POCKET",
+    "rect": [
+      -588.0,
+      -588.0,
+      -456.0,
+      -456.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_2_2",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -525.0,
+        -450.0
+      ],
+      [
+        -517.0300752944345,
+        -450.6930369309187
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PLAZA_CENTRAL",
+    "rect": [
+      12.0,
+      12.0,
+      144.0,
+      144.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_4_4",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        75.0,
+        150.0
+      ],
+      [
+        82.96992470556546,
+        149.30696306908126
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRACK_CIRCUIT",
+    "rect": [
+      612.0,
+      -1188.0,
+      1188.0,
+      -12.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1050_0",
+    "nearest_node_dist_m": 12.0,
+    "spur_polyline": [
+      [
+        1050.0,
+        75.0
+      ],
+      [
+        1050.0,
+        67.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRACK_PIT",
+    "rect": [
+      738.4,
+      -894.0,
+      768.4,
+      -306.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_600_-450",
+    "nearest_node_dist_m": 138.4,
+    "spur_polyline": [
+      [
+        525.0,
+        -450.0
+      ],
+      [
+        533.0,
+        -450.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRACK_GRANDSTAND",
+    "rect": [
+      636.4,
+      -858.7,
+      1187.6,
+      -247.2
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_2",
+    "nearest_node_dist_m": 12.4,
+    "spur_polyline": [
+      [
+        1200.0,
+        -750.0
+      ],
+      [
+        1199.3409148530204,
+        -742.0271958026657
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRACK_PADDOCK",
+    "rect": [
+      772.4,
+      -717.6,
+      818.4,
+      -647.6
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_600_-750",
+    "nearest_node_dist_m": 175.418129,
+    "spur_polyline": [
+      [
+        525.0,
+        -750.0
+      ],
+      [
+        532.9322658619471,
+        -748.9611745597126
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRACK_TOWER",
+    "rect": [
+      772.4,
+      -635.2,
+      788.4,
+      -619.3
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_6_2",
+    "nearest_node_dist_m": 173.476944,
+    "spur_polyline": [
+      [
+        450.0,
+        -600.0
+      ],
+      [
+        457.9857038469423,
+        -600.47805237049
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRACK_PARKING",
+    "rect": [
+      1068.0,
+      -1180.0,
+      1180.0,
+      -24.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_1",
+    "nearest_node_dist_m": 20.0,
+    "spur_polyline": [
+      [
+        1200.0,
+        -1050.0
+      ],
+      [
+        1198.9426902392718,
+        -1042.0701767945388
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "STADIUM_CRICKET",
+    "rect": [
+      -864.0,
+      -1164.0,
+      -636.0,
+      -936.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_1_0",
+    "nearest_node_dist_m": 50.911688,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -1200.0
+      ],
+      [
+        -1042.1457611952778,
+        -1198.479824747473
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "STADIUM_FOOTBALL",
+    "rect": [
+      36.0,
+      -1164.0,
+      264.0,
+      -936.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_300_-1050",
+    "nearest_node_dist_m": 36.0,
+    "spur_polyline": [
+      [
+        375.0,
+        -1050.0
+      ],
+      [
+        367.0,
+        -1050.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "STADIUM_ATHLETICS",
+    "rect": [
+      -1164.0,
+      -864.0,
+      -936.0,
+      -636.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_1",
+    "nearest_node_dist_m": 50.911688,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -900.0
+      ],
+      [
+        -1057.6286613210732,
+        -897.5909490565032
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "COMPLEX_SWIMMING",
+    "rect": [
+      36.0,
+      -864.0,
+      264.0,
+      -636.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_150_-600",
+    "nearest_node_dist_m": 36.0,
+    "spur_polyline": [
+      [
+        150.0,
+        -525.0
+      ],
+      [
+        150.0,
+        -533.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "ARENA_INDOOR",
+    "rect": [
+      -1164.0,
+      -564.0,
+      -936.0,
+      -336.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1050_-300",
+    "nearest_node_dist_m": 36.0,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -225.0
+      ],
+      [
+        -1050.0,
+        -233.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "STATION_FIRE",
+    "rect": [
+      -1184.0,
+      -140.0,
+      -1108.0,
+      -96.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1200_-150",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -1125.0,
+        -150.0
+      ],
+      [
+        -1132.8875084610756,
+        -148.6631341591397
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "HOSPITAL_MAIN",
+    "rect": [
+      -1040.0,
+      16.0,
+      -936.0,
+      96.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1050_0",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -75.0
+      ],
+      [
+        -1049.1261395850493,
+        -67.04787022394743
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "STATION_POLICE",
+    "rect": [
+      -1040.0,
+      916.0,
+      -968.0,
+      960.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1050_900",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -1050.0,
+        825.0
+      ],
+      [
+        -1049.1261395850493,
+        832.9521297760526
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SCHOOL_SECONDARY",
+    "rect": [
+      -584.0,
+      -584.0,
+      -488.0,
+      -516.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_2_2",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -750.0,
+        -600.0
+      ],
+      [
+        -742.036903757393,
+        -599.232472651315
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SCHOOL_KINDER",
+    "rect": [
+      -368.0,
+      -440.0,
+      -316.0,
+      -404.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-300_-450",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -375.0,
+        -450.0
+      ],
+      [
+        -367.1124915389243,
+        -448.6631341591397
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CLINIC_URGENT",
+    "rect": [
+      -440.0,
+      -284.0,
+      -364.0,
+      -236.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-450_-300",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -450.0,
+        -375.0
+      ],
+      [
+        -449.12613958504915,
+        -367.0478702239474
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SCHOOL_PRIMARY",
+    "rect": [
+      -584.0,
+      760.0,
+      -488.0,
+      828.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-600_750",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -675.0,
+        750.0
+      ],
+      [
+        -667.0478702239474,
+        750.8738604149509
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "LIBRARY_PUBLIC",
+    "rect": [
+      -540.0,
+      916.0,
+      -460.0,
+      976.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-450_900",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -450.0,
+        825.0
+      ],
+      [
+        -450.87386041495085,
+        832.9521297760526
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "MOSQUE",
+    "rect": [
+      -440.0,
+      980.0,
+      -364.0,
+      1040.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_2_7",
+    "nearest_node_dist_m": 14.142136,
+    "spur_polyline": [
+      [
+        -525.0,
+        1050.0
+      ],
+      [
+        -517.054795165417,
+        1049.0652700194607
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CHURCH",
+    "rect": [
+      -284.0,
+      684.0,
+      -212.0,
+      740.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-300_750",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -375.0,
+        750.0
+      ],
+      [
+        -367.0478702239474,
+        749.1261395850491
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "COLLEGE_VOCATIONAL",
+    "rect": [
+      -140.0,
+      820.0,
+      -48.0,
+      884.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-150_900",
+    "nearest_node_dist_m": 18.867962,
+    "spur_polyline": [
+      [
+        -150.0,
+        825.0
+      ],
+      [
+        -148.6631341591397,
+        832.8875084610758
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "HOUSING_SENIOR",
+    "rect": [
+      944.0,
+      368.0,
+      1040.0,
+      440.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_7_5",
+    "nearest_node_dist_m": 14.142136,
+    "spur_polyline": [
+      [
+        975.0,
+        450.0
+      ],
+      [
+        982.906973581205,
+        448.78354252596847
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TEMPLE",
+    "rect": [
+      -672.0,
+      -884.0,
+      -616.0,
+      -840.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_2_1",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -750.0,
+        -900.0
+      ],
+      [
+        -742.0564256546446,
+        -899.0515135110023
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "GURUDWARA",
+    "rect": [
+      -68.0,
+      -660.0,
+      -16.0,
+      -616.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_2",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -150.0,
+        -600.0
+      ],
+      [
+        -142.05642565464458,
+        -600.9484864889977
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PARK_DOG",
+    "rect": [
+      -92.0,
+      -1184.0,
+      -16.0,
+      -1132.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_0",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -150.0,
+        -1200.0
+      ],
+      [
+        -142.05642565464458,
+        -1199.0515135110024
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "GARDEN_ZEN",
+    "rect": [
+      -884.0,
+      -372.0,
+      -812.0,
+      -316.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_1_3",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -300.0
+      ],
+      [
+        -1042.036903757393,
+        -300.767527348685
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "BANDSTAND",
+    "rect": [
+      -360.0,
+      -884.0,
+      -316.0,
+      -840.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_1",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -450.0,
+        -900.0
+      ],
+      [
+        -442.05642565464456,
+        -899.0515135110023
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RESTROOM_PARK",
+    "rect": [
+      -940.0,
+      -930.0,
+      -916.0,
+      -916.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_1_1",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -900.0
+      ],
+      [
+        -1042.0564256546445,
+        -900.9484864889977
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "BOATHOUSE_PIER",
+    "rect": [
+      -376.0,
+      -942.0,
+      -316.0,
+      -916.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_1",
+    "nearest_node_dist_m": 22.627417,
+    "spur_polyline": [
+      [
+        -450.0,
+        -900.0
+      ],
+      [
+        -442.05642565464456,
+        -900.9484864889977
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "COURTHOUSE",
+    "rect": [
+      -288.0,
+      312.0,
+      -156.0,
+      444.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_5",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -225.0,
+        450.0
+      ],
+      [
+        -217.03007529443454,
+        449.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "MUSEUM_CITY",
+    "rect": [
+      156.0,
+      12.0,
+      288.0,
+      144.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_4_4",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        75.0,
+        150.0
+      ],
+      [
+        82.97814203565368,
+        149.4090265158775
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PLANETARIUM",
+    "rect": [
+      156.0,
+      156.0,
+      288.0,
+      288.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_4_4",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        75.0,
+        150.0
+      ],
+      [
+        82.97814203565368,
+        150.5909734841225
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "DEPARTMENT_STORE",
+    "rect": [
+      -144.0,
+      156.0,
+      -12.0,
+      288.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_4",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -225.0,
+        150.0
+      ],
+      [
+        -217.02185796434634,
+        150.5909734841225
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CARPARK_MULTISTOREY",
+    "rect": [
+      456.0,
+      156.0,
+      588.0,
+      288.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_5_4",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        375.0,
+        150.0
+      ],
+      [
+        382.97814203565366,
+        150.5909734841225
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CONFERENCE_CENTRE",
+    "rect": [
+      312.0,
+      456.0,
+      444.0,
+      588.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_5_5",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        375.0,
+        450.0
+      ],
+      [
+        382.96992470556546,
+        450.6930369309187
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "OFFICE_COWORKING",
+    "rect": [
+      156.0,
+      456.0,
+      288.0,
+      588.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_4_5",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        75.0,
+        450.0
+      ],
+      [
+        82.97814203565368,
+        450.5909734841225
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "THEATRE",
+    "rect": [
+      -288.0,
+      -288.0,
+      -156.0,
+      -156.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_3",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -225.0,
+        -150.0
+      ],
+      [
+        -217.03007529443454,
+        -150.69303693091874
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CONCERT_HALL",
+    "rect": [
+      312.0,
+      -288.0,
+      444.0,
+      -156.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_5_3",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        375.0,
+        -150.0
+      ],
+      [
+        382.96992470556546,
+        -150.69303693091874
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "GALLERY_ART",
+    "rect": [
+      -588.0,
+      12.0,
+      -456.0,
+      144.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_2_4",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -525.0,
+        150.0
+      ],
+      [
+        -517.0300752944345,
+        149.30696306908126
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "ARCADE_GAMES",
+    "rect": [
+      612.0,
+      12.0,
+      744.0,
+      144.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_6_4",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        675.0,
+        150.0
+      ],
+      [
+        682.9699247055655,
+        149.30696306908126
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CASINO",
+    "rect": [
+      12.0,
+      612.0,
+      144.0,
+      744.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_4_6",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        75.0,
+        750.0
+      ],
+      [
+        82.96992470556546,
+        749.3069630690812
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "BANQUET_HALL",
+    "rect": [
+      612.0,
+      312.0,
+      744.0,
+      444.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_6_5",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        675.0,
+        450.0
+      ],
+      [
+        682.9699247055655,
+        449.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "HOSTEL",
+    "rect": [
+      -888.0,
+      312.0,
+      -756.0,
+      444.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_1_5",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -825.0,
+        450.0
+      ],
+      [
+        -817.0300752944345,
+        449.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "EMBASSY",
+    "rect": [
+      -888.0,
+      912.0,
+      -756.0,
+      1044.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_1_7",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -825.0,
+        1050.0
+      ],
+      [
+        -817.0300752944345,
+        1049.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UNIVERSITY_MAIN",
+    "rect": [
+      -288.0,
+      912.0,
+      -156.0,
+      1044.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_7",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -225.0,
+        1050.0
+      ],
+      [
+        -217.03007529443454,
+        1049.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UNIVERSITY_FACULTY",
+    "rect": [
+      -144.0,
+      912.0,
+      -12.0,
+      1044.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_7",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -225.0,
+        1050.0
+      ],
+      [
+        -217.02185796434634,
+        1049.4090265158775
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "DORMITORIES",
+    "rect": [
+      -288.0,
+      1056.0,
+      -156.0,
+      1188.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_3_7",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        -225.0,
+        1050.0
+      ],
+      [
+        -217.03007529443454,
+        1050.6930369309187
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "BREWERY",
+    "rect": [
+      312.0,
+      -744.0,
+      444.0,
+      -612.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_5_1",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        375.0,
+        -750.0
+      ],
+      [
+        382.96992470556546,
+        -749.3069630690812
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "COLD_STORAGE",
+    "rect": [
+      456.0,
+      -1188.0,
+      588.0,
+      -1056.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_5_0",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        375.0,
+        -1050.0
+      ],
+      [
+        382.97814203565366,
+        -1050.5909734841225
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "WORKSHOP_FABRICATION",
+    "rect": [
+      312.0,
+      -444.0,
+      444.0,
+      -312.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_5_2",
+    "nearest_node_dist_m": 8.485281,
+    "spur_polyline": [
+      [
+        375.0,
+        -450.0
+      ],
+      [
+        382.96992470556546,
+        -449.3069630690813
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_BUS_DEPOT",
+    "rect": [
+      -1214,
+      1214,
+      -1046.3,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1050_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1050.0,
+        1125.0
+      ],
+      [
+        -1050.0,
+        1133.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_MAIL_SORTING",
+    "rect": [
+      -1028.3,
+      1214,
+      -854.6,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_1_8",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1050.0,
+        1200.0
+      ],
+      [
+        -1042.0346184341488,
+        1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "WRK_TECH_PARK",
+    "rect": [
+      -555,
+      1214,
+      -430.8,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-450_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -450.0,
+        1125.0
+      ],
+      [
+        -450.0,
+        1133.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_PARK_AND_RIDE",
+    "rect": [
+      -414.6,
+      1214,
+      -290.4,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_8",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -450.0,
+        1200.0
+      ],
+      [
+        -442.03461843414885,
+        1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_COACH_TERMINAL",
+    "rect": [
+      213.3,
+      1214,
+      381.6,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_379.75_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        379.75,
+        1160.125
+      ],
+      [
+        379.75,
+        1168.125
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_MOTOR_TRADE",
+    "rect": [
+      396.9,
+      1214,
+      555,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_450_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        450.0,
+        1160.125
+      ],
+      [
+        450.0,
+        1168.125
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "MED_FILM_STUDIO",
+    "rect": [
+      690,
+      1214,
+      826.2,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_750_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        750.0,
+        1160.125
+      ],
+      [
+        750.0,
+        1168.125
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "MED_BROADCAST",
+    "rect": [
+      842.0,
+      1214,
+      962.5,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_7_8",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        750.0,
+        1200.0
+      ],
+      [
+        757.9653815658512,
+        1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_CEMETERY",
+    "rect": [
+      -1214,
+      -1360,
+      -974.4,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -1200.0
+      ],
+      [
+        -1057.9653815658512,
+        -1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_CREMATORIUM",
+    "rect": [
+      -956.4,
+      -1360,
+      -806.7,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_1_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -1200.0
+      ],
+      [
+        -1042.0346184341488,
+        -1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_WATER_TREATMENT",
+    "rect": [
+      -555,
+      -1360,
+      -382.2,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_2_0",
+    "nearest_node_dist_m": 47.127487,
+    "spur_polyline": [
+      [
+        -750.0,
+        -1200.0
+      ],
+      [
+        -742.0205386485784,
+        -1200.5728844047173
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_SEWAGE",
+    "rect": [
+      -366.0,
+      -1360,
+      -241.8,
+      -1279.7
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_0",
+    "nearest_node_dist_m": 79.7,
+    "spur_polyline": [
+      [
+        -450.0,
+        -1200.0
+      ],
+      [
+        -442.9353181782061,
+        -1203.7537009413131
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_WATER_TOWER",
+    "rect": [
+      -366.0,
+      -1272.4,
+      -258.0,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -450.0,
+        -1200.0
+      ],
+      [
+        -442.03461843414885,
+        -1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_WASTE",
+    "rect": [
+      45,
+      -1360,
+      218.4,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_0",
+    "nearest_node_dist_m": 47.127487,
+    "spur_polyline": [
+      [
+        -150.0,
+        -1200.0
+      ],
+      [
+        -142.02053864857837,
+        -1200.5728844047173
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "RET_WHOLESALER",
+    "rect": [
+      233.7,
+      -1360,
+      412.2,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_5_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        150.0,
+        -1200.0
+      ],
+      [
+        157.96538156585117,
+        -1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_PETROL_EV",
+    "rect": [
+      645,
+      -1360,
+      758.8,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_6_0",
+    "nearest_node_dist_m": 47.127487,
+    "spur_polyline": [
+      [
+        450.0,
+        -1200.0
+      ],
+      [
+        457.9794613514216,
+        -1200.5728844047173
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "HOT_MOTEL",
+    "rect": [
+      775.9,
+      -1360,
+      940.9,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_7_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        750.0,
+        -1200.0
+      ],
+      [
+        757.9653815658512,
+        -1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_TRUCK_STOP",
+    "rect": [
+      958.0,
+      -1360,
+      1111.6,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_7_0",
+    "nearest_node_dist_m": 59.665736,
+    "spur_polyline": [
+      [
+        750.0,
+        -1200.0
+      ],
+      [
+        757.9819400382391,
+        -1200.5372459641123
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_ZOO",
+    "rect": [
+      -1360,
+      -1214,
+      -1214,
+      -854.6
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -1200.0
+      ],
+      [
+        -1058.0,
+        -1200.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_BOTANICAL",
+    "rect": [
+      -1360,
+      -555,
+      -1214,
+      -220.2
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_3",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -300.0
+      ],
+      [
+        -1058.0,
+        -300.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_AMUSEMENT",
+    "rect": [
+      -1360,
+      45,
+      -1214,
+      340.8
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1200_150",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1125.0,
+        150.0
+      ],
+      [
+        -1133.0,
+        150.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_GOLF_RANGE",
+    "rect": [
+      -1360,
+      645,
+      -1214,
+      997.8
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1200_750",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1125.0,
+        750.0
+      ],
+      [
+        -1133.0,
+        750.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_SUBSTATION",
+    "rect": [
+      1214,
+      -1214,
+      1360,
+      -1070.2
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1050.0,
+        -1200.0
+      ],
+      [
+        1058.0,
+        -1200.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_GAS_DEPOT",
+    "rect": [
+      1214,
+      -1052.3,
+      1360,
+      -914.5
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_1",
+    "nearest_node_dist_m": 20.155644,
+    "spur_polyline": [
+      [
+        1200.0,
+        -1050.0
+      ],
+      [
+        1200.8221913723369,
+        -1042.0423620748834
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "WRK_DATA_CENTRE",
+    "rect": [
+      1214,
+      -555,
+      1360,
+      -328.2
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_3",
+    "nearest_node_dist_m": 31.483964,
+    "spur_polyline": [
+      [
+        1200.0,
+        -450.0
+      ],
+      [
+        1200.913525380996,
+        -442.0523291853351
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_WATER_PARK",
+    "rect": [
+      1214,
+      45,
+      1360,
+      289.8
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1200_150",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1125.0,
+        150.0
+      ],
+      [
+        1133.0,
+        150.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SPT_VELODROME",
+    "rect": [
+      1214,
+      645,
+      1360,
+      832.8
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1200_679.75",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1160.125,
+        679.75
+      ],
+      [
+        1168.125,
+        679.75
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SPT_TENNIS_CENTRE",
+    "rect": [
+      1214,
+      849.8,
+      1360,
+      1020.5
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1200_979.75",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1160.125,
+        979.75
+      ],
+      [
+        1168.125,
+        979.75
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_TELECOM",
+    "rect": [
+      1268,
+      1214,
+      1360,
+      1276
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_8",
+    "nearest_node_dist_m": 69.42622,
+    "spur_polyline": [
+      [
+        1050.0,
+        1200.0
+      ],
+      [
+        1057.983553925255,
+        1200.5127052979522
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_TRANSFORMER",
+    "rect": [
+      -1360,
+      1214,
+      -1268,
+      1276
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_8",
+    "nearest_node_dist_m": 69.42622,
+    "spur_polyline": [
+      [
+        -1050.0,
+        1200.0
+      ],
+      [
+        -1057.983553925255,
+        1200.5127052979522
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_RUNWAY",
+    "rect": [
+      -1480.0,
+      -1494.0,
+      -284.0,
+      -1456.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_-1400_-1400",
+    "nearest_node_dist_m": 56.0,
+    "spur_polyline": [
+      [
+        -1000.0,
+        -1400.0
+      ],
+      [
+        -1007.9227339733947,
+        -1401.1091827562752
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_TAXIWAY",
+    "rect": [
+      -284.0,
+      -1494.0,
+      -256.0,
+      -1456.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_0",
+    "nearest_node_dist_m": 256.499513,
+    "spur_polyline": [
+      [
+        -450.0,
+        -1200.0
+      ],
+      [
+        -445.6474687831317,
+        -1206.7123372983028
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_APRON",
+    "rect": [
+      -256.0,
+      -1494.0,
+      900.0,
+      -1456.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_0_-1400",
+    "nearest_node_dist_m": 56.0,
+    "spur_polyline": [
+      [
+        -300.0,
+        -1400.0
+      ],
+      [
+        -292.1358380098763,
+        -1401.467976904823
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_AIR_TERMINAL",
+    "rect": [
+      -256.0,
+      -1456.0,
+      440.0,
+      -1426.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_0_-1400",
+    "nearest_node_dist_m": 26.0,
+    "spur_polyline": [
+      [
+        -300.0,
+        -1400.0
+      ],
+      [
+        -292.02987624654025,
+        -1400.690744058633
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_AIR_TOWER",
+    "rect": [
+      460.0,
+      -1456.0,
+      484.0,
+      -1432.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_600_-1400",
+    "nearest_node_dist_m": 120.332872,
+    "spur_polyline": [
+      [
+        300.0,
+        -1400.0
+      ],
+      [
+        307.8816940385574,
+        -1401.3707293980099
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_AIR_HANGARS",
+    "rect": [
+      500.0,
+      -1456.0,
+      860.0,
+      -1426.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_600_-1400",
+    "nearest_node_dist_m": 26.0,
+    "spur_polyline": [
+      [
+        300.0,
+        -1400.0
+      ],
+      [
+        307.97012375345975,
+        -1400.690744058633
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_AIR_FIRE",
+    "rect": [
+      880.0,
+      -1456.0,
+      1020.0,
+      -1426.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_7_0",
+    "nearest_node_dist_m": 226.0,
+    "spur_polyline": [
+      [
+        750.0,
+        -1200.0
+      ],
+      [
+        754.4239800445524,
+        -1206.6654632671257
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_AIR_CARGO",
+    "rect": [
+      1040.0,
+      -1456.0,
+      1300.0,
+      -1426.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_1400_-1400",
+    "nearest_node_dist_m": 103.324731,
+    "spur_polyline": [
+      [
+        1000.0,
+        -1400.0
+      ],
+      [
+        1007.9701237534597,
+        -1400.690744058633
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_AIR_PARKING",
+    "rect": [
+      1424.0,
+      -1400.0,
+      1496.0,
+      -1080.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_1400_-1400",
+    "nearest_node_dist_m": 24.0,
+    "spur_polyline": [
+      [
+        1000.0,
+        -1400.0
+      ],
+      [
+        1008.0,
+        -1400.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_RAIL_LINE",
+    "rect": [
+      -1420.0,
+      1440.0,
+      1420.0,
+      1460.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_-1400_1400",
+    "nearest_node_dist_m": 40.0,
+    "spur_polyline": [
+      [
+        -1000.0,
+        1400.0
+      ],
+      [
+        -1007.9602975216799,
+        1400.796029752168
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_RAIL_PLATFORMS",
+    "rect": [
+      -420.0,
+      1460.0,
+      280.0,
+      1474.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_0_1400",
+    "nearest_node_dist_m": 60.0,
+    "spur_polyline": [
+      [
+        300.0,
+        1400.0
+      ],
+      [
+        292.1553545944726,
+        1401.5689290811056
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_RAIL_STATION",
+    "rect": [
+      -420.0,
+      1474.0,
+      280.0,
+      1496.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "R_0_1400",
+    "nearest_node_dist_m": 74.0,
+    "spur_polyline": [
+      [
+        300.0,
+        1400.0
+      ],
+      [
+        292.2328063359372,
+        1401.9159077704687
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_MOTORSPORT_MUSEUM",
+    "rect": [
+      772.0,
+      -398.0,
+      930.0,
+      -174.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_6_3",
+    "nearest_node_dist_m": 172.0,
+    "spur_polyline": [
+      [
+        450.0,
+        -300.0
+      ],
+      [
+        458.0,
+        -300.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_SKID_PAD",
+    "rect": [
+      1010.0,
+      -360.0,
+      1120.0,
+      -200.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_3",
+    "nearest_node_dist_m": 80.0,
+    "spur_polyline": [
+      [
+        1200.0,
+        -450.0
+      ],
+      [
+        1196.235294117647,
+        -442.94117647058823
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_KARTING",
+    "rect": [
+      932.0,
+      -934.0,
+      1124.0,
+      -670.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_1",
+    "nearest_node_dist_m": 76.0,
+    "spur_polyline": [
+      [
+        1200.0,
+        -1050.0
+      ],
+      [
+        1196.3842816544907,
+        -1042.8637137917578
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_PADDOCK_ANNEX",
+    "rect": [
+      716.0,
+      -1142.0,
+      828.0,
+      -894.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_7_0",
+    "nearest_node_dist_m": 92.455395,
+    "spur_polyline": [
+      [
+        750.0,
+        -1200.0
+      ],
+      [
+        756.4196987275691,
+        -1195.2263778692436
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_MEDICAL",
+    "rect": [
+      676.0,
+      -894.0,
+      732.0,
+      -700.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_600_-750",
+    "nearest_node_dist_m": 76.0,
+    "spur_polyline": [
+      [
+        525.0,
+        -750.0
+      ],
+      [
+        533.0,
+        -750.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_WORKSHOP",
+    "rect": [
+      676.0,
+      -640.0,
+      732.0,
+      -190.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_600_-450",
+    "nearest_node_dist_m": 76.0,
+    "spur_polyline": [
+      [
+        525.0,
+        -450.0
+      ],
+      [
+        533.0,
+        -450.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_FAN_ZONE",
+    "rect": [
+      780.0,
+      -846.0,
+      924.0,
+      -718.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_600_-750",
+    "nearest_node_dist_m": 180.0,
+    "spur_polyline": [
+      [
+        525.0,
+        -750.0
+      ],
+      [
+        533.0,
+        -750.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_GRANDSTAND_E2",
+    "rect": [
+      612.0,
+      -400.0,
+      662.0,
+      -250.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_6_3",
+    "nearest_node_dist_m": 12.0,
+    "spur_polyline": [
+      [
+        450.0,
+        -300.0
+      ],
+      [
+        458.0,
+        -300.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_GRANDSTAND_N",
+    "rect": [
+      750.0,
+      -42.0,
+      1000.0,
+      -16.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_750_0",
+    "nearest_node_dist_m": 16.0,
+    "spur_polyline": [
+      [
+        750.0,
+        75.0
+      ],
+      [
+        750.0,
+        67.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_START_GANTRY",
+    "rect": [
+      772.0,
+      -566.0,
+      940.0,
+      -526.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_6_2",
+    "nearest_node_dist_m": 175.328264,
+    "spur_polyline": [
+      [
+        450.0,
+        -600.0
+      ],
+      [
+        457.95577244187456,
+        -599.1599494937151
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_SCORING_TOWER",
+    "rect": [
+      960.0,
+      -300.0,
+      1000.0,
+      -260.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_3",
+    "nearest_node_dist_m": 200.0,
+    "spur_polyline": [
+      [
+        1200.0,
+        -450.0
+      ],
+      [
+        1193.6,
+        -445.2
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_FLOODLIGHT_A",
+    "rect": [
+      680.0,
+      -690.0,
+      720.0,
+      -650.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_6_2",
+    "nearest_node_dist_m": 94.339811,
+    "spur_polyline": [
+      [
+        450.0,
+        -600.0
+      ],
+      [
+        457.8174109113824,
+        -601.6994371546483
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_FLOODLIGHT_B",
+    "rect": [
+      1010.0,
+      -40.0,
+      1050.0,
+      -18.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1050_0",
+    "nearest_node_dist_m": 18.0,
+    "spur_polyline": [
+      [
+        1050.0,
+        75.0
+      ],
+      [
+        1050.0,
+        67.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_SPECTATOR_VILLAGE",
+    "rect": [
+      1214,
+      -896.5,
+      1360,
+      -758.8
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_1",
+    "nearest_node_dist_m": 14.43087,
+    "spur_polyline": [
+      [
+        1200.0,
+        -1050.0
+      ],
+      [
+        1200.7266257741996,
+        -1042.03306740431
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_FOOD_COURT",
+    "rect": [
+      1214,
+      -312.0,
+      1360,
+      -166.2
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_3",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1200.0,
+        -450.0
+      ],
+      [
+        1200.7434356128128,
+        -442.03461843414885
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_MERCH_HALL",
+    "rect": [
+      1214,
+      -150.0,
+      1360,
+      -15
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_4",
+    "nearest_node_dist_m": 20.518285,
+    "spur_polyline": [
+      [
+        1050.0,
+        0.0
+      ],
+      [
+        1057.9667462697525,
+        -0.7286658173554251
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_PARKING_E1",
+    "rect": [
+      1214,
+      305.1,
+      1360,
+      422.4
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_5",
+    "nearest_node_dist_m": 14.9,
+    "spur_polyline": [
+      [
+        1050.0,
+        300.0
+      ],
+      [
+        1057.9961345701518,
+        300.2486602823645
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_PARKING_E2",
+    "rect": [
+      1214,
+      437.7,
+      1360,
+      504.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1200_450",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1125.0,
+        450.0
+      ],
+      [
+        1133.0,
+        450.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_CAMPSITE",
+    "rect": [
+      1214,
+      -740.8,
+      1360,
+      -615
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_2",
+    "nearest_node_dist_m": 20.518285,
+    "spur_polyline": [
+      [
+        1200.0,
+        -750.0
+      ],
+      [
+        1200.8252041841906,
+        -742.0426739381627
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_GATE_E",
+    "rect": [
+      1214,
+      519.3,
+      1360,
+      555
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_6",
+    "nearest_node_dist_m": 47.127487,
+    "spur_polyline": [
+      [
+        1050.0,
+        600.0
+      ],
+      [
+        1057.7148445966086,
+        597.8831219094671
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_TRANSPORT_HUB",
+    "rect": [
+      1214,
+      1037.6,
+      1360,
+      1134.3
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1200_1050",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1160.125,
+        1050.0
+      ],
+      [
+        1168.125,
+        1050.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRK_PARKING_E3",
+    "rect": [
+      1214,
+      1151.4,
+      1360,
+      1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_8",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1050.0,
+        1200.0
+      ],
+      [
+        1058.0,
+        1200.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_BICYCLE_SHARE",
+    "rect": [
+      1268,
+      -1276,
+      1360,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_0",
+    "nearest_node_dist_m": 69.42622,
+    "spur_polyline": [
+      [
+        1050.0,
+        -1200.0
+      ],
+      [
+        1057.983553925255,
+        -1200.5127052979522
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "ICON_TOWER",
+    "rect": [
+      45,
+      1214,
+      198.0,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_8",
+    "nearest_node_dist_m": 47.127487,
+    "spur_polyline": [
+      [
+        -150.0,
+        1200.0
+      ],
+      [
+        -142.02053864857837,
+        1200.5728844047173
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "WRK_LOGISTICS_HUB",
+    "rect": [
+      978.2,
+      1214,
+      1093.5,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1050_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1050.0,
+        1160.125
+      ],
+      [
+        1050.0,
+        1168.125
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "CIVIC_EMERGENCY_OPS",
+    "rect": [
+      1109.2,
+      1214,
+      1214,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_1120.25_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1120.25,
+        1160.125
+      ],
+      [
+        1120.25,
+        1168.125
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_BUS_SHELTERS",
+    "rect": [
+      -836.6,
+      1214,
+      -615,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-750_1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -750.0,
+        1125.0
+      ],
+      [
+        -750.0,
+        1133.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "UTL_SOLAR_FARM",
+    "rect": [
+      -274.2,
+      1214,
+      -155.4,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-150_1200",
+    "nearest_node_dist_m": 15.005332,
+    "spur_polyline": [
+      [
+        -150.0,
+        1125.0
+      ],
+      [
+        -150.48450226566555,
+        1132.9853151193026
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRF_TRAFFIC_SIGNALS",
+    "rect": [
+      -139.2,
+      1214,
+      -15,
+      1360
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-150_1200",
+    "nearest_node_dist_m": 17.681629,
+    "spur_polyline": [
+      [
+        -150.0,
+        1125.0
+      ],
+      [
+        -149.03628311721386,
+        1132.9417409785156
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRF_ROAD_MARKINGS",
+    "rect": [
+      -1360,
+      -1276,
+      -1268,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_0",
+    "nearest_node_dist_m": 69.42622,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -1200.0
+      ],
+      [
+        -1057.983553925255,
+        -1200.5127052979522
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "WRK_CONSTRUCTION_YARD",
+    "rect": [
+      -788.7,
+      -1360,
+      -615,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_2_0",
+    "nearest_node_dist_m": 20.518285,
+    "spur_polyline": [
+      [
+        -750.0,
+        -1200.0
+      ],
+      [
+        -742.0426739381627,
+        -1200.8252041841906
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SPT_MOTOCROSS_PARK",
+    "rect": [
+      -225.6,
+      -1360,
+      -15,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_0",
+    "nearest_node_dist_m": 20.518285,
+    "spur_polyline": [
+      [
+        -150.0,
+        -1200.0
+      ],
+      [
+        -142.04267393816275,
+        -1200.8252041841906
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "HOT_AIRPORT_HOTEL",
+    "rect": [
+      427.5,
+      -1360,
+      555,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_450_-1200",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        450.0,
+        -1125.0
+      ],
+      [
+        450.0,
+        -1133.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "LGT_STREET_LIGHTING",
+    "rect": [
+      1128.7,
+      -1360,
+      1214,
+      -1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_8_0",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        1050.0,
+        -1200.0
+      ],
+      [
+        1057.9653815658512,
+        -1200.7434356128128
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_URBAN_FARM",
+    "rect": [
+      -1360,
+      -204.0,
+      -1214,
+      -15
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1200_-150",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1125.0,
+        -150.0
+      ],
+      [
+        -1133.0,
+        -150.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "TRN_STREET_DEPOT",
+    "rect": [
+      -1360,
+      1014.9,
+      -1214,
+      1214
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1200_1050",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1125.0,
+        1050.0
+      ],
+      [
+        -1133.0,
+        1050.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "REC_FARMERS_MARKET",
+    "rect": [
+      -1360,
+      356.1,
+      -1214,
+      555
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1200_450",
+    "nearest_node_dist_m": 14.0,
+    "spur_polyline": [
+      [
+        -1125.0,
+        450.0
+      ],
+      [
+        -1133.0,
+        450.0
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SPT_ARCHERY_RANGE",
+    "rect": [
+      -1360,
+      -836.6,
+      -1214,
+      -615
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_2",
+    "nearest_node_dist_m": 20.518285,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -600.0
+      ],
+      [
+        -1057.9667462697525,
+        -600.7286658173555
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "METRO_ENT_1",
+    "rect": [
+      -1078.0,
+      -34.0,
+      -1062.0,
+      -18.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-1050_0",
+    "nearest_node_dist_m": 21.633308,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -75.0
+      ],
+      [
+        -1051.6480838483988,
+        -67.17160172010601
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "METRO_ENT_2",
+    "rect": [
+      -934.0,
+      122.0,
+      -918.0,
+      138.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-900_150",
+    "nearest_node_dist_m": 21.633308,
+    "spur_polyline": [
+      [
+        -975.0,
+        150.0
+      ],
+      [
+        -967.171601720106,
+        148.35191615160127
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "METRO_ENT_3",
+    "rect": [
+      -934.0,
+      1022.0,
+      -918.0,
+      1038.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_-900_1050",
+    "nearest_node_dist_m": 21.633308,
+    "spur_polyline": [
+      [
+        -975.0,
+        1050.0
+      ],
+      [
+        -967.171601720106,
+        1048.3519161516012
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "METRO_ENT_4",
+    "rect": [
+      -478.0,
+      -478.0,
+      -462.0,
+      -462.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "C_2_2",
+    "nearest_node_dist_m": 16.970563,
+    "spur_polyline": [
+      [
+        -525.0,
+        -450.0
+      ],
+      [
+        -517.1412914686202,
+        -451.49689686311996
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "METRO_ENT_5",
+    "rect": [
+      918.0,
+      318.0,
+      934.0,
+      334.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_7_5",
+    "nearest_node_dist_m": 25.455844,
+    "spur_polyline": [
+      [
+        750.0,
+        300.0
+      ],
+      [
+        757.9544732313585,
+        300.8522649890741
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PLAYGROUND_1",
+    "rect": [
+      -880.0,
+      -670.0,
+      -810.0,
+      -620.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_1_2",
+    "nearest_node_dist_m": 28.284271,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -600.0
+      ],
+      [
+        -1042.054795165417,
+        -600.9347299805391
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PLAYGROUND_2",
+    "rect": [
+      -280.0,
+      -880.0,
+      -210.0,
+      -830.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_1",
+    "nearest_node_dist_m": 28.284271,
+    "spur_polyline": [
+      [
+        -450.0,
+        -900.0
+      ],
+      [
+        -442.054795165417,
+        -899.0652700194609
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "PLAYGROUND_3",
+    "rect": [
+      20.0,
+      1130.0,
+      90.0,
+      1180.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_4_8",
+    "nearest_node_dist_m": 28.284271,
+    "spur_polyline": [
+      [
+        -150.0,
+        1200.0
+      ],
+      [
+        -142.05479516541698,
+        1199.0652700194607
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SKATEPARK",
+    "rect": [
+      -690.0,
+      -580.0,
+      -620.0,
+      -530.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_2_2",
+    "nearest_node_dist_m": 28.284271,
+    "spur_polyline": [
+      [
+        -750.0,
+        -600.0
+      ],
+      [
+        -742.093026418795,
+        -598.7835425259684
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SPORTS_FIELD_1",
+    "rect": [
+      -1180.0,
+      -990.0,
+      -1070.0,
+      -920.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_0_1",
+    "nearest_node_dist_m": 28.284271,
+    "spur_polyline": [
+      [
+        -1050.0,
+        -900.0
+      ],
+      [
+        -1057.906973581205,
+        -901.2164574740316
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "SPORTS_FIELD_2",
+    "rect": [
+      -280.0,
+      -990.0,
+      -170.0,
+      -920.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_3_1",
+    "nearest_node_dist_m": 28.284271,
+    "spur_polyline": [
+      [
+        -450.0,
+        -900.0
+      ],
+      [
+        -442.054795165417,
+        -900.9347299805391
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "AMPHITHEATRE",
+    "rect": [
+      -580.0,
+      -670.0,
+      -510.0,
+      -620.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "N_2_2",
+    "nearest_node_dist_m": 28.284271,
+    "spur_polyline": [
+      [
+        -750.0,
+        -600.0
+      ],
+      [
+        -742.054795165417,
+        -600.9347299805391
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "INT_HERO_INTERIORS",
+    "rect": [
+      12.0,
+      -144.0,
+      78.0,
+      -78.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_0_-150",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        -75.0,
+        -150.0
+      ],
+      [
+        -67.01895737261613,
+        -149.44958326707697
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "INT_SHELL_INTERIORS",
+    "rect": [
+      456.0,
+      -1188.0,
+      522.0,
+      -1122.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_450_-1200",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        450.0,
+        -1125.0
+      ],
+      [
+        450.758472741024,
+        -1132.9639637807516
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  },
+  {
+    "facility_id": "INT_MALL_FITOUT",
+    "rect": [
+      78.0,
+      -288.0,
+      144.0,
+      -222.0
+    ],
+    "has_road": false,
+    "nearest_node_id": "J_150_-300",
+    "nearest_node_dist_m": 13.416408,
+    "spur_polyline": [
+      [
+        150.0,
+        -375.0
+      ],
+      [
+        149.44958326707697,
+        -367.0189573726161
+      ]
+    ],
+    "status": "NEEDS_SPUR"
+  }
+]

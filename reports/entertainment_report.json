@@ -1,0 +1,158 @@
+{
+ "parcels": 288,
+ "buildings": 288,
+ "objects": 3823,
+ "prop_objects": 2976,
+ "collider_objects": 288,
+ "unique_meshes": 519,
+ "tris_instanced": 944680,
+ "tris_unique_meshes": 528780,
+ "collider_tris": 3456,
+ "type_counts": {
+  "hotel": 20,
+  "cafe": 35,
+  "apartment_low": 23,
+  "gym": 26,
+  "shop": 55,
+  "courtyard": 32,
+  "restaurant": 61,
+  "cinema": 11,
+  "club": 15,
+  "supermarket": 10
+ },
+ "tier_counts": {
+  "0": 32,
+  "1": 15,
+  "2": 154,
+  "3": 87
+ },
+ "tier_tris": {
+  "0": 47616,
+  "1": 63144,
+  "2": 571892,
+  "3": 262028
+ },
+ "budget_max_tris": {
+  "t1": 10184,
+  "t2": 13244,
+  "t3": 6548,
+  "module": 528780
+ },
+ "engine": "BLENDER_EEVEE",
+ "materials": [
+  "awning_fabric_green",
+  "awning_fabric_red",
+  "awning_fabric_stripe",
+  "brick_red",
+  "ceiling_paint",
+  "concrete",
+  "emissive_cool",
+  "emissive_warm",
+  "fabric_awning_magenta",
+  "fabric_awning_teal",
+  "facade_brick_red",
+  "facade_metal_panel",
+  "facade_plaster_bone",
+  "floor_carpet",
+  "floor_tile",
+  "glass_dark",
+  "glass_shop",
+  "int_laminate_counter",
+  "int_marble",
+  "int_mirror",
+  "int_upholstery",
+  "int_wall_paint_bone",
+  "int_wall_paint_sand",
+  "leaves_dark",
+  "leaves_green",
+  "metal_painted_charcoal",
+  "metal_painted_dark",
+  "metal_rusty",
+  "metal_steel",
+  "neon_blue",
+  "neon_green",
+  "neon_magenta",
+  "neon_pink",
+  "neon_red",
+  "neon_teal",
+  "neon_violet",
+  "paving_slab",
+  "roof_bitumen",
+  "sign_metal",
+  "sign_white",
+  "stone_grey",
+  "wall_paint",
+  "wood_old",
+  "wood_painted"
+ ],
+ "violations": [],
+ "clearance_violations": [],
+ "overlaps": [],
+ "missing_parcels": [],
+ "bbox": [
+  -586.0,
+  -586.0,
+  0.0,
+  886.0,
+  886.0,
+  46.02
+ ],
+ "cells": [
+  [
+   3,
+   2
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   2,
+   4
+  ],
+  [
+   6,
+   4
+  ],
+  [
+   6,
+   5
+  ],
+  [
+   4,
+   6
+  ]
+ ],
+ "collections": [
+  "Entertainment",
+  "Entertainment/Meshes",
+  "Entertainment/Colliders",
+  "Entertainment/Lights"
+ ],
+ "previews": [
+  "/home/abdulhadi/Work/city/out/entertainment_preview.png",
+  "/home/abdulhadi/Work/city/out/entertainment_street_preview.png"
+ ],
+ "assembler": {
+  "kit": "Builder/Face/wall_rects mesh assembler, one mesh per (type, style, floors, pattern, opening) x 4 baked rotations",
+  "instancing": "linked duplicates (shared mesh datablocks), no unique copies",
+  "transforms": "translation only - Z-rotation baked into the shared mesh",
+  "slot0_palette": "mesh slot 0 = facade wall; per-parcel colour via OBJECT slot"
+ },
+ "issues": [
+  "clearance policy: anything projecting >0.16 m beyond buildable sits >=2.4 m up; ground fixtures project <=0.16 m and are checked against the road corridor only",
+  "parcels_E.json ships 8 cells (prompt listed 9) - built all 8 x 36",
+  "previews use a temporary ground slab (deleted before saving) - roads/ground belong to the Roads module"
+ ],
+ "build_seconds": 688.2,
+ "_module": "entertainment",
+ "_written": "2026-10-26T14:35:07"
+}
